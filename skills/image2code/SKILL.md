@@ -1,6 +1,6 @@
 ---
 name: image2code
-description: Use when implementing frontend UI from a reference image, screenshot, mockup, or visual design. Runs a structured image-to-code workflow: layout extraction, element extraction, code implementation, screenshot comparison, and targeted refinement for close visual reproduction.
+description: "Use when implementing frontend UI from a reference image, screenshot, mockup, or visual design. Runs a structured image-to-code workflow: layout extraction, element extraction, code implementation, screenshot comparison, and targeted refinement for close visual reproduction."
 ---
 
 # Image2code
@@ -32,10 +32,12 @@ Do not jump directly from image to code. Follow the staged workflow unless the u
    - Identify implementation modules and hierarchy.
    - Use `references/layout-extraction.md` when a detailed prompt is useful.
    - Recursively decompose complex layout blocks before moving to element extraction.
+   - Save the layout extraction result as structured JSON before moving on.
 
 5. Run element extraction after layout extraction.
    - Identify small implementation-relevant details such as separators, dots, chips, overlays, icons, shadows, and nested controls.
    - Use `references/element-extraction.md` when a detailed prompt is useful.
+   - Save each element extraction result as a separate structured JSON file before moving on.
 
 6. Implement the first pass.
    - Build stable parent layout first.
@@ -83,6 +85,55 @@ Final response should include:
 - Treat `diff/refine` as the quality gate.
 - Do not claim pixel perfection unless a screenshot comparison was actually performed and the result supports it.
 - Preserve existing project patterns unless the user explicitly asks for a new visual direction.
+- Preserve intermediate analysis results on disk. Do not rely only on conversation context for layout, element, comparison, or refinement outputs.
+
+## Intermediate Results
+
+When working inside a project, create a task directory under:
+
+```text
+.codex/image2code/<task-id>/
+```
+
+Use sequential step folders for every workflow stage that produces analysis or verification output:
+
+```text
+.codex/image2code/<task-id>/
+  step1/
+  step2/
+  step3/
+```
+
+Each step folder must contain the artifacts produced in that step. Prefer JSON for analysis outputs so later steps can read them directly.
+
+Required conventions:
+
+- Save layout extraction output as `layout.json` in the step folder that performed layout extraction.
+- Save each element extraction output as one file per element or element group, using a stable snake_case name such as `primary_nav.json`, `pricing_card.json`, or `toolbar_buttons.json`.
+- If a step analyzes multiple scoped regions, either place all region files in the same step folder with clear names or create a nested folder per region.
+- If screenshot comparison or visual diff output is produced, save it as `visual_diff.json` in that step folder.
+- If refinement decisions are produced, save them as `refinement_plan.json` or `refinement_result.json` in that step folder.
+- Include source references in each JSON file, such as the full reference image path, slice path, viewport, parent layout path, and confidence when known.
+- Do not overwrite previous step folders. Create the next numbered step folder when rerunning or refining analysis, for example `step4/` after `step3/`.
+
+Example:
+
+```text
+.codex/image2code/<task-id>/
+  reference-full.png
+  step1/
+    image_inspection.json
+  step2/
+    layout.json
+  step3/
+    header.json
+    pricing_card.json
+    footer_links.json
+  step4/
+    visual_diff.json
+  step5/
+    refinement_result.json
+```
 
 ## Reference Image Slicing
 
