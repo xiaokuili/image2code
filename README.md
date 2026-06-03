@@ -4,7 +4,7 @@
 
 核心目标不是一句 prompt 直接生成页面，而是把任务拆成一条更稳定的链路：
 
-`layout extraction -> element extraction -> implementation -> visual diff -> refine`
+`full-image inspection -> optional slicing -> layout extraction -> element extraction -> implementation -> visual diff -> refine`
 
 ## 目录结构
 
@@ -27,11 +27,13 @@
 
 ## 使用顺序
 
-1. 用 `layout prompt` 拆实现模块
-2. 用 `element prompt` 拆关键元素
-3. 写代码实现
-4. 用 `diff prompt` 做实现对比
-5. 按 diff 结果继续 refine
+1. 先全图预检，判断 viewport、页面边界和主要区域
+2. 对复杂或高密度区域做可选切图，并保存 manifest
+3. 用 `layout prompt` 拆实现模块，复杂模块可递归拆解
+4. 用 `element prompt` 拆关键元素
+5. 写代码实现
+6. 用 `diff prompt` 做实现对比
+7. 按 diff 结果继续 refine
 
 ## 快速测试 Skill
 
@@ -61,7 +63,7 @@
 
 它的职责不是让 Codex 一看到图就直接写代码，而是强制执行：
 
-`reference image -> layout extraction -> element extraction -> implementation -> screenshot diff -> targeted refine`
+`reference image -> full-image inspection -> optional slicing -> layout extraction -> element extraction -> implementation -> screenshot diff -> targeted refine`
 
 适合用于：
 
