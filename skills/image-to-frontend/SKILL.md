@@ -49,6 +49,13 @@ Do not jump directly from image to code. Follow the staged workflow unless the u
    - Iterate 1-3 times when the environment supports screenshot comparison.
    - Stop when the result is close enough for the request or when remaining gaps require missing assets.
 
+## Input Boundaries
+
+- Prefer one clear page/section screenshot at a time.
+- For very tall screenshots, split the work by section before implementation.
+- Static screenshots do not define animation. Ask for or infer only simple UI motion such as hover, focus, loading, carousel, or subtle hero animation.
+- Lighting, photography, avatars, logos, and product materials should use real assets when available; otherwise approximate them and state the limitation.
+
 ## Output Standard
 
 The final code should be a working implementation in the user's project, not just a prompt or plan.

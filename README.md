@@ -33,6 +33,28 @@
 4. 用 `diff prompt` 做实现对比
 5. 按 diff 结果继续 refine
 
+## 快速测试 Skill
+
+在 Codex 中使用这个仓库的 skill 时，可以直接把 UI 截图发给 Codex，并明确要求使用 `image-to-frontend`：
+
+```text
+使用 image-to-frontend skill，把这张参考图实现成前端页面。
+请先做 layout extraction 和 element extraction，再实现代码，最后截图对比并 refine。
+```
+
+如果已有项目上下文，可以补充目标技术栈和落点：
+
+```text
+使用 image-to-frontend skill，把这张图实现到当前项目的首页。
+技术栈按仓库现有方式来，不要新建无关框架。
+```
+
+如果只是想验证分析链路，不要求立即写代码：
+
+```text
+使用 image-to-frontend skill，只输出这张图的 layout extraction、element extraction 和实现计划。
+```
+
 ## Codex Skill
 
 `skills/image-to-frontend/` 是这个流程的 Codex skill 版本。
@@ -48,9 +70,24 @@
 - 让 Codex 在实现前先拆模块和细节
 - 让 Codex 在实现后用截图对比继续微调
 
+## 当前可测试 Case
+
+目前已确认适合用来测试 skill 的两类参考图：
+
+- `Agent AI SaaS Landing Page`：深色 hero、大标题、导航、CTA、头像组、流程节点、prompt card、云服务 logo、底部品牌 logo strip。
+- `Radiance Beauty Commerce Landing Page`：白色电商 hero、大标题、搜索框、用户头像、产品主视觉、商品卡片网格、促销区。
+
+详见 [examples/reference-cases.md](examples/reference-cases.md)。
+
 ## 当前边界
 
 这套方法可以明显提高 UI 复刻质量，但如果要进一步逼近像素级，还需要：
 
 - 更准确的素材 / SVG / 切图
 - 基于实现图和参考图的持续微调
+
+重点边界已经单独列出在 [docs/boundaries.md](docs/boundaries.md)，包括：
+
+- 多大尺寸的图更适合测试
+- 动画应该如何提供和验收
+- 光照、阴影、产品图质感如何处理
