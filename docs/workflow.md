@@ -21,7 +21,7 @@
 切图建议保存到：
 
 ```text
-.codex/image-to-frontend/<task-id>/
+.codex/image2code/<task-id>/
   reference-full.png
   slices/
   manifest.json

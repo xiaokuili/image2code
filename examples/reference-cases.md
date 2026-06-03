@@ -54,7 +54,7 @@
 ### Suggested Test Prompt
 
 ```text
-使用 image-to-frontend skill，把这张 Agent AI SaaS landing page 参考图实现成前端页面。
+使用 image2code skill，把这张 Agent AI SaaS landing page 参考图实现成前端页面。
 先输出 layout extraction 和 element extraction，再实现代码，最后用截图对比并 refine。
 重点检查：导航结构、深色 hero、左侧大标题、右侧 workflow/prompt card、底部 logo strip。
 ```
@@ -84,7 +84,7 @@
 ### Suggested Test Prompt
 
 ```text
-使用 image-to-frontend skill，把这张 Radiance beauty commerce landing page 参考图实现成前端页面。
+使用 image2code skill，把这张 Radiance beauty commerce landing page 参考图实现成前端页面。
 先输出 layout extraction 和 element extraction，再实现代码，最后用截图对比并 refine。
 重点检查：左右 hero 比例、产品主视觉、促销商品卡片、搜索框和小装饰元素。
 ```

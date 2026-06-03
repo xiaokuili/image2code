@@ -62,7 +62,7 @@ STORAGE PLAN
 
 Use this directory structure:
 
-.codex/image-to-frontend/<task-id>/
+.codex/image2code/<task-id>/
   reference-full.png
   slices/
   manifest.json

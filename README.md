@@ -15,7 +15,7 @@
 - `examples/`
   - `reference-cases.md`
 - `skills/`
-  - `image-to-frontend/`
+  - `image2code/`
 
 ## 适用场景
 
@@ -37,29 +37,57 @@
 
 ## 快速测试 Skill
 
-在 Codex 中使用这个仓库的 skill 时，可以直接把 UI 截图发给 Codex，并明确要求使用 `image-to-frontend`：
+在 Codex 中使用这个仓库的 skill 时，可以直接把 UI 截图发给 Codex，并明确要求使用 `image2code`：
 
 ```text
-使用 image-to-frontend skill，把这张参考图实现成前端页面。
+使用 image2code skill，把这张参考图实现成前端页面。
 请先做 layout extraction 和 element extraction，再实现代码，最后截图对比并 refine。
 ```
 
 如果已有项目上下文，可以补充目标技术栈和落点：
 
 ```text
-使用 image-to-frontend skill，把这张图实现到当前项目的首页。
+使用 image2code skill，把这张图实现到当前项目的首页。
 技术栈按仓库现有方式来，不要新建无关框架。
 ```
 
 如果只是想验证分析链路，不要求立即写代码：
 
 ```text
-使用 image-to-frontend skill，只输出这张图的 layout extraction、element extraction 和实现计划。
+使用 image2code skill，只输出这张图的 layout extraction、element extraction 和实现计划。
+```
+
+## 安装 Skill
+
+本仓库的 Codex skill 位于：
+
+```text
+skills/image2code/
+```
+
+本地安装到 Codex：
+
+```bash
+mkdir -p ~/.codex/skills
+cp -R skills/image2code ~/.codex/skills/image2code
+```
+
+如果之前安装过旧版 `image-to-frontend`，先删除旧目录并重新安装：
+
+```bash
+rm -rf ~/.codex/skills/image-to-frontend ~/.codex/skills/image2code
+cp -R skills/image2code ~/.codex/skills/image2code
+```
+
+安装后在新会话中使用：
+
+```text
+使用 image2code skill，把这张参考图实现成前端页面。
 ```
 
 ## Codex Skill
 
-`skills/image-to-frontend/` 是这个流程的 Codex skill 版本。
+`skills/image2code/` 是这个流程的 Codex skill 版本。
 
 它的职责不是让 Codex 一看到图就直接写代码，而是强制执行：
 

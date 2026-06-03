@@ -1,9 +1,9 @@
 ---
-name: image-to-frontend
+name: image2code
 description: Use when implementing frontend UI from a reference image, screenshot, mockup, or visual design. Runs a structured image-to-code workflow: layout extraction, element extraction, code implementation, screenshot comparison, and targeted refinement for close visual reproduction.
 ---
 
-# Image To Frontend
+# Image2code
 
 Use this skill when the user provides or references a UI image and wants frontend code that visually matches it.
 
@@ -25,7 +25,7 @@ Do not jump directly from image to code. Follow the staged workflow unless the u
 3. Slice the reference image when useful.
    - Keep the full image as the global reference.
    - Create scoped crops for dense or complex regions before detailed layout extraction.
-   - Store slices under `.codex/image-to-frontend/<task-id>/` when working inside a project.
+   - Store slices under `.codex/image2code/<task-id>/` when working inside a project.
    - Use `references/image-slicing.md` when a detailed slicing plan is useful.
 
 4. Run layout extraction before writing code.
@@ -101,7 +101,7 @@ Slice by implementation boundaries such as page sections, header/sidebar/main/fo
 When working inside a project, save analysis slices under:
 
 ```text
-.codex/image-to-frontend/<task-id>/
+.codex/image2code/<task-id>/
   reference-full.png
   slices/
     01-header.png

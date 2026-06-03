@@ -1,6 +1,6 @@
 # Current Boundaries
 
-这份文档用于说明 `image-to-frontend` skill 当前适合测试什么，以及哪些地方需要额外输入才能稳定复刻。
+这份文档用于说明 `image2code` skill 当前适合测试什么，以及哪些地方需要额外输入才能稳定复刻。
 
 ## 1. Reference Image Size
 
