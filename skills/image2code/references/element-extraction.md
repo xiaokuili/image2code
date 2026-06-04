@@ -40,6 +40,18 @@ You must also identify small but implementation-significant elements, such as:
 - small overlays
 - background symbols that are likely separate positioned elements
 
+Overlay scan:
+After listing obvious UI elements, do a second pass specifically for non-content visual marks that may be easy to dismiss as part of an image. Inspect foreground and background overlays around hero images, product images, cards, and illustrations.
+Look for:
+- curved or hand-drawn lines
+- rings, arcs, loops, and strokes
+- flower, star, sparkle, burst, or doodle symbols
+- decorative arrows, swirls, underlines, and connector lines
+- floating dots, small shapes, or accent marks
+
+Do not require the user to name these elements first. If an overlay is visible and would need CSS, SVG, canvas, or an asset to reproduce, include it as a separate element with `isElement: yes` and usually `Need Build: yes`.
+Do not merge decorative overlays into the product/photo/illustration element unless they are inseparable from the raster image or too ambiguous to reproduce separately.
+
 If a tiny element changes layout rhythm, grouping, or spacing, include it.
 
 Element counting rules:

@@ -4,7 +4,7 @@
 
 核心目标不是一句 prompt 直接生成页面，而是把任务拆成一条更稳定的链路：
 
-`full-image inspection -> optional slicing -> layout extraction -> element extraction -> implementation -> visual diff -> refine`
+`full-image inspection -> slicing and asset decisions -> layout extraction -> element extraction -> implementation -> visual diff -> refine`
 
 ## 目录结构
 
@@ -28,12 +28,14 @@
 ## 使用顺序
 
 1. 先全图预检，判断 viewport、页面边界和主要区域
-2. 对复杂或高密度区域做可选切图，并保存 manifest
+2. 对复杂或高密度区域做可选切图；对素材型区域记录名字、描述、位置和来源策略，并保存 manifest
 3. 用 `layout prompt` 拆实现模块，复杂模块可递归拆解
 4. 用 `element prompt` 拆关键元素
 5. 写代码实现
 6. 用 `diff prompt` 做实现对比
 7. 按 diff 结果继续 refine
+
+每个阶段都要在 `.codex/image2code/<task-id>/step*/` 下留下文件。即使某个阶段被跳过，也要写 `skip_decision.json` 记录原因，避免后续实现只依赖对话上下文。
 
 ## 快速测试 Skill
 
@@ -91,7 +93,7 @@ cp -R skills/image2code ~/.codex/skills/image2code
 
 它的职责不是让 Codex 一看到图就直接写代码，而是强制执行：
 
-`reference image -> full-image inspection -> optional slicing -> layout extraction -> element extraction -> implementation -> screenshot diff -> targeted refine`
+`reference image -> full-image inspection -> slicing and asset decisions -> layout extraction -> element extraction -> implementation -> screenshot diff -> targeted refine`
 
 适合用于：
 
@@ -113,7 +115,7 @@ cp -R skills/image2code ~/.codex/skills/image2code
 
 这套方法可以明显提高 UI 复刻质量，但如果要进一步逼近像素级，还需要：
 
-- 更准确的素材 / SVG / 切图
+- 更准确的素材 / SVG / 切图 / 图生图资产处理
 - 基于实现图和参考图的持续微调
 
 重点边界已经单独列出在 [docs/boundaries.md](docs/boundaries.md)，包括：

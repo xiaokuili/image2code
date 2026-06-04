@@ -2,6 +2,7 @@
 
 适用场景：
 - 给没有上下文的 AI 分析参考图
+- 先判断切图位置和前端素材来源策略
 - 先拆 `layout`
 - 再拆 `element`
 - 最后做实现图和参考图的 `diff`
@@ -13,7 +14,110 @@
 
 ---
 
-## 1. Layout 提取 Prompt
+## 1. 切图与素材决策 Prompt
+
+```text
+You are a senior frontend engineer preparing a UI screenshot for frontend implementation.
+
+Analyze the screenshot and decide which regions should be sliced for analysis and which regions should become frontend asset candidates.
+
+Do not generate code.
+Do not infer business meaning.
+Do not slice arbitrary decorative fragments unless they are asset-like image regions or important for frontend visual fidelity.
+
+Goal:
+Create a slicing and asset preparation plan. The purpose of some slices is not just inspection; it is to produce or source image assets that frontend code can later edit and reference.
+
+There are two slice types:
+- analysis: a scoped reference used only to inspect dense layout or elements.
+- frontend-asset-candidate: a visual region that may become a production asset for generated frontend code.
+
+First pass:
+Identify slice locations by name, visual description, parent path, and approximate bounds.
+
+Second pass:
+For every frontend asset candidate, decide how the final frontend asset should be produced:
+- `direct-crop`: use the cropped image directly when it is clean, high-resolution enough, not contaminated by unrelated UI, and visually matches the reference.
+- `image-to-image`: use the crop as a source for AI image editing when it has the right subject/composition but needs cleanup, extension, background removal, higher resolution, or conversion into a reusable frontend asset.
+- `web-similar-asset`: search the web for a similar asset when the reference crop is too low quality, heavily occluded, generic enough to replace, or likely represents a real product/place/person/logo that should use a closer public source. Record licensing/usage uncertainty when known.
+
+Only classify image asset candidates here. Simple geometric marks, text, icons, separators, and other code-built details should stay in layout or element extraction instead of this asset source decision.
+
+Slice analysis regions by implementation boundaries:
+- page section
+- header/sidebar/main/footer
+- panel
+- modal
+- table
+- card grid
+- representative card/list item
+- toolbar or control group
+
+Slice frontend asset candidates by asset boundary:
+- product photo
+- person/avatar
+- logo or brand mark
+- illustration
+- device screenshot/mockup
+- background texture
+- material or shadow-heavy visual
+- decorative bitmap overlay
+
+Include enough padding around frontend asset candidates to preserve shadows, transparency, edge antialiasing, and image-to-image context.
+
+For each proposed slice provide:
+
+1. Slice name
+2. Parent path, for example `Full Image > Hero > ProductVisual`
+3. Approximate crop bounds as x, y, width, height when possible
+4. Why the slice is needed
+5. Slice type: `analysis` or `frontend-asset-candidate`
+6. Whether it should be used for scoped layout extraction, element extraction, asset preparation, or a combination
+7. Whether it represents a repeated pattern
+8. For frontend asset candidates: visual description, intended frontend use, source strategy, strategy reason, expected output format/path, and known limitations
+9. Confidence score (0-100)
+
+Output in the following format:
+
+SLICING AND ASSET PLAN
+
+Slice 1
+Name:
+Parent Path:
+Approximate Bounds:
+Reason:
+Slice Type:
+Use For:
+Repeated Pattern:
+Visual Description:
+Intended Frontend Use:
+Source Strategy:
+Strategy Reason:
+Expected Output:
+Known Limitations:
+Confidence:
+
+Finally provide:
+
+STORAGE PLAN
+
+Use this directory structure:
+
+.codex/image2code/<task-id>/
+  reference-full.png
+  slices/
+  asset-candidates/
+  assets/
+  manifest.json
+
+MANIFEST NOTES
+
+List the metadata that should be recorded for each slice: file, name, parentPath, bounds, reason, sliceType, useFor, repeatedPattern, visualDescription, intendedFrontendUse, sourceStrategy, strategyReason, expectedOutput, knownLimitations, confidence.
+```
+
+---
+
+## 2. Layout 提取 Prompt
 
 ```text
 You are a senior frontend engineer inspecting a UI screenshot before implementation.
@@ -165,7 +269,7 @@ Describe the page as a hierarchy of implementation-ready layout units.
 
 ---
 
-## 2. Element 提取 Prompt
+## 3. Element 提取 Prompt
 
 ```text
 You are a senior frontend engineer inspecting a UI screenshot before implementation.
@@ -204,6 +308,18 @@ You must also identify small but implementation-significant elements, such as:
 - icons
 - small overlays
 - background symbols that are likely separate positioned elements
+
+Overlay scan:
+After listing obvious UI elements, do a second pass specifically for non-content visual marks that may be easy to dismiss as part of an image. Inspect foreground and background overlays around hero images, product images, cards, and illustrations.
+Look for:
+- curved or hand-drawn lines
+- rings, arcs, loops, and strokes
+- flower, star, sparkle, burst, or doodle symbols
+- decorative arrows, swirls, underlines, and connector lines
+- floating dots, small shapes, or accent marks
+
+Do not require the user to name these elements first. If an overlay is visible and would need CSS, SVG, canvas, or an asset to reproduce, include it as a separate element with `isElement: yes` and usually `Need Build: yes`.
+Do not merge decorative overlays into the product/photo/illustration element unless they are inseparable from the raster image or too ambiguous to reproduce separately.
 
 If a tiny element changes layout rhythm, grouping, or spacing, include it.
 
@@ -284,7 +400,7 @@ Describe how these elements would likely be grouped in the DOM/component tree.
 
 ---
 
-## 3. 对比 Prompt
+## 4. 对比 Prompt
 
 ```text
 You are a senior frontend engineer comparing an implemented UI against a reference screenshot.

@@ -28,33 +28,39 @@ Do not jump directly from image to code. Follow the staged workflow unless the u
    - Store slices under `.codex/image2code/<task-id>/` when working inside a project.
    - Use `references/image-slicing.md` when a detailed slicing plan is useful.
 
-4. Run layout extraction before writing code.
+4. Prepare frontend asset candidates when the reference image depends on raster visuals.
+   - First identify asset-like regions by name, description, and position.
+   - Decide whether each candidate should remain a direct crop, be edited with image-to-image generation, or be replaced by a similar web-sourced image asset.
+   - Keep analysis slices separate from production-ready frontend assets.
+   - Record source decisions, crop bounds, asset paths, licensing/usage notes when known, and confidence.
+
+5. Run layout extraction before writing code.
    - Identify implementation modules and hierarchy.
    - Use `references/layout-extraction.md` when a detailed prompt is useful.
    - Recursively decompose complex layout blocks before moving to element extraction.
    - Save the layout extraction result as structured JSON before moving on.
 
-5. Run element extraction after layout extraction.
+6. Run element extraction after layout extraction.
    - Identify small implementation-relevant details such as separators, dots, chips, overlays, icons, shadows, and nested controls.
    - Use `references/element-extraction.md` when a detailed prompt is useful.
    - Save each element extraction result as a separate structured JSON file before moving on.
 
-6. Implement the first pass.
+7. Implement the first pass.
    - Build stable parent layout first.
    - Add small elements after the structure is correct.
    - Prefer project-native components, styling conventions, and assets.
    - If assets are unavailable, approximate with CSS/SVG/placeholders and state the limitation.
 
-7. Verify with a rendered screenshot when feasible.
+8. Verify with a rendered screenshot when feasible.
    - Start the local app or static preview.
    - Capture the implementation at the same approximate viewport as the reference.
    - If screenshot tooling is unavailable, run the best available build/static checks and note the gap.
 
-8. Compare reference vs implementation.
+9. Compare reference vs implementation.
    - Focus on layout, spacing, grouping, alignment, sizing, missing/extra elements, and typography effects on layout.
    - Use `references/visual-diff.md` when a detailed diff prompt is useful.
 
-9. Refine targeted issues.
+10. Refine targeted issues.
    - Apply fixes in priority order.
    - Iterate 1-3 times when the environment supports screenshot comparison.
    - Stop when the result is close enough for the request or when remaining gaps require missing assets.
@@ -80,7 +86,8 @@ Final response should include:
 ## Rules
 
 - Treat `layout extraction` as the page skeleton and module plan.
-- Treat `reference image slicing` as an analysis aid, not a replacement for full-image inspection.
+- Treat `reference image slicing` as two possible workflows: analysis slicing for inspection and asset preparation for frontend implementation.
+- Do not treat every crop as a production asset. Production asset candidates need a source decision and quality check.
 - Treat `element extraction` as the detail inventory.
 - Treat `diff/refine` as the quality gate.
 - Do not claim pixel perfection unless a screenshot comparison was actually performed and the result supports it.
@@ -95,7 +102,7 @@ When working inside a project, create a task directory under:
 .codex/image2code/<task-id>/
 ```
 
-Use sequential step folders for every workflow stage that produces analysis or verification output:
+Use sequential step folders for every workflow stage. Every stage must leave a file on disk, even when the result is a decision not to act.
 
 ```text
 .codex/image2code/<task-id>/
@@ -108,13 +115,17 @@ Each step folder must contain the artifacts produced in that step. Prefer JSON f
 
 Required conventions:
 
+- Save full-image inspection output as `image_inspection.json`.
+- Save slicing and asset decisions as `slicing_manifest.json` or `asset_decisions.json`.
 - Save layout extraction output as `layout.json` in the step folder that performed layout extraction.
 - Save each element extraction output as one file per element or element group, using a stable snake_case name such as `primary_nav.json`, `pricing_card.json`, or `toolbar_buttons.json`.
+- Save implementation notes as `implementation_result.json`, including changed files, assets used, and unresolved limitations.
 - If a step analyzes multiple scoped regions, either place all region files in the same step folder with clear names or create a nested folder per region.
 - If screenshot comparison or visual diff output is produced, save it as `visual_diff.json` in that step folder.
 - If refinement decisions are produced, save them as `refinement_plan.json` or `refinement_result.json` in that step folder.
 - Include source references in each JSON file, such as the full reference image path, slice path, viewport, parent layout path, and confidence when known.
 - Do not overwrite previous step folders. Create the next numbered step folder when rerunning or refining analysis, for example `step4/` after `step3/`.
+- If a stage is skipped, save a small JSON file such as `skip_decision.json` with the reason, owner stage, source references, and confidence.
 
 Example:
 
@@ -124,20 +135,30 @@ Example:
   step1/
     image_inspection.json
   step2/
-    layout.json
+    slicing_manifest.json
+    asset_decisions.json
   step3/
+    layout.json
+  step4/
     header.json
     pricing_card.json
     footer_links.json
-  step4/
-    visual_diff.json
   step5/
+    implementation_result.json
+  step6/
+    visual_diff.json
+  step7/
     refinement_result.json
 ```
 
 ## Reference Image Slicing
 
-Before detailed layout extraction, decide whether the reference image should be sliced into scoped regions. Always inspect the full image first and keep it as the global reference. Slices are auxiliary references for dense or complex regions.
+Before detailed layout extraction, decide whether the reference image should be sliced into scoped regions. Always inspect the full image first and keep it as the global reference.
+
+There are two slice types:
+
+- `analysis`: auxiliary scoped references for dense or complex regions.
+- `frontend-asset-candidate`: visual regions that may become production assets used by the generated frontend code.
 
 Use slices when:
 
@@ -147,7 +168,20 @@ Use slices when:
 - Text, icons, separators, or spacing are too small to inspect confidently in the full image.
 - Recursive layout decomposition identifies a block that needs scoped analysis.
 
-Slice by implementation boundaries such as page sections, header/sidebar/main/footer, panels, modals, tables, card grids, representative cards or list items, toolbars, and control groups. Do not slice arbitrary decorative fragments unless they are asset-like or visually ambiguous.
+Slice analysis regions by implementation boundaries such as page sections, header/sidebar/main/footer, panels, modals, tables, card grids, representative cards or list items, toolbars, and control groups.
+
+Slice frontend asset candidates when the frontend needs image assets such as product photos, people, logos, screenshots inside devices, illustrations, detailed textures, realistic shadows/materials, or decorative bitmap overlays.
+
+For every frontend asset candidate, record:
+
+- asset name
+- short visual description
+- parent path and approximate bounds
+- intended frontend use
+- recommended source strategy: `direct-crop`, `image-to-image`, or `web-similar-asset`
+- reason for the source strategy
+- expected output format and path
+- confidence and known limitations
 
 When working inside a project, save analysis slices under:
 
@@ -158,10 +192,12 @@ When working inside a project, save analysis slices under:
     01-header.png
     02-main-panel.png
     03-card-grid.png
+  asset-candidates/
+    01-hero-product.png
   manifest.json
 ```
 
-The `manifest.json` should record source image, viewport, slice file names, parent paths, crop bounds, and the reason each slice exists. Do not place analysis slices in product asset directories such as `src/assets` unless the user explicitly wants to reuse them as production assets.
+The `manifest.json` should record source image, viewport, slice type, file names, parent paths, crop bounds, reason, use, source strategy, and confidence. Do not place analysis slices in product asset directories such as `src/assets`. Only place finalized frontend assets in product asset directories after the source decision and quality check are complete.
 
 ## Recursive Layout Decomposition
 

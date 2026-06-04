@@ -2,7 +2,7 @@
 
 这套流程用于把参考图实现任务拆成一条更稳定的工程链路：
 
-`full-image inspection -> optional slicing -> layout extraction -> element extraction -> implementation -> diff -> refine`
+`full-image inspection -> slicing and asset decisions -> layout extraction -> element extraction -> implementation -> diff -> refine`
 
 ## 1. Full-Image Inspection
 
@@ -14,9 +14,18 @@
 - 判断哪些区域可能需要切图
 - 保留全局布局关系，避免局部分析丢失整体对齐和 section spacing
 
-## 2. Optional Slicing
+落盘文件：
+- `image_inspection.json`
+
+## 2. Slicing And Asset Decisions
 
 当参考图很长、细节密度高，或者某个区域有大量独特元素时，先按实现边界切图，再进入详细 layout。
+
+切图还有第二个目的：产出后续编辑前端代码可用的素材图。这里不能只做机械裁剪，需要先判断素材应该怎么来。
+
+切图分两类：
+- `analysis`：只用于分析 layout / element，不直接进前端资产目录。
+- `frontend-asset-candidate`：可能成为前端代码引用的图片素材。
 
 切图建议保存到：
 
@@ -24,10 +33,12 @@
 .codex/image2code/<task-id>/
   reference-full.png
   slices/
+  asset-candidates/
+  assets/
   manifest.json
 ```
 
-`manifest.json` 记录 source、viewport、slice 文件、parent path、bounds、reason 等信息。
+`manifest.json` 记录 source、viewport、slice 文件、parent path、bounds、reason、slice type、useFor、confidence 等信息。
 
 切图边界优先按：
 - header / sidebar / main / footer
@@ -37,6 +48,26 @@
 - toolbar / control group
 
 不要把切图当成产品素材默认放进 `src/assets`；它默认是分析产物。
+
+如果是 `frontend-asset-candidate`，需要额外记录：
+- 素材名字
+- 视觉描述
+- 在全图里的位置和裁剪 bounds
+- 前端用途，例如 hero product、card thumbnail、avatar、logo、background texture
+- 来源策略：`direct-crop`、`image-to-image`、`web-similar-asset`
+- 策略原因和已知限制
+- 预计输出格式和路径
+
+来源策略判断：
+- `direct-crop`：原图局部足够干净、清晰、没有 UI 污染，可以直接作为素材。
+- `image-to-image`：裁剪图主体正确，但需要去背景、补边、提高清晰度、去掉遮挡或改成更通用的前端素材。
+- `web-similar-asset`：原裁剪质量差、遮挡严重、或是通用摄影/真实产品/logo，需要从网上找更接近的公开素材。需要记录授权不确定性。
+这里只判断图片素材来源。简单几何、icon、线条、分隔符、文字等非图片元素，交给 layout / element extraction 和前端实现阶段处理。
+
+落盘文件：
+- `slicing_manifest.json`
+- `asset_decisions.json`
+- 如果跳过切图或没有图片素材候选，写 `skip_decision.json` 说明原因
 
 ## 3. Layout Extraction
 
@@ -63,6 +94,10 @@
 
 默认递归深度上限为 3。重复列表或网格优先拆一个代表项，不逐个拆每个实例。
 
+落盘文件：
+- `layout.json`
+- 递归分析时，为每个 scoped region 写独立 JSON
+
 ## 4. Element Extraction
 
 在 layout 之后继续拆 element。
@@ -78,6 +113,9 @@
 
 很多“不够像”的问题，根源都在这一层。
 
+落盘文件：
+- 每个元素或元素组一个 JSON，例如 `primary_nav.json`、`hero_overlay.json`
+
 ## 5. Implementation
 
 实现阶段建议先做稳定模块，再对复杂模块继续拆内部 layout。
@@ -89,6 +127,9 @@
 - tab row
 - prompt card
 - logo strip
+
+落盘文件：
+- `implementation_result.json`，记录改动文件、使用的素材、未解决限制
 
 ## 6. Diff
 
@@ -102,6 +143,9 @@
 - missing / extra elements
 - typography side effects
 
+落盘文件：
+- `visual_diff.json`
+
 ## 7. Refine
 
 根据 diff 结果做二次和三次收敛。
@@ -109,6 +153,10 @@
 更接近像素级的结果，通常不是一次生成，而是：
 
 `first pass + targeted refine`
+
+落盘文件：
+- `refinement_plan.json`
+- `refinement_result.json`
 
 ## 当前边界
 
