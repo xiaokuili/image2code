@@ -1,0 +1,9 @@
+{
+  "name": "FeatureGrid",
+  "type": "component",
+  "layout": {
+    "direction": "grid",
+    "columns": 3,
+    "gap": 0
+  }
+}

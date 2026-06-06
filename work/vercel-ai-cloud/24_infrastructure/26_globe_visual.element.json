@@ -1,0 +1,13 @@
+{
+  "name": "GlobeVisual",
+  "type": "element",
+  "elementType": "illustration",
+  "style": {
+    "width": 760,
+    "height": 360
+  },
+  "placeholder": {
+    "kind": "code-drawn",
+    "notes": "Approximate grid globe with radial circles and positioned markers."
+  }
+}

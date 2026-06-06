@@ -1,0 +1,8 @@
+{
+  "name": "ComputePricing",
+  "type": "component",
+  "layout": {
+    "direction": "row",
+    "gap": 32
+  }
+}

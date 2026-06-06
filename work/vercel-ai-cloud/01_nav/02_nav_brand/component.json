@@ -1,0 +1,9 @@
+{
+  "name": "NavBrand",
+  "type": "component",
+  "layout": {
+    "direction": "row",
+    "align": "center",
+    "gap": 10
+  }
+}

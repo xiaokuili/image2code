@@ -1,0 +1,8 @@
+{
+  "name": "AuthButtons",
+  "type": "element",
+  "elementType": "button-group",
+  "style": {
+    "height": 30
+  }
+}

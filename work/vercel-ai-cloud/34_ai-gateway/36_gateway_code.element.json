@@ -1,0 +1,10 @@
+{
+  "name": "GatewayCode",
+  "type": "element",
+  "elementType": "code-panel",
+  "style": {
+    "width": 520,
+    "height": 270,
+    "borderRadius": 14
+  }
+}

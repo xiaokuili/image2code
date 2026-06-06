@@ -1,0 +1,8 @@
+{
+  "name": "ProofTags",
+  "type": "element",
+  "elementType": "pill-group",
+  "style": {
+    "gap": 8
+  }
+}

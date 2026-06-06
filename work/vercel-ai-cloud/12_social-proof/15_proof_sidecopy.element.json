@@ -1,0 +1,9 @@
+{
+  "name": "ProofSideCopy",
+  "type": "element",
+  "elementType": "text-block",
+  "style": {
+    "fontSize": 12,
+    "color": "#6b6b6b"
+  }
+}

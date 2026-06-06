@@ -1,0 +1,9 @@
+{
+  "name": "ProofCopy",
+  "type": "element",
+  "elementType": "text-block",
+  "style": {
+    "fontSize": 16,
+    "lineHeight": 1.6
+  }
+}

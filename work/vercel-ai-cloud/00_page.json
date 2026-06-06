@@ -1,0 +1,18 @@
+{
+  "name": "VercelAiCloudLanding",
+  "type": "page",
+  "layout": {
+    "direction": "column",
+    "regions": [
+      "Nav",
+      "Hero",
+      "SocialProof",
+      "FeatureGrid",
+      "Infrastructure",
+      "ComputePricing",
+      "AiGateway",
+      "TemplateCta",
+      "FooterCta"
+    ]
+  }
+}

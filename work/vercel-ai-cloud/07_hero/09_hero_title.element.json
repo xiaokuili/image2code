@@ -1,0 +1,11 @@
+{
+  "name": "HeroTitle",
+  "type": "element",
+  "elementType": "text",
+  "style": {
+    "fontSize": 52,
+    "fontWeight": 700,
+    "lineHeight": 1.1,
+    "color": "#1b1b1b"
+  }
+}

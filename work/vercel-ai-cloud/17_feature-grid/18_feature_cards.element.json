@@ -1,0 +1,8 @@
+{
+  "name": "FeatureCards",
+  "type": "element",
+  "elementType": "card-grid",
+  "style": {
+    "border": "1px solid #ededed"
+  }
+}

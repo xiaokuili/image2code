@@ -1,0 +1,8 @@
+{
+  "name": "GatewayCopy",
+  "type": "element",
+  "elementType": "text-block",
+  "style": {
+    "fontSize": 13
+  }
+}

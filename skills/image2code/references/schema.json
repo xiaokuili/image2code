@@ -1,0 +1,90 @@
+{
+  "page": {
+    "name": "LandingPage",
+    "type": "page",
+    "layout": {
+      "direction": "column",
+      "regions": ["Nav", "Hero", "Content", "Footer"]
+    }
+  },
+  "components": [
+    { "name": "Nav", "type": "component", "order": 1 },
+    { "name": "Hero", "type": "component", "order": 2 },
+    { "name": "Content", "type": "component", "order": 3 },
+    { "name": "Footer", "type": "component", "order": 4 }
+  ],
+  "componentExample": {
+    "name": "Hero",
+    "type": "component",
+    "layout": {
+      "direction": "stack"
+    },
+    "childrenType": "element",
+    "children": [
+      {
+        "name": "HeroBackground",
+        "type": "element",
+        "elementType": "image",
+        "implementation": "asset",
+        "style": {
+          "width": 1440,
+          "height": 560,
+          "borderRadius": 24
+        },
+        "placeholder": {
+          "kind": "block",
+          "notes": "use gradient first, slice later"
+        }
+      },
+      {
+        "name": "Headline",
+        "type": "element",
+        "elementType": "text",
+        "style": {
+          "fontSize": 72,
+          "fontWeight": 700,
+          "lineHeight": 1,
+          "color": "#111111"
+        },
+        "content": "Build faster"
+      },
+      {
+        "name": "CTAButton",
+        "type": "element",
+        "elementType": "button",
+        "implementation": "html",
+        "style": {
+          "height": 44,
+          "padding": "0 18px",
+          "borderRadius": 999
+        },
+        "content": "Get Started"
+      },
+      {
+        "name": "HeroVisual",
+        "type": "element",
+        "elementType": "illustration",
+        "implementation": "code-drawn",
+        "style": {
+          "width": 960,
+          "height": 520
+        },
+        "notes": "No raster slice needed for first pass."
+      }
+    ]
+  },
+  "componentSplitExample": {
+    "name": "Nav",
+    "type": "component",
+    "layout": {
+      "direction": "row",
+      "justify": "space-between"
+    },
+    "childrenType": "component",
+    "children": [
+      { "name": "NavBrand", "type": "component" },
+      { "name": "NavMenu", "type": "component" },
+      { "name": "NavActions", "type": "component" }
+    ]
+  }
+}

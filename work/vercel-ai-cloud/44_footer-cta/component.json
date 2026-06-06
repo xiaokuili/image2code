@@ -1,0 +1,9 @@
+{
+  "name": "FooterCta",
+  "type": "component",
+  "layout": {
+    "direction": "row",
+    "justify": "space-between",
+    "align": "end"
+  }
+}

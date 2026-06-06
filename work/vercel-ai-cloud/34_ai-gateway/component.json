@@ -1,0 +1,8 @@
+{
+  "name": "AiGateway",
+  "type": "component",
+  "layout": {
+    "direction": "row",
+    "gap": 36
+  }
+}

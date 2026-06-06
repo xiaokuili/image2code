@@ -1,0 +1,12 @@
+{
+  "name": "FeatureShowcase",
+  "type": "element",
+  "elementType": "diagram",
+  "style": {
+    "height": 260
+  },
+  "placeholder": {
+    "kind": "code-drawn",
+    "notes": "Keep diagram abstract with CSS nodes and connecting lines."
+  }
+}

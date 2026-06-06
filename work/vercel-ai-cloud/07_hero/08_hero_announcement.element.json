@@ -1,0 +1,10 @@
+{
+  "name": "HeroAnnouncement",
+  "type": "element",
+  "elementType": "pill",
+  "style": {
+    "height": 28,
+    "borderRadius": 999,
+    "fontSize": 10
+  }
+}

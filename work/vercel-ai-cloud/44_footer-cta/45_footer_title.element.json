@@ -1,0 +1,9 @@
+{
+  "name": "FooterTitle",
+  "type": "element",
+  "elementType": "text",
+  "style": {
+    "fontSize": 54,
+    "fontWeight": 700
+  }
+}
