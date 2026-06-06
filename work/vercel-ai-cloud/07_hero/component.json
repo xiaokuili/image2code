@@ -1,8 +1,0 @@
-{
-  "name": "Hero",
-  "type": "component",
-  "layout": {
-    "direction": "column",
-    "align": "center"
-  }
-}

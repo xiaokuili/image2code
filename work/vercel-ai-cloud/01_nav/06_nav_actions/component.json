@@ -1,9 +1,0 @@
-{
-  "name": "NavActions",
-  "type": "component",
-  "layout": {
-    "direction": "row",
-    "gap": 10,
-    "align": "center"
-  }
-}

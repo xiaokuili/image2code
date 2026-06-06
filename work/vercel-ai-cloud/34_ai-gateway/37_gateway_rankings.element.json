@@ -1,8 +1,0 @@
-{
-  "name": "GatewayRankings",
-  "type": "element",
-  "elementType": "list-panel",
-  "style": {
-    "width": 240
-  }
-}

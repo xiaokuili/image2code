@@ -1,9 +1,0 @@
-{
-  "name": "TemplateGrid",
-  "type": "element",
-  "elementType": "card-grid",
-  "style": {
-    "columns": 2,
-    "gap": 14
-  }
-}

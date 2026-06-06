@@ -1,9 +1,0 @@
-{
-  "name": "ProofButton",
-  "type": "element",
-  "elementType": "button",
-  "style": {
-    "height": 34,
-    "borderRadius": 999
-  }
-}

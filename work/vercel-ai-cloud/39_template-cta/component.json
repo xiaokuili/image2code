@@ -1,8 +1,0 @@
-{
-  "name": "TemplateCta",
-  "type": "component",
-  "layout": {
-    "direction": "row",
-    "gap": 28
-  }
-}

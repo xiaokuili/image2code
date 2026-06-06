@@ -1,8 +1,0 @@
-{
-  "name": "HeroActions",
-  "type": "element",
-  "elementType": "button-group",
-  "style": {
-    "gap": 12
-  }
-}

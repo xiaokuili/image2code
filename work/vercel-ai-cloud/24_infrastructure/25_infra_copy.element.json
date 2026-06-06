@@ -1,8 +1,0 @@
-{
-  "name": "InfrastructureCopy",
-  "type": "element",
-  "elementType": "text-block",
-  "style": {
-    "fontSize": 20
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "name": "ComputeCopy",
-  "type": "element",
-  "elementType": "text-block",
-  "style": {
-    "fontSize": 14
-  }
-}

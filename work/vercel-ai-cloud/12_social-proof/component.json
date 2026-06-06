@@ -1,9 +1,0 @@
-{
-  "name": "SocialProof",
-  "type": "component",
-  "layout": {
-    "direction": "row",
-    "justify": "space-between",
-    "gap": 32
-  }
-}

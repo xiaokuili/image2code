@@ -1,9 +1,0 @@
-{
-  "name": "MenuItems",
-  "type": "element",
-  "elementType": "text-group",
-  "style": {
-    "fontSize": 11,
-    "color": "#666666"
-  }
-}

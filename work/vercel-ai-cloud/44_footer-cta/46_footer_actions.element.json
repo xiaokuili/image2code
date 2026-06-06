@@ -1,8 +1,0 @@
-{
-  "name": "FooterActions",
-  "type": "element",
-  "elementType": "button-group",
-  "style": {
-    "gap": 12
-  }
-}
