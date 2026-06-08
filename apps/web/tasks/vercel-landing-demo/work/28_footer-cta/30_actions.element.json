@@ -1,0 +1,7 @@
+{
+  "name": "actions",
+  "type": "Element",
+  "style": {
+    "gap": "16px"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Headline",
+  "type": "element",
+  "elementType": "heading",
+  "implementation": "html",
+  "content": "The product development system for teams and agents",
+  "style": {
+    "width": 780,
+    "fontSize": 67,
+    "fontWeight": 500,
+    "lineHeight": 0.95,
+    "letterSpacing": "-0.05em",
+    "color": "#ffffff"
+  }
+}

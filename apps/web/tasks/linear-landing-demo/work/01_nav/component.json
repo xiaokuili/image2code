@@ -1,0 +1,12 @@
+{
+  "name": "Nav",
+  "type": "component",
+  "layout": {
+    "direction": "row",
+    "justify": "space-between",
+    "align": "center",
+    "height": 73
+  },
+  "childrenType": "component",
+  "children": ["NavBrand", "NavLinks", "NavActions"]
+}

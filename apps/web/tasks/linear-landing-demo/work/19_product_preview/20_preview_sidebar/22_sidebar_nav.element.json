@@ -1,0 +1,12 @@
+{
+  "name": "SidebarNav",
+  "type": "element",
+  "elementType": "list",
+  "implementation": "html",
+  "content": "Inbox, My issues, Reviews, Pulse",
+  "style": {
+    "fontSize": 14,
+    "lineHeight": 2.2,
+    "color": "#686b72"
+  }
+}

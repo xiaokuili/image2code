@@ -1,0 +1,7 @@
+{
+  "name": "brand",
+  "type": "Element",
+  "style": {
+    "fontWeight": "600"
+  }
+}

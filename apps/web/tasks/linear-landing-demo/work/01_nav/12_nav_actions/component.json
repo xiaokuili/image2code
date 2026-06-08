@@ -1,0 +1,11 @@
+{
+  "name": "NavActions",
+  "type": "component",
+  "layout": {
+    "direction": "row",
+    "align": "center",
+    "gap": 28
+  },
+  "childrenType": "element",
+  "children": ["Divider", "LoginLink", "SignupButton"]
+}

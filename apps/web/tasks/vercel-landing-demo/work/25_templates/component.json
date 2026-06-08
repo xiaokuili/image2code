@@ -1,0 +1,8 @@
+{
+  "name": "templates",
+  "type": "Component",
+  "layout": {
+    "display": "grid",
+    "gap": "24px"
+  }
+}

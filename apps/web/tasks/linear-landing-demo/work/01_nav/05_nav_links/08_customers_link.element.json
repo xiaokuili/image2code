@@ -1,0 +1,11 @@
+{
+  "name": "CustomersLink",
+  "type": "element",
+  "elementType": "link",
+  "implementation": "html",
+  "content": "Customers",
+  "style": {
+    "fontSize": 12,
+    "color": "#9c9ea6"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "tag-row",
+  "type": "Element",
+  "style": {
+    "gap": "12px"
+  }
+}

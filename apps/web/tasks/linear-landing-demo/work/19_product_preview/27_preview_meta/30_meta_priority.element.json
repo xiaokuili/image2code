@@ -1,0 +1,11 @@
+{
+  "name": "MetaPriority",
+  "type": "element",
+  "elementType": "text",
+  "implementation": "html",
+  "content": "High",
+  "style": {
+    "fontSize": 13,
+    "color": "#606268"
+  }
+}

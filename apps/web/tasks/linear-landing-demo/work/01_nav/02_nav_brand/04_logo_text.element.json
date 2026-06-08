@@ -1,0 +1,12 @@
+{
+  "name": "LogoText",
+  "type": "element",
+  "elementType": "text",
+  "implementation": "html",
+  "content": "Linear",
+  "style": {
+    "fontSize": 18,
+    "fontWeight": 600,
+    "color": "#ffffff"
+  }
+}

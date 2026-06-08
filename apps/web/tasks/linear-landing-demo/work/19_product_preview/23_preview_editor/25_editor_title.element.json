@@ -1,0 +1,12 @@
+{
+  "name": "EditorTitle",
+  "type": "element",
+  "elementType": "heading",
+  "implementation": "html",
+  "content": "Faster app launch",
+  "style": {
+    "fontSize": 21,
+    "fontWeight": 500,
+    "color": "#5f6166"
+  }
+}

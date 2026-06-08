@@ -1,0 +1,8 @@
+{
+  "name": "copy",
+  "type": "Element",
+  "style": {
+    "fontSize": "64px",
+    "fontWeight": "700"
+  }
+}

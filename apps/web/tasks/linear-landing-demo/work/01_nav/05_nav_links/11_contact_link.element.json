@@ -1,0 +1,11 @@
+{
+  "name": "ContactLink",
+  "type": "element",
+  "elementType": "link",
+  "implementation": "html",
+  "content": "Contact",
+  "style": {
+    "fontSize": 12,
+    "color": "#9c9ea6"
+  }
+}

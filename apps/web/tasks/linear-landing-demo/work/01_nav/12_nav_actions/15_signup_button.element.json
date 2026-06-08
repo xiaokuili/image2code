@@ -1,0 +1,14 @@
+{
+  "name": "SignupButton",
+  "type": "element",
+  "elementType": "button",
+  "implementation": "html",
+  "content": "Sign up",
+  "style": {
+    "height": 32,
+    "padding": "0 16px",
+    "borderRadius": 999,
+    "background": "#f4f4f5",
+    "color": "#111111"
+  }
+}

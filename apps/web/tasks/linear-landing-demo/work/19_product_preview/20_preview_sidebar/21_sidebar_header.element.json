@@ -1,0 +1,11 @@
+{
+  "name": "SidebarHeader",
+  "type": "element",
+  "elementType": "text",
+  "implementation": "html",
+  "content": "Linear",
+  "style": {
+    "fontSize": 14,
+    "color": "#7a7d83"
+  }
+}

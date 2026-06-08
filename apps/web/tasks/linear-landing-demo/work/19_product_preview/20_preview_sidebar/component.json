@@ -1,0 +1,11 @@
+{
+  "name": "PreviewSidebar",
+  "type": "component",
+  "layout": {
+    "direction": "column",
+    "width": 240,
+    "padding": 18
+  },
+  "childrenType": "element",
+  "children": ["SidebarHeader", "SidebarNav"]
+}

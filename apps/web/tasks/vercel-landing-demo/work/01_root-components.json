@@ -1,0 +1,38 @@
+[
+  {
+    "name": "topbar",
+    "type": "Component"
+  },
+  {
+    "name": "hero",
+    "type": "Component"
+  },
+  {
+    "name": "proof",
+    "type": "Component"
+  },
+  {
+    "name": "feature-grid",
+    "type": "Component"
+  },
+  {
+    "name": "infrastructure",
+    "type": "Component"
+  },
+  {
+    "name": "compute",
+    "type": "Component"
+  },
+  {
+    "name": "gateway",
+    "type": "Component"
+  },
+  {
+    "name": "templates",
+    "type": "Component"
+  },
+  {
+    "name": "footer-cta",
+    "type": "Component"
+  }
+]

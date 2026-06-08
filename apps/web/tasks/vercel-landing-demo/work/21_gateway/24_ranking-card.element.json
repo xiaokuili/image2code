@@ -1,0 +1,7 @@
+{
+  "name": "ranking-card",
+  "type": "Element",
+  "style": {
+    "borderRadius": "24px"
+  }
+}

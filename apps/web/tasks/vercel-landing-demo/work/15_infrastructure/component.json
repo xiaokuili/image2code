@@ -1,0 +1,8 @@
+{
+  "name": "infrastructure",
+  "type": "Component",
+  "layout": {
+    "display": "grid",
+    "gap": "24px"
+  }
+}

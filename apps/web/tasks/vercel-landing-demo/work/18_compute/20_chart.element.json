@@ -1,0 +1,8 @@
+{
+  "name": "chart",
+  "type": "Element",
+  "placeholder": "trace chart panel pending final code or slice",
+  "style": {
+    "height": "240px"
+  }
+}

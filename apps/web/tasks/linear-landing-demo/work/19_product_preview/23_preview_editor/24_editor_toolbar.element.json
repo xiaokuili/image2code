@@ -1,0 +1,11 @@
+{
+  "name": "EditorToolbar",
+  "type": "element",
+  "elementType": "text",
+  "implementation": "html",
+  "content": "Faster app launch",
+  "style": {
+    "fontSize": 13,
+    "color": "#6f7279"
+  }
+}

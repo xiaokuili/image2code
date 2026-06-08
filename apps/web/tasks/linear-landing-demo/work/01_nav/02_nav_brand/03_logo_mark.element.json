@@ -1,0 +1,11 @@
+{
+  "name": "LogoMark",
+  "type": "element",
+  "elementType": "icon",
+  "implementation": "html",
+  "style": {
+    "width": 20,
+    "height": 20,
+    "color": "#ffffff"
+  }
+}

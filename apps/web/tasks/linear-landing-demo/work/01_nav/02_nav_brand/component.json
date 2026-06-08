@@ -1,0 +1,11 @@
+{
+  "name": "NavBrand",
+  "type": "component",
+  "layout": {
+    "direction": "row",
+    "align": "center",
+    "gap": 10
+  },
+  "childrenType": "element",
+  "children": ["LogoMark", "LogoText"]
+}

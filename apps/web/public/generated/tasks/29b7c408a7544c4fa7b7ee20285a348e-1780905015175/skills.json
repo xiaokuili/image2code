@@ -1,0 +1,15 @@
+{
+  "generator": "image2code",
+  "artifactPaths": [
+    "apps/web/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/work/00_page.json",
+    "apps/web/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/work/01_root-components.json",
+    "apps/web/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/work/01_workspace_sidebar/component.json",
+    "apps/web/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/work/14_workspace_header/component.json",
+    "apps/web/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/work/18_kanban_board/component.json",
+    "apps/web/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/work/39_right_rails/component.json",
+    "apps/web/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/work/src/index.html",
+    "apps/web/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/work/src/styles.css",
+    "apps/web/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/preview/index.html",
+    "apps/web/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/preview/styles.css"
+  ]
+}

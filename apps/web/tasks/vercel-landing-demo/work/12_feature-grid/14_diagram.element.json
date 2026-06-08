@@ -1,0 +1,8 @@
+{
+  "name": "diagram",
+  "type": "Element",
+  "placeholder": "node-map graphic pending final code or slice",
+  "style": {
+    "height": "280px"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "MetaTicket",
+  "type": "element",
+  "elementType": "text",
+  "implementation": "html",
+  "content": "ENG-2703",
+  "style": {
+    "fontSize": 14,
+    "color": "#6f7278"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "PreviewEditor",
+  "type": "component",
+  "layout": {
+    "direction": "column",
+    "flex": 1,
+    "padding": 18
+  },
+  "childrenType": "element",
+  "children": ["EditorToolbar", "EditorTitle", "EditorBody"]
+}

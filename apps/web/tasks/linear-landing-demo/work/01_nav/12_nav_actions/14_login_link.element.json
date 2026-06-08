@@ -1,0 +1,11 @@
+{
+  "name": "LoginLink",
+  "type": "element",
+  "elementType": "link",
+  "implementation": "html",
+  "content": "Log in",
+  "style": {
+    "fontSize": 12,
+    "color": "#cfd1d5"
+  }
+}

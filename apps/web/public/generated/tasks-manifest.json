@@ -1,0 +1,74 @@
+{
+  "tasks": [
+    {
+      "id": "29b7c408a7544c4fa7b7ee20285a348e-1780905015175",
+      "name": "Harmony Board Demo",
+      "status": "ready",
+      "createdAt": "2026-06-08T07:50:15.175Z",
+      "sourceImageUrl": "/generated/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/source.png",
+      "previewUrl": "/generated/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/preview/index.html",
+      "skillArtifacts": [
+        "apps/web/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/work/00_page.json",
+        "apps/web/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/work/01_root-components.json",
+        "apps/web/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/work/01_workspace_sidebar/component.json",
+        "apps/web/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/work/14_workspace_header/component.json",
+        "apps/web/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/work/18_kanban_board/component.json",
+        "apps/web/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/work/39_right_rails/component.json",
+        "apps/web/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/work/src/index.html",
+        "apps/web/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/work/src/styles.css",
+        "apps/web/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/preview/index.html",
+        "apps/web/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/preview/styles.css"
+      ],
+      "skillsUrl": "/generated/tasks/29b7c408a7544c4fa7b7ee20285a348e-1780905015175/skills.json"
+    },
+    {
+      "id": "dribbble-ai-saas-modern-dark-ui",
+      "name": "Dribbble AI SaaS Modern Dark UI",
+      "status": "ready",
+      "createdAt": "2026-06-08T20:05:00+08:00",
+      "sourceImageUrl": "/generated/tasks/dribbble-ai-saas-modern-dark-ui/source.png",
+      "previewUrl": "/generated/tasks/dribbble-ai-saas-modern-dark-ui/preview/index.html",
+      "skillArtifacts": [
+        "apps/web/tasks/dribbble-ai-saas-modern-dark-ui/work/00_page.json",
+        "apps/web/tasks/dribbble-ai-saas-modern-dark-ui/work/01_root-components.json",
+        "apps/web/tasks/dribbble-ai-saas-modern-dark-ui/work/01_primary_column/component.json",
+        "apps/web/tasks/dribbble-ai-saas-modern-dark-ui/work/07_secondary_column/component.json",
+        "apps/web/tasks/dribbble-ai-saas-modern-dark-ui/work/src/index.html",
+        "apps/web/tasks/dribbble-ai-saas-modern-dark-ui/work/src/styles.css",
+        "apps/web/tasks/dribbble-ai-saas-modern-dark-ui/preview/index.html",
+        "apps/web/tasks/dribbble-ai-saas-modern-dark-ui/preview/styles.css"
+      ],
+      "skillsUrl": "/generated/tasks/dribbble-ai-saas-modern-dark-ui/skills.json"
+    },
+    {
+      "id": "linear-landing-demo",
+      "name": "Linear Landing Demo",
+      "status": "ready",
+      "createdAt": "2026-06-08T18:30:00+08:00",
+      "sourceImageUrl": "/generated/tasks/linear-landing-demo/source.png",
+      "previewUrl": "/generated/tasks/linear-landing-demo/preview/index.html",
+      "skillArtifacts": [
+        "apps/web/tasks/linear-landing-demo/work/00_page.json",
+        "apps/web/tasks/linear-landing-demo/work/01_root-components.json",
+        "apps/web/tasks/linear-landing-demo/work/01_nav/component.json",
+        "apps/web/tasks/linear-landing-demo/work/16_hero/component.json",
+        "apps/web/tasks/linear-landing-demo/work/19_product_preview/component.json",
+        "apps/web/tasks/linear-landing-demo/work/src/index.html",
+        "apps/web/tasks/linear-landing-demo/work/src/styles.css",
+        "apps/web/tasks/linear-landing-demo/preview/index.html",
+        "apps/web/tasks/linear-landing-demo/preview/styles.css"
+      ],
+      "skillsUrl": "/generated/tasks/linear-landing-demo/skills.json"
+    },
+    {
+      "id": "vercel-landing-demo",
+      "name": "Vercel Landing Demo",
+      "status": "ready",
+      "createdAt": "2026-06-08T16:00:00+08:00",
+      "sourceImageUrl": null,
+      "previewUrl": "/generated/tasks/vercel-landing-demo/preview/index.html",
+      "skillArtifacts": [],
+      "skillsUrl": null
+    }
+  ]
+}

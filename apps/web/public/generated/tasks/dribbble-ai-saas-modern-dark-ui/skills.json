@@ -1,0 +1,13 @@
+{
+  "generator": "image2code",
+  "artifactPaths": [
+    "apps/web/tasks/dribbble-ai-saas-modern-dark-ui/work/00_page.json",
+    "apps/web/tasks/dribbble-ai-saas-modern-dark-ui/work/01_root-components.json",
+    "apps/web/tasks/dribbble-ai-saas-modern-dark-ui/work/01_primary_column/component.json",
+    "apps/web/tasks/dribbble-ai-saas-modern-dark-ui/work/07_secondary_column/component.json",
+    "apps/web/tasks/dribbble-ai-saas-modern-dark-ui/work/src/index.html",
+    "apps/web/tasks/dribbble-ai-saas-modern-dark-ui/work/src/styles.css",
+    "apps/web/tasks/dribbble-ai-saas-modern-dark-ui/preview/index.html",
+    "apps/web/tasks/dribbble-ai-saas-modern-dark-ui/preview/styles.css"
+  ]
+}

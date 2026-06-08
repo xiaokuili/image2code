@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Nav",
+    "type": "component",
+    "order": 1
+  },
+  {
+    "name": "Hero",
+    "type": "component",
+    "order": 2
+  },
+  {
+    "name": "ProductPreview",
+    "type": "component",
+    "order": 3
+  }
+]

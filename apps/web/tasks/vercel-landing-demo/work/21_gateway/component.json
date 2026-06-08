@@ -1,0 +1,8 @@
+{
+  "name": "gateway",
+  "type": "Component",
+  "layout": {
+    "display": "grid",
+    "gap": "24px"
+  }
+}

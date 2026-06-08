@@ -1,0 +1,7 @@
+{
+  "name": "menu",
+  "type": "Element",
+  "style": {
+    "gap": "24px"
+  }
+}

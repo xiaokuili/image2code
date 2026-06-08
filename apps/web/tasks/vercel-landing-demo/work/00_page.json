@@ -1,0 +1,10 @@
+{
+  "name": "vercel-landing-demo",
+  "type": "Page",
+  "goal": "Recreate the Vercel AI Cloud landing preview as a multi-section marketing page with navigation, hero, proof, feature grid, infrastructure, compute, gateway, templates, and footer call-to-action sections.",
+  "layout": {
+    "display": "grid",
+    "background": "#000000",
+    "color": "#ffffff"
+  }
+}
