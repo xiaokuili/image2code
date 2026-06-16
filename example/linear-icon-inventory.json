@@ -1,0 +1,185 @@
+{
+  "page": "Linear Homepage First Viewport",
+  "viewport": {
+    "width": 3766,
+    "height": 2588
+  },
+  "icons": [
+    {
+      "name": "Linear Logo Mark",
+      "section": "Navigation",
+      "nearbyText": "Linear",
+      "semanticType": "logo",
+      "importance": "high",
+      "position": { "x": 606, "y": 52 },
+      "size": { "width": 42, "height": 42 },
+      "visualDescription": "White circular Linear logo mark with diagonal stripes",
+      "match": ["linear logo", "logo mark"]
+    },
+    {
+      "name": "Announcement Arrow Icon",
+      "section": "Hero",
+      "nearbyText": "Coding Sessions",
+      "semanticType": "arrow-right",
+      "importance": "high",
+      "position": { "x": 3150, "y": 895 },
+      "size": { "width": 18, "height": 18 },
+      "visualDescription": "Small muted right arrow after Coding Sessions",
+      "match": ["announcement arrow", "cta arrow", "arrow icon"]
+    },
+    {
+      "name": "Search Icon",
+      "section": "Product Preview Sidebar",
+      "nearbyText": "Linear",
+      "semanticType": "search",
+      "importance": "high",
+      "position": { "x": 910, "y": 1112 },
+      "size": { "width": 22, "height": 22 },
+      "visualDescription": "Muted gray magnifying glass icon",
+      "match": ["search icon"]
+    },
+    {
+      "name": "New Issue Icon",
+      "section": "Product Preview Sidebar",
+      "nearbyText": "Linear",
+      "semanticType": "edit",
+      "importance": "medium",
+      "position": { "x": 980, "y": 1100 },
+      "size": { "width": 28, "height": 28 },
+      "visualDescription": "Rounded square new/edit issue icon",
+      "match": ["new issue", "edit icon", "new icon"]
+    },
+    {
+      "name": "Inbox Icon",
+      "section": "Product Preview Sidebar",
+      "nearbyText": "Inbox",
+      "semanticType": "inbox",
+      "importance": "high",
+      "position": { "x": 610, "y": 1195 },
+      "size": { "width": 22, "height": 22 },
+      "visualDescription": "Muted gray inbox tray outline",
+      "match": ["inbox icon"]
+    },
+    {
+      "name": "My Issues Icon",
+      "section": "Product Preview Sidebar",
+      "nearbyText": "My issues",
+      "semanticType": "issue",
+      "importance": "high",
+      "position": { "x": 610, "y": 1258 },
+      "size": { "width": 22, "height": 22 },
+      "visualDescription": "Muted gray circular issue icon",
+      "match": ["my issues icon", "issue icon"]
+    },
+    {
+      "name": "Reviews Icon",
+      "section": "Product Preview Sidebar",
+      "nearbyText": "Reviews",
+      "semanticType": "review",
+      "importance": "medium",
+      "position": { "x": 610, "y": 1318 },
+      "size": { "width": 22, "height": 22 },
+      "visualDescription": "Muted gray review/branch icon",
+      "match": ["reviews icon", "review icon"]
+    },
+    {
+      "name": "Pulse Icon",
+      "section": "Product Preview Sidebar",
+      "nearbyText": "Pulse",
+      "semanticType": "pulse",
+      "importance": "medium",
+      "position": { "x": 610, "y": 1378 },
+      "size": { "width": 22, "height": 22 },
+      "visualDescription": "Muted gray activity pulse icon",
+      "match": ["pulse icon", "activity icon"]
+    },
+    {
+      "name": "Workspace Chevron Icon",
+      "section": "Product Preview Sidebar",
+      "nearbyText": "Workspace",
+      "semanticType": "chevron-down",
+      "importance": "medium",
+      "position": { "x": 760, "y": 1452 },
+      "size": { "width": 14, "height": 14 },
+      "visualDescription": "Tiny down chevron after Workspace",
+      "match": ["workspace chevron", "chevron icon"]
+    },
+    {
+      "name": "Initiatives Icon",
+      "section": "Product Preview Sidebar",
+      "nearbyText": "Initiatives",
+      "semanticType": "initiative",
+      "importance": "medium",
+      "position": { "x": 610, "y": 1512 },
+      "size": { "width": 22, "height": 22 },
+      "visualDescription": "Muted gray initiative/target icon",
+      "match": ["initiatives icon"]
+    },
+    {
+      "name": "Projects Icon",
+      "section": "Product Preview Sidebar",
+      "nearbyText": "Projects",
+      "semanticType": "project",
+      "importance": "medium",
+      "position": { "x": 610, "y": 1572 },
+      "size": { "width": 22, "height": 22 },
+      "visualDescription": "Muted gray project/cube icon",
+      "match": ["projects icon"]
+    },
+    {
+      "name": "More Icon",
+      "section": "Product Preview Sidebar",
+      "nearbyText": "More",
+      "semanticType": "more",
+      "importance": "medium",
+      "position": { "x": 610, "y": 1632 },
+      "size": { "width": 22, "height": 22 },
+      "visualDescription": "Muted gray three dots icon",
+      "match": ["more icon", "three dots icon"]
+    },
+    {
+      "name": "Favorite Status Icon",
+      "section": "Product Preview Sidebar",
+      "nearbyText": "Faster app launch",
+      "semanticType": "status",
+      "importance": "high",
+      "position": { "x": 610, "y": 1765 },
+      "size": { "width": 22, "height": 22 },
+      "visualDescription": "Yellow circular status icon",
+      "match": ["favorite status icon", "status icon"]
+    },
+    {
+      "name": "Details Link Icon",
+      "section": "Details Panel",
+      "nearbyText": "ENG-2703",
+      "semanticType": "link",
+      "importance": "medium",
+      "position": { "x": 3000, "y": 1110 },
+      "size": { "width": 22, "height": 22 },
+      "visualDescription": "Muted gray link icon in right details toolbar",
+      "match": ["details link icon", "link icon"]
+    },
+    {
+      "name": "Agent Close Icon",
+      "section": "Agent Window",
+      "nearbyText": "Linear Opus 4.8",
+      "semanticType": "close",
+      "importance": "medium",
+      "position": { "x": 3090, "y": 1530 },
+      "size": { "width": 22, "height": 22 },
+      "visualDescription": "Muted gray close x icon",
+      "match": ["close icon"]
+    },
+    {
+      "name": "Composer Send Icon",
+      "section": "Composer",
+      "nearbyText": "Tell Linear what to do next...",
+      "semanticType": "send",
+      "importance": "medium",
+      "position": { "x": 3070, "y": 2380 },
+      "size": { "width": 26, "height": 26 },
+      "visualDescription": "Circular send arrow icon in composer",
+      "match": ["send icon"]
+    }
+  ]
+}
