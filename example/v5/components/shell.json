@@ -1,0 +1,41 @@
+{
+  "schema": "image2figma.v5.component",
+  "id": "shell",
+  "node": {
+    "type": "FRAME",
+    "name": "Appointment Center Shell",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 1034,
+      "height": 1150
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "opacity": 1
+      }
+    ],
+    "cornerRadius": 20,
+    "children": [],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 0.8980392156862745,
+          "g": 0.9019607843137255,
+          "b": 0.8901960784313725
+        },
+        "opacity": 1
+      }
+    ],
+    "strokeWeight": 1
+  }
+}

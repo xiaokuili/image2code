@@ -1,9 +1,0 @@
-{
-  "name": "LinearLandingPage",
-  "type": "page",
-  "layout": {
-    "direction": "column",
-    "background": "#050607",
-    "regions": ["Nav", "Hero", "ProductPreview"]
-  }
-}

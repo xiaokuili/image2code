@@ -1,0 +1,109 @@
+{
+  "schema": "image2figma.v5.component",
+  "id": "floating",
+  "node": {
+    "type": "FRAME",
+    "name": "Floating Tools",
+    "position": {
+      "x": 676,
+      "y": 1099
+    },
+    "size": {
+      "width": 178,
+      "height": 54
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 0,
+          "g": 0.0392156862745098,
+          "b": 0.0392156862745098
+        },
+        "opacity": 1
+      }
+    ],
+    "cornerRadius": 9,
+    "children": [
+      {
+        "type": "SVG",
+        "name": "Tool Search",
+        "position": {
+          "x": 20,
+          "y": 14
+        },
+        "size": {
+          "width": 26,
+          "height": 26
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"/><path d=\"m16 16 4 4\"/></svg>"
+      },
+      {
+        "type": "RECTANGLE",
+        "name": "Tool Divider",
+        "position": {
+          "x": 66,
+          "y": 13
+        },
+        "size": {
+          "width": 1,
+          "height": 28
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.16862745098039217,
+              "g": 0.21568627450980393,
+              "b": 0.21568627450980393
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 0
+      },
+      {
+        "type": "SVG",
+        "name": "Tool Chat",
+        "position": {
+          "x": 90,
+          "y": 14
+        },
+        "size": {
+          "width": 26,
+          "height": 26
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v8Z\"/></svg>"
+      },
+      {
+        "type": "SVG",
+        "name": "Tool Sparkle",
+        "position": {
+          "x": 134,
+          "y": 14
+        },
+        "size": {
+          "width": 26,
+          "height": 26
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3Z\"/><path d=\"M19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8L19 16Z\"/></svg>"
+      }
+    ],
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "offset": {
+          "x": 0,
+          "y": 10
+        },
+        "radius": 18,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.2
+        }
+      }
+    ]
+  }
+}

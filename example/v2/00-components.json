@@ -1,0 +1,86 @@
+{
+  "schema": "image2figma.v2.components",
+  "sourceImage": "../appointment-waitlist.webp",
+  "canvas": {
+    "width": 1920,
+    "height": 1280,
+    "sourceWidth": 2048,
+    "sourceHeight": 1536
+  },
+  "components": [
+    {
+      "id": "background",
+      "name": "Background",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1280
+      },
+      "role": "page backdrop and app window shadow"
+    },
+    {
+      "id": "sidebar",
+      "name": "Sidebar",
+      "bounds": {
+        "x": 66,
+        "y": 117,
+        "width": 292,
+        "height": 1150
+      },
+      "role": "location switcher, search, navigation, footer actions"
+    },
+    {
+      "id": "calendarHeader",
+      "name": "Calendar Header",
+      "bounds": {
+        "x": 358,
+        "y": 117,
+        "width": 1034,
+        "height": 282
+      },
+      "role": "title, toolbar filters, and metric cards"
+    },
+    {
+      "id": "weekGrid",
+      "name": "Week Calendar Grid",
+      "bounds": {
+        "x": 358,
+        "y": 399,
+        "width": 1034,
+        "height": 858
+      },
+      "role": "weekly appointment grid, date headers, colored event cards, floating tools"
+    },
+    {
+      "id": "waitlistPanel",
+      "name": "Waitlist Panel",
+      "bounds": {
+        "x": 1392,
+        "y": 117,
+        "width": 464,
+        "height": 1150
+      },
+      "role": "customer, selected services, time preference, note, save/cancel controls"
+    },
+    {
+      "id": "splitHandle",
+      "name": "Split Handle",
+      "bounds": {
+        "x": 1370,
+        "y": 117,
+        "width": 38,
+        "height": 1150
+      },
+      "role": "vertical panel divider and collapse control"
+    }
+  ],
+  "assemblyOrder": [
+    "background",
+    "sidebar",
+    "calendarHeader",
+    "weekGrid",
+    "splitHandle",
+    "waitlistPanel"
+  ]
+}

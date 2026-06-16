@@ -1,0 +1,1242 @@
+{
+  "schema": "image2figma.v1",
+  "meta": {
+    "name": "Appointment Waitlist Dashboard",
+    "generator": "codex-image2figma",
+    "sourceImage": "appointment-waitlist.webp"
+  },
+  "page": {
+    "name": "Appointment Waitlist Dashboard",
+    "background": {
+      "r": 0.82,
+      "g": 0.82,
+      "b": 0.79,
+      "a": 1
+    }
+  },
+  "root": {
+    "type": "FRAME",
+    "name": "Appointment Waitlist Dashboard",
+    "size": {
+      "width": 1920,
+      "height": 1280
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 0.82,
+          "g": 0.82,
+          "b": 0.79
+        },
+        "opacity": 1
+      }
+    ],
+    "children": [
+      {
+        "type": "IMAGE",
+        "name": "Source Image Reference",
+        "position": {
+          "x": 1396,
+          "y": 36
+        },
+        "size": {
+          "width": 360,
+          "height": 240
+        },
+        "assetRef": "appointment-waitlist.webp",
+        "placeholder": "Original reference image for comparison"
+      },
+      {
+        "type": "FRAME",
+        "name": "App Window",
+        "position": {
+          "x": 54,
+          "y": 107
+        },
+        "size": {
+          "width": 1814,
+          "height": 1170
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.97,
+              "g": 0.97,
+              "b": 0.96
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 28,
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "offset": {
+              "x": 0,
+              "y": 26
+            },
+            "radius": 40,
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.16
+            }
+          }
+        ],
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "Sidebar",
+            "position": {
+              "x": 12,
+              "y": 10
+            },
+            "size": {
+              "width": 292,
+              "height": 1150
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.93,
+                  "g": 0.93,
+                  "b": 0.91
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 20,
+            "children": [
+              {
+                "type": "IMAGE",
+                "name": "Sidebar Icons",
+                "position": {
+                  "x": 18,
+                  "y": 18
+                },
+                "size": {
+                  "width": 266,
+                  "height": 820
+                },
+                "placeholder": "All small sidebar icons including brand, notifications, search, navigation, and company icons"
+              },
+              {
+                "type": "TEXT",
+                "name": "Location",
+                "position": {
+                  "x": 52,
+                  "y": 18
+                },
+                "size": {
+                  "width": 170,
+                  "height": 24
+                },
+                "text": {
+                  "characters": "PWT Location",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 600,
+                    "fontSize": 17,
+                    "lineHeightPx": 24,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.07,
+                      "b": 0.07
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "FRAME",
+                "name": "Search Field",
+                "position": {
+                  "x": 10,
+                  "y": 82
+                },
+                "size": {
+                  "width": 272,
+                  "height": 42
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.87,
+                      "g": 0.87,
+                      "b": 0.85
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 9,
+                "children": [
+                  {
+                    "type": "TEXT",
+                    "name": "Search Text",
+                    "position": {
+                      "x": 48,
+                      "y": 10
+                    },
+                    "size": {
+                      "width": 190,
+                      "height": 22
+                    },
+                    "text": {
+                      "characters": "Search                       Cmd S",
+                      "style": {
+                        "fontFamily": "Inter",
+                        "fontWeight": 400,
+                        "fontSize": 16,
+                        "lineHeightPx": 22,
+                        "textAlignHorizontal": "LEFT"
+                      }
+                    },
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.29,
+                          "g": 0.3,
+                          "b": 0.29
+                        },
+                        "opacity": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Sidebar Menu",
+                "position": {
+                  "x": 54,
+                  "y": 150
+                },
+                "size": {
+                  "width": 190,
+                  "height": 690
+                },
+                "text": {
+                  "characters": "Home\n\nWORKSPACE\nAppointment\nSales\nCustomers\nReport\n\nCATALOG\nServices\nProducts\nPackages\n\nCOMPANY\nStaff\nMarketing\nWebsite\nIntegration",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 400,
+                    "fontSize": 17,
+                    "lineHeightPx": 37,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.28,
+                      "g": 0.29,
+                      "b": 0.28
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "RECTANGLE",
+                "name": "Active Appointment Highlight",
+                "position": {
+                  "x": 10,
+                  "y": 230
+                },
+                "size": {
+                  "width": 272,
+                  "height": 44
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 8
+              },
+              {
+                "type": "FRAME",
+                "name": "Sidebar Footer",
+                "position": {
+                  "x": 10,
+                  "y": 1112
+                },
+                "size": {
+                  "width": 272,
+                  "height": 36
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.93,
+                      "g": 0.93,
+                      "b": 0.91
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "children": [
+                  {
+                    "type": "RECTANGLE",
+                    "name": "Invite Button",
+                    "position": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "size": {
+                      "width": 138,
+                      "height": 36
+                    },
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "opacity": 1
+                      }
+                    ],
+                    "cornerRadius": 10
+                  },
+                  {
+                    "type": "RECTANGLE",
+                    "name": "Tutorials Button",
+                    "position": {
+                      "x": 148,
+                      "y": 0
+                    },
+                    "size": {
+                      "width": 124,
+                      "height": 36
+                    },
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "opacity": 1
+                      }
+                    ],
+                    "cornerRadius": 10
+                  },
+                  {
+                    "type": "TEXT",
+                    "name": "Footer Labels",
+                    "position": {
+                      "x": 58,
+                      "y": 8
+                    },
+                    "size": {
+                      "width": 206,
+                      "height": 20
+                    },
+                    "text": {
+                      "characters": "Invite          Tutorials",
+                      "style": {
+                        "fontFamily": "Inter",
+                        "fontWeight": 400,
+                        "fontSize": 16,
+                        "lineHeightPx": 20,
+                        "textAlignHorizontal": "LEFT"
+                      }
+                    },
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.08,
+                          "g": 0.09,
+                          "b": 0.09
+                        },
+                        "opacity": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Main Calendar",
+            "position": {
+              "x": 304,
+              "y": 10
+            },
+            "size": {
+              "width": 1034,
+              "height": 1150
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 20,
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "Page Title",
+                "position": {
+                  "x": 30,
+                  "y": 25
+                },
+                "size": {
+                  "width": 220,
+                  "height": 34
+                },
+                "text": {
+                  "characters": "Appointment",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 26,
+                    "lineHeightPx": 34,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.04,
+                      "b": 0.04
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "IMAGE",
+                "name": "Toolbar Controls",
+                "position": {
+                  "x": 30,
+                  "y": 82
+                },
+                "size": {
+                  "width": 900,
+                  "height": 44
+                },
+                "placeholder": "Today button, Jan 2024 label, Day Week Month Staff segmented control, status and staff filters"
+              },
+              {
+                "type": "FRAME",
+                "name": "Stats Cards",
+                "position": {
+                  "x": 30,
+                  "y": 144
+                },
+                "size": {
+                  "width": 1040,
+                  "height": 126
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "children": [
+                  {
+                    "type": "IMAGE",
+                    "name": "Stats Card Backgrounds",
+                    "position": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "size": {
+                      "width": 1040,
+                      "height": 126
+                    },
+                    "placeholder": "three rounded metric cards with subtle borders and small percentage badges"
+                  },
+                  {
+                    "type": "TEXT",
+                    "name": "Stats Text",
+                    "position": {
+                      "x": 20,
+                      "y": 18
+                    },
+                    "size": {
+                      "width": 980,
+                      "height": 90
+                    },
+                    "text": {
+                      "characters": "Total Appointment        Compl. Appointment        No Show Appointment\nLast 7 days              Last 7 days              Last 7 days\n\n140                      85%                      7%",
+                      "style": {
+                        "fontFamily": "Inter",
+                        "fontWeight": 600,
+                        "fontSize": 15,
+                        "lineHeightPx": 24,
+                        "textAlignHorizontal": "LEFT"
+                      }
+                    },
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.05,
+                          "g": 0.06,
+                          "b": 0.06
+                        },
+                        "opacity": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "FRAME",
+                "name": "Week Calendar Grid",
+                "position": {
+                  "x": 0,
+                  "y": 292
+                },
+                "size": {
+                  "width": 1034,
+                  "height": 858
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "children": [
+                  {
+                    "type": "IMAGE",
+                    "name": "Calendar Grid Lines",
+                    "position": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "size": {
+                      "width": 1034,
+                      "height": 858
+                    },
+                    "placeholder": "fine dotted week calendar grid with GMT+7 time labels, day columns, and horizontal scroll bar"
+                  },
+                  {
+                    "type": "TEXT",
+                    "name": "Week Header",
+                    "position": {
+                      "x": 42,
+                      "y": 18
+                    },
+                    "size": {
+                      "width": 928,
+                      "height": 50
+                    },
+                    "text": {
+                      "characters": "22  MON        23  TUE        24  WED        25  THU        26  FRI\n4 appointment(s)       6 appointment(s)       5 appointment(s)       3 appointment(s)       1 appointment(s)",
+                      "style": {
+                        "fontFamily": "Inter",
+                        "fontWeight": 600,
+                        "fontSize": 16,
+                        "lineHeightPx": 25,
+                        "textAlignHorizontal": "LEFT"
+                      }
+                    },
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.04,
+                          "g": 0.05,
+                          "b": 0.05
+                        },
+                        "opacity": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "RECTANGLE",
+                    "name": "Current Time Line",
+                    "position": {
+                      "x": 62,
+                      "y": 275
+                    },
+                    "size": {
+                      "width": 832,
+                      "height": 1
+                    },
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.92,
+                          "g": 0.1,
+                          "b": 0.15
+                        },
+                        "opacity": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "IMAGE",
+                    "name": "Appointment Cards",
+                    "position": {
+                      "x": 64,
+                      "y": 48
+                    },
+                    "size": {
+                      "width": 805,
+                      "height": 770
+                    },
+                    "placeholder": "colored appointment blocks for Savannah, Lilia, Walk-in, Zara, Emma, Jasper, Watson, John, Mia, Omar, Ethan, Sophie, Clara, Liam, and Thursday bookings"
+                  },
+                  {
+                    "type": "FRAME",
+                    "name": "Floating Tools",
+                    "position": {
+                      "x": 676,
+                      "y": 807
+                    },
+                    "size": {
+                      "width": 178,
+                      "height": 54
+                    },
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0,
+                          "g": 0.04,
+                          "b": 0.04
+                        },
+                        "opacity": 1
+                      }
+                    ],
+                    "cornerRadius": 9,
+                    "effects": [
+                      {
+                        "type": "DROP_SHADOW",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "radius": 18,
+                        "color": {
+                          "r": 0,
+                          "g": 0,
+                          "b": 0,
+                          "a": 0.2
+                        }
+                      }
+                    ],
+                    "children": [
+                      {
+                        "type": "IMAGE",
+                        "name": "Floating Tool Icons",
+                        "position": {
+                          "x": 22,
+                          "y": 14
+                        },
+                        "size": {
+                          "width": 134,
+                          "height": 26
+                        },
+                        "placeholder": "search, separator, chat, sparkle icons"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Waitlist Panel",
+            "position": {
+              "x": 1338,
+              "y": 10
+            },
+            "size": {
+              "width": 464,
+              "height": 1150
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 20,
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "Panel Title",
+                "position": {
+                  "x": 26,
+                  "y": 26
+                },
+                "size": {
+                  "width": 300,
+                  "height": 34
+                },
+                "text": {
+                  "characters": "Preview your Waitlist",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 25,
+                    "lineHeightPx": 34,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.04,
+                      "b": 0.04
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "FRAME",
+                "name": "Customer Card",
+                "position": {
+                  "x": 22,
+                  "y": 78
+                },
+                "size": {
+                  "width": 420,
+                  "height": 64
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "strokes": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.91,
+                      "g": 0.92,
+                      "b": 0.91
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "strokeWeight": 1,
+                "cornerRadius": 10,
+                "children": [
+                  {
+                    "type": "RECTANGLE",
+                    "name": "Avatar",
+                    "position": {
+                      "x": 18,
+                      "y": 16
+                    },
+                    "size": {
+                      "width": 36,
+                      "height": 36
+                    },
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.52,
+                          "g": 0.28,
+                          "b": 0.76
+                        },
+                        "opacity": 1
+                      }
+                    ],
+                    "cornerRadius": 18
+                  },
+                  {
+                    "type": "TEXT",
+                    "name": "Customer Info",
+                    "position": {
+                      "x": 72,
+                      "y": 14
+                    },
+                    "size": {
+                      "width": 190,
+                      "height": 40
+                    },
+                    "text": {
+                      "characters": "Liam Kim\n+1 889-789-885",
+                      "style": {
+                        "fontFamily": "Inter",
+                        "fontWeight": 600,
+                        "fontSize": 15,
+                        "lineHeightPx": 20,
+                        "textAlignHorizontal": "LEFT"
+                      }
+                    },
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.05,
+                          "g": 0.06,
+                          "b": 0.06
+                        },
+                        "opacity": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "IMAGE",
+                    "name": "Customer Edit Icon",
+                    "position": {
+                      "x": 378,
+                      "y": 22
+                    },
+                    "size": {
+                      "width": 20,
+                      "height": 20
+                    },
+                    "placeholder": "pencil edit icon"
+                  }
+                ]
+              },
+              {
+                "type": "RECTANGLE",
+                "name": "Divider",
+                "position": {
+                  "x": 22,
+                  "y": 178
+                },
+                "size": {
+                  "width": 420,
+                  "height": 1
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.9,
+                      "g": 0.91,
+                      "b": 0.9
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Services Label",
+                "position": {
+                  "x": 22,
+                  "y": 220
+                },
+                "size": {
+                  "width": 100,
+                  "height": 24
+                },
+                "text": {
+                  "characters": "Services",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 17,
+                    "lineHeightPx": 24,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.05,
+                      "b": 0.05
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "FRAME",
+                "name": "Service Card",
+                "position": {
+                  "x": 22,
+                  "y": 258
+                },
+                "size": {
+                  "width": 420,
+                  "height": 140
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "strokes": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.91,
+                      "g": 0.92,
+                      "b": 0.91
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "strokeWeight": 1,
+                "cornerRadius": 10,
+                "children": [
+                  {
+                    "type": "IMAGE",
+                    "name": "Service Icons",
+                    "position": {
+                      "x": 18,
+                      "y": 16
+                    },
+                    "size": {
+                      "width": 380,
+                      "height": 108
+                    },
+                    "placeholder": "two service icons and two pencil edit icons"
+                  },
+                  {
+                    "type": "TEXT",
+                    "name": "Service Text",
+                    "position": {
+                      "x": 72,
+                      "y": 18
+                    },
+                    "size": {
+                      "width": 250,
+                      "height": 112
+                    },
+                    "text": {
+                      "characters": "Yoga\n30min . $59.99\n\nReflexology Therapy\n30min . $199",
+                      "style": {
+                        "fontFamily": "Inter",
+                        "fontWeight": 600,
+                        "fontSize": 16,
+                        "lineHeightPx": 22,
+                        "textAlignHorizontal": "LEFT"
+                      }
+                    },
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.04,
+                          "g": 0.05,
+                          "b": 0.05
+                        },
+                        "opacity": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Panel Body",
+                "position": {
+                  "x": 22,
+                  "y": 416
+                },
+                "size": {
+                  "width": 420,
+                  "height": 260
+                },
+                "text": {
+                  "characters": "+  Add More Service\n\nPreferred date and time\n\n23 Thu . 12:45PM -> 01:45PM\n\n+  Add More Time\n\nNote",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 16,
+                    "lineHeightPx": 32,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.05,
+                      "b": 0.05
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "FRAME",
+                "name": "Note Box",
+                "position": {
+                  "x": 22,
+                  "y": 670
+                },
+                "size": {
+                  "width": 420,
+                  "height": 100
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "strokes": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.91,
+                      "g": 0.92,
+                      "b": 0.91
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "strokeWeight": 1,
+                "cornerRadius": 10,
+                "children": [
+                  {
+                    "type": "TEXT",
+                    "name": "Note Text",
+                    "position": {
+                      "x": 18,
+                      "y": 16
+                    },
+                    "size": {
+                      "width": 354,
+                      "height": 58
+                    },
+                    "text": {
+                      "characters": "Transformative practice that harmonizes the\nmind, body, and spirit.",
+                      "style": {
+                        "fontFamily": "Inter",
+                        "fontWeight": 400,
+                        "fontSize": 16,
+                        "lineHeightPx": 24,
+                        "textAlignHorizontal": "LEFT"
+                      }
+                    },
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.04,
+                          "g": 0.05,
+                          "b": 0.05
+                        },
+                        "opacity": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Back Link",
+                "position": {
+                  "x": 22,
+                  "y": 1092
+                },
+                "size": {
+                  "width": 50,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "Back",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 600,
+                    "fontSize": 15,
+                    "lineHeightPx": 22,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0,
+                      "g": 0.43,
+                      "b": 0.45
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "RECTANGLE",
+                "name": "Cancel Button",
+                "position": {
+                  "x": 250,
+                  "y": 1078
+                },
+                "size": {
+                  "width": 94,
+                  "height": 42
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "strokes": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.86,
+                      "g": 0.87,
+                      "b": 0.86
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "strokeWeight": 1,
+                "cornerRadius": 10
+              },
+              {
+                "type": "RECTANGLE",
+                "name": "Save Button",
+                "position": {
+                  "x": 356,
+                  "y": 1078
+                },
+                "size": {
+                  "width": 94,
+                  "height": 42
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.69,
+                      "b": 0.79
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "strokes": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0,
+                      "g": 0.5,
+                      "b": 0.58
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "strokeWeight": 1,
+                "cornerRadius": 10
+              },
+              {
+                "type": "TEXT",
+                "name": "Action Button Text",
+                "position": {
+                  "x": 278,
+                  "y": 1088
+                },
+                "size": {
+                  "width": 144,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "Cancel           Save",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 16,
+                    "lineHeightPx": 22,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0,
+                      "g": 0.43,
+                      "b": 0.45
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "id": "splitHandle",
+  "schema": "image2figma.v2.component",
+  "node": {
+    "type": "FRAME",
+    "name": "Split Handle",
+    "position": {
+      "x": 1370,
+      "y": 117
+    },
+    "size": {
+      "width": 38,
+      "height": 1150
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "opacity": 0
+      }
+    ],
+    "children": [
+      {
+        "type": "RECTANGLE",
+        "name": "Divider",
+        "position": {
+          "x": 18,
+          "y": 0
+        },
+        "size": {
+          "width": 2,
+          "height": 1150
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9,
+              "g": 0.91,
+              "b": 0.9
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "RECTANGLE",
+        "name": "Collapse Button",
+        "position": {
+          "x": 0,
+          "y": 40
+        },
+        "size": {
+          "width": 36,
+          "height": 36
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9,
+              "g": 0.91,
+              "b": 0.9
+            },
+            "opacity": 1
+          }
+        ],
+        "strokeWeight": 1,
+        "cornerRadius": 18
+      },
+      {
+        "type": "TEXT",
+        "name": "Chevron",
+        "position": {
+          "x": 13,
+          "y": 48
+        },
+        "size": {
+          "width": 10,
+          "height": 20
+        },
+        "text": {
+          "characters": ">",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 500,
+            "fontSize": 20,
+            "lineHeightPx": 20,
+            "textAlignHorizontal": "CENTER"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.42,
+              "g": 0.43,
+              "b": 0.42
+            },
+            "opacity": 1
+          }
+        ]
+      }
+    ]
+  }
+}

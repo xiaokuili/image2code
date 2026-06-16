@@ -1,0 +1,750 @@
+{
+  "schema": "image2figma.v5.component",
+  "id": "metrics",
+  "node": {
+    "type": "FRAME",
+    "name": "Metric Cards",
+    "position": {
+      "x": 30,
+      "y": 144
+    },
+    "size": {
+      "width": 1082,
+      "height": 126
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "opacity": 1
+      }
+    ],
+    "cornerRadius": 0,
+    "children": [
+      {
+        "type": "FRAME",
+        "name": "Total Appointment Card",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "size": {
+          "width": 350,
+          "height": 126
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.984313725490196,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 13,
+        "children": [
+          {
+            "type": "TEXT",
+            "name": "Total Appointment Card Title",
+            "position": {
+              "x": 20,
+              "y": 18
+            },
+            "size": {
+              "width": 210,
+              "height": 22
+            },
+            "text": {
+              "characters": "Total Appointment",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 15,
+                "lineHeightPx": 22,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.06666666666666667,
+                  "g": 0.06666666666666667,
+                  "b": 0.06666666666666667
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "SVG",
+            "name": "Total Appointment Card Info",
+            "position": {
+              "x": 190,
+              "y": 17
+            },
+            "size": {
+              "width": 18,
+              "height": 18
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#747672\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 11v5\"/><path d=\"M12 8h.01\"/></svg>"
+          },
+          {
+            "type": "TEXT",
+            "name": "Total Appointment Card Subtitle",
+            "position": {
+              "x": 20,
+              "y": 42
+            },
+            "size": {
+              "width": 120,
+              "height": 20
+            },
+            "text": {
+              "characters": "Last 7 days",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.4666666666666667,
+                  "g": 0.47058823529411764,
+                  "b": 0.45098039215686275
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Total Appointment Card Value",
+            "position": {
+              "x": 20,
+              "y": 78
+            },
+            "size": {
+              "width": 90,
+              "height": 34
+            },
+            "text": {
+              "characters": "140",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 28,
+                "lineHeightPx": 34,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.027450980392156862,
+                  "g": 0.03137254901960784,
+                  "b": 0.03137254901960784
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Total Appointment Card Badge",
+            "position": {
+              "x": 198,
+              "y": 82
+            },
+            "size": {
+              "width": 42,
+              "height": 22
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.6823529411764706,
+                  "g": 0.9372549019607843,
+                  "b": 0.9450980392156862
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 10
+          },
+          {
+            "type": "TEXT",
+            "name": "Total Appointment Card Badge Text",
+            "position": {
+              "x": 203,
+              "y": 84
+            },
+            "size": {
+              "width": 32,
+              "height": 18
+            },
+            "text": {
+              "characters": "+12%",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 13,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0,
+                  "g": 0.4,
+                  "b": 0.4196078431372549
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Total Appointment Card Compare",
+            "position": {
+              "x": 250,
+              "y": 84
+            },
+            "size": {
+              "width": 86,
+              "height": 18
+            },
+            "text": {
+              "characters": "vs last week",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 13,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.4666666666666667,
+                  "g": 0.47058823529411764,
+                  "b": 0.45098039215686275
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.8980392156862745,
+              "g": 0.9019607843137255,
+              "b": 0.8901960784313725
+            },
+            "opacity": 1
+          }
+        ],
+        "strokeWeight": 1
+      },
+      {
+        "type": "FRAME",
+        "name": "Completed Appointment Card",
+        "position": {
+          "x": 366,
+          "y": 0
+        },
+        "size": {
+          "width": 350,
+          "height": 126
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.984313725490196,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 13,
+        "children": [
+          {
+            "type": "TEXT",
+            "name": "Completed Appointment Card Title",
+            "position": {
+              "x": 20,
+              "y": 18
+            },
+            "size": {
+              "width": 210,
+              "height": 22
+            },
+            "text": {
+              "characters": "Compl. Appointment",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 15,
+                "lineHeightPx": 22,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.06666666666666667,
+                  "g": 0.06666666666666667,
+                  "b": 0.06666666666666667
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "SVG",
+            "name": "Completed Appointment Card Info",
+            "position": {
+              "x": 190,
+              "y": 17
+            },
+            "size": {
+              "width": 18,
+              "height": 18
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#747672\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 11v5\"/><path d=\"M12 8h.01\"/></svg>"
+          },
+          {
+            "type": "TEXT",
+            "name": "Completed Appointment Card Subtitle",
+            "position": {
+              "x": 20,
+              "y": 42
+            },
+            "size": {
+              "width": 120,
+              "height": 20
+            },
+            "text": {
+              "characters": "Last 7 days",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.4666666666666667,
+                  "g": 0.47058823529411764,
+                  "b": 0.45098039215686275
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Completed Appointment Card Value",
+            "position": {
+              "x": 20,
+              "y": 78
+            },
+            "size": {
+              "width": 90,
+              "height": 34
+            },
+            "text": {
+              "characters": "85%",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 28,
+                "lineHeightPx": 34,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.027450980392156862,
+                  "g": 0.03137254901960784,
+                  "b": 0.03137254901960784
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Completed Appointment Card Badge",
+            "position": {
+              "x": 198,
+              "y": 82
+            },
+            "size": {
+              "width": 42,
+              "height": 22
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.6823529411764706,
+                  "g": 0.9372549019607843,
+                  "b": 0.9450980392156862
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 10
+          },
+          {
+            "type": "TEXT",
+            "name": "Completed Appointment Card Badge Text",
+            "position": {
+              "x": 203,
+              "y": 84
+            },
+            "size": {
+              "width": 32,
+              "height": 18
+            },
+            "text": {
+              "characters": "+12%",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 13,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0,
+                  "g": 0.4,
+                  "b": 0.4196078431372549
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Completed Appointment Card Compare",
+            "position": {
+              "x": 250,
+              "y": 84
+            },
+            "size": {
+              "width": 86,
+              "height": 18
+            },
+            "text": {
+              "characters": "vs last week",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 13,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.4666666666666667,
+                  "g": 0.47058823529411764,
+                  "b": 0.45098039215686275
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.8980392156862745,
+              "g": 0.9019607843137255,
+              "b": 0.8901960784313725
+            },
+            "opacity": 1
+          }
+        ],
+        "strokeWeight": 1
+      },
+      {
+        "type": "FRAME",
+        "name": "No Show Appointment Card",
+        "position": {
+          "x": 732,
+          "y": 0
+        },
+        "size": {
+          "width": 350,
+          "height": 126
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.984313725490196,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 13,
+        "children": [
+          {
+            "type": "TEXT",
+            "name": "No Show Appointment Card Title",
+            "position": {
+              "x": 20,
+              "y": 18
+            },
+            "size": {
+              "width": 210,
+              "height": 22
+            },
+            "text": {
+              "characters": "No Show Appointment",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 15,
+                "lineHeightPx": 22,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.06666666666666667,
+                  "g": 0.06666666666666667,
+                  "b": 0.06666666666666667
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "SVG",
+            "name": "No Show Appointment Card Info",
+            "position": {
+              "x": 190,
+              "y": 17
+            },
+            "size": {
+              "width": 18,
+              "height": 18
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#747672\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 11v5\"/><path d=\"M12 8h.01\"/></svg>"
+          },
+          {
+            "type": "TEXT",
+            "name": "No Show Appointment Card Subtitle",
+            "position": {
+              "x": 20,
+              "y": 42
+            },
+            "size": {
+              "width": 120,
+              "height": 20
+            },
+            "text": {
+              "characters": "Last 7 days",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.4666666666666667,
+                  "g": 0.47058823529411764,
+                  "b": 0.45098039215686275
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "No Show Appointment Card Value",
+            "position": {
+              "x": 20,
+              "y": 78
+            },
+            "size": {
+              "width": 90,
+              "height": 34
+            },
+            "text": {
+              "characters": "7%",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 28,
+                "lineHeightPx": 34,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.027450980392156862,
+                  "g": 0.03137254901960784,
+                  "b": 0.03137254901960784
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "No Show Appointment Card Badge",
+            "position": {
+              "x": 198,
+              "y": 82
+            },
+            "size": {
+              "width": 42,
+              "height": 22
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 0.8509803921568627,
+                  "b": 0.9215686274509803
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 10
+          },
+          {
+            "type": "TEXT",
+            "name": "No Show Appointment Card Badge Text",
+            "position": {
+              "x": 203,
+              "y": 84
+            },
+            "size": {
+              "width": 32,
+              "height": 18
+            },
+            "text": {
+              "characters": "+12%",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 13,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0,
+                  "g": 0.4,
+                  "b": 0.4196078431372549
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "No Show Appointment Card Compare",
+            "position": {
+              "x": 250,
+              "y": 84
+            },
+            "size": {
+              "width": 86,
+              "height": 18
+            },
+            "text": {
+              "characters": "vs last week",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 13,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.4666666666666667,
+                  "g": 0.47058823529411764,
+                  "b": 0.45098039215686275
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.8980392156862745,
+              "g": 0.9019607843137255,
+              "b": 0.8901960784313725
+            },
+            "opacity": 1
+          }
+        ],
+        "strokeWeight": 1
+      }
+    ]
+  }
+}

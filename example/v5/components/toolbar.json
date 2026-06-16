@@ -1,0 +1,659 @@
+{
+  "schema": "image2figma.v5.component",
+  "id": "toolbar",
+  "node": {
+    "type": "FRAME",
+    "name": "Header And Toolbar",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 1034,
+      "height": 132
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "opacity": 1
+      }
+    ],
+    "cornerRadius": 0,
+    "children": [
+      {
+        "type": "TEXT",
+        "name": "Page Title",
+        "position": {
+          "x": 30,
+          "y": 25
+        },
+        "size": {
+          "width": 220,
+          "height": 34
+        },
+        "text": {
+          "characters": "Appointment",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 700,
+            "fontSize": 26,
+            "lineHeightPx": 34,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.03137254901960784,
+              "g": 0.03529411764705882,
+              "b": 0.03529411764705882
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "RECTANGLE",
+        "name": "Today Button",
+        "position": {
+          "x": 30,
+          "y": 82
+        },
+        "size": {
+          "width": 68,
+          "height": 36
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 9,
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.8980392156862745,
+              "g": 0.9019607843137255,
+              "b": 0.8901960784313725
+            },
+            "opacity": 1
+          }
+        ],
+        "strokeWeight": 1
+      },
+      {
+        "type": "TEXT",
+        "name": "Today Text",
+        "position": {
+          "x": 40,
+          "y": 90
+        },
+        "size": {
+          "width": 48,
+          "height": 20
+        },
+        "text": {
+          "characters": "Today",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 500,
+            "fontSize": 16,
+            "lineHeightPx": 20,
+            "textAlignHorizontal": "CENTER"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.0392156862745098,
+              "g": 0.0392156862745098,
+              "b": 0.0392156862745098
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "TEXT",
+        "name": "Month Label",
+        "position": {
+          "x": 118,
+          "y": 90
+        },
+        "size": {
+          "width": 106,
+          "height": 24
+        },
+        "text": {
+          "characters": "Jan 2024",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 600,
+            "fontSize": 18,
+            "lineHeightPx": 24,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.0392156862745098,
+              "g": 0.0392156862745098,
+              "b": 0.0392156862745098
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "RECTANGLE",
+        "name": "Prev Button",
+        "position": {
+          "x": 218,
+          "y": 84
+        },
+        "size": {
+          "width": 30,
+          "height": 30
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 15,
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.8980392156862745,
+              "g": 0.9019607843137255,
+              "b": 0.8901960784313725
+            },
+            "opacity": 1
+          }
+        ],
+        "strokeWeight": 1
+      },
+      {
+        "type": "SVG",
+        "name": "Prev Icon",
+        "position": {
+          "x": 221,
+          "y": 87
+        },
+        "size": {
+          "width": 24,
+          "height": 24
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#6b6c68\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m15 18-6-6 6-6\"/></svg>"
+      },
+      {
+        "type": "RECTANGLE",
+        "name": "Next Button",
+        "position": {
+          "x": 252,
+          "y": 84
+        },
+        "size": {
+          "width": 30,
+          "height": 30
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 15,
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.8980392156862745,
+              "g": 0.9019607843137255,
+              "b": 0.8901960784313725
+            },
+            "opacity": 1
+          }
+        ],
+        "strokeWeight": 1
+      },
+      {
+        "type": "SVG",
+        "name": "Next Icon",
+        "position": {
+          "x": 255,
+          "y": 87
+        },
+        "size": {
+          "width": 24,
+          "height": 24
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#6b6c68\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m9 18 6-6-6-6\"/></svg>"
+      },
+      {
+        "type": "RECTANGLE",
+        "name": "Toolbar Divider",
+        "position": {
+          "x": 304,
+          "y": 85
+        },
+        "size": {
+          "width": 1,
+          "height": 32
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9058823529411765,
+              "g": 0.9098039215686274,
+              "b": 0.9019607843137255
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 0
+      },
+      {
+        "type": "FRAME",
+        "name": "View Switch",
+        "position": {
+          "x": 324,
+          "y": 82
+        },
+        "size": {
+          "width": 288,
+          "height": 36
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9411764705882353,
+              "g": 0.9411764705882353,
+              "b": 0.9333333333333333
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 9,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Week Active Pill",
+            "position": {
+              "x": 74,
+              "y": 2
+            },
+            "size": {
+              "width": 70,
+              "height": 32
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9725490196078431,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 8
+          },
+          {
+            "type": "TEXT",
+            "name": "Day",
+            "position": {
+              "x": 22,
+              "y": 8
+            },
+            "size": {
+              "width": 35,
+              "height": 20
+            },
+            "text": {
+              "characters": "Day",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 15,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.29411764705882354,
+                  "g": 0.2980392156862745,
+                  "b": 0.28627450980392155
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Week",
+            "position": {
+              "x": 86,
+              "y": 8
+            },
+            "size": {
+              "width": 48,
+              "height": 20
+            },
+            "text": {
+              "characters": "Week",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 600,
+                "fontSize": 15,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0,
+                  "g": 0.42745098039215684,
+                  "b": 0.45098039215686275
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Month",
+            "position": {
+              "x": 154,
+              "y": 8
+            },
+            "size": {
+              "width": 56,
+              "height": 20
+            },
+            "text": {
+              "characters": "Month",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 15,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.29411764705882354,
+                  "g": 0.2980392156862745,
+                  "b": 0.28627450980392155
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Staff",
+            "position": {
+              "x": 228,
+              "y": 8
+            },
+            "size": {
+              "width": 42,
+              "height": 20
+            },
+            "text": {
+              "characters": "Staff",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 15,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.29411764705882354,
+                  "g": 0.2980392156862745,
+                  "b": 0.28627450980392155
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "RECTANGLE",
+        "name": "Status Filter",
+        "position": {
+          "x": 632,
+          "y": 82
+        },
+        "size": {
+          "width": 150,
+          "height": 36
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 9,
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.8980392156862745,
+              "g": 0.9019607843137255,
+              "b": 0.8901960784313725
+            },
+            "opacity": 1
+          }
+        ],
+        "strokeWeight": 1
+      },
+      {
+        "type": "SVG",
+        "name": "Status Icon",
+        "position": {
+          "x": 642,
+          "y": 88
+        },
+        "size": {
+          "width": 24,
+          "height": 24
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#6b6c68\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"8\"/><path d=\"m8.5 12 2.2 2.2 4.8-5\"/></svg>"
+      },
+      {
+        "type": "TEXT",
+        "name": "Status Text",
+        "position": {
+          "x": 672,
+          "y": 90
+        },
+        "size": {
+          "width": 88,
+          "height": 20
+        },
+        "text": {
+          "characters": "All status",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 500,
+            "fontSize": 15,
+            "lineHeightPx": 20,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.1607843137254902,
+              "g": 0.16470588235294117,
+              "b": 0.1568627450980392
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "SVG",
+        "name": "Status Chevron",
+        "position": {
+          "x": 752,
+          "y": 88
+        },
+        "size": {
+          "width": 24,
+          "height": 24
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#6b6c68\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m9 18 6-6-6-6\"/></svg>"
+      },
+      {
+        "type": "RECTANGLE",
+        "name": "Staff Filter",
+        "position": {
+          "x": 800,
+          "y": 82
+        },
+        "size": {
+          "width": 136,
+          "height": 36
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 9,
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.8980392156862745,
+              "g": 0.9019607843137255,
+              "b": 0.8901960784313725
+            },
+            "opacity": 1
+          }
+        ],
+        "strokeWeight": 1
+      },
+      {
+        "type": "SVG",
+        "name": "Staff Icon",
+        "position": {
+          "x": 810,
+          "y": 88
+        },
+        "size": {
+          "width": 24,
+          "height": 24
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#6b6c68\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M16 21v-2a4 4 0 0 0-8 0v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"/></svg>"
+      },
+      {
+        "type": "TEXT",
+        "name": "Staff Text",
+        "position": {
+          "x": 838,
+          "y": 90
+        },
+        "size": {
+          "width": 76,
+          "height": 20
+        },
+        "text": {
+          "characters": "All staff",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 500,
+            "fontSize": 15,
+            "lineHeightPx": 20,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.1607843137254902,
+              "g": 0.16470588235294117,
+              "b": 0.1568627450980392
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "SVG",
+        "name": "Staff Chevron",
+        "position": {
+          "x": 906,
+          "y": 88
+        },
+        "size": {
+          "width": 24,
+          "height": 24
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#6b6c68\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m9 18 6-6-6-6\"/></svg>"
+      }
+    ]
+  }
+}

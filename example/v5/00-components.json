@@ -1,0 +1,49 @@
+{
+  "schema": "image2figma.v5.components",
+  "sourceImage": "../appointment-waitlist.webp",
+  "component": "appointment-center",
+  "canvas": {
+    "width": 1034,
+    "height": 1150
+  },
+  "components": [
+    {
+      "id": "shell",
+      "file": "components/shell.json",
+      "role": "white rounded center application panel"
+    },
+    {
+      "id": "toolbar",
+      "file": "components/toolbar.json",
+      "role": "title and controls"
+    },
+    {
+      "id": "metrics",
+      "file": "components/metrics.json",
+      "role": "three top metric cards"
+    },
+    {
+      "id": "grid",
+      "file": "components/grid.json",
+      "role": "calendar grid and date/time labels"
+    },
+    {
+      "id": "events",
+      "file": "components/events.json",
+      "role": "colored appointment cards"
+    },
+    {
+      "id": "floating",
+      "file": "components/floating-tools.json",
+      "role": "bottom floating black tool palette"
+    }
+  ],
+  "assemblyOrder": [
+    "shell",
+    "toolbar",
+    "metrics",
+    "grid",
+    "events",
+    "floating"
+  ]
+}

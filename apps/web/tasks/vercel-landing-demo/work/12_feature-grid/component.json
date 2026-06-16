@@ -1,8 +1,0 @@
-{
-  "name": "feature-grid",
-  "type": "Component",
-  "layout": {
-    "display": "grid",
-    "gap": "20px"
-  }
-}

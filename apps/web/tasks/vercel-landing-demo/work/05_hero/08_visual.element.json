@@ -1,8 +1,0 @@
-{
-  "name": "visual",
-  "type": "Element",
-  "placeholder": "gradient field and prism visual pending final code or slice",
-  "style": {
-    "height": "420px"
-  }
-}

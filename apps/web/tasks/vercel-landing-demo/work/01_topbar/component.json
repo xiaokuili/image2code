@@ -1,9 +1,0 @@
-{
-  "name": "topbar",
-  "type": "Component",
-  "layout": {
-    "display": "flex",
-    "justifyContent": "space-between",
-    "alignItems": "center"
-  }
-}

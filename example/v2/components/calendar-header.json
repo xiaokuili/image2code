@@ -1,0 +1,121 @@
+{
+  "id": "calendarHeader",
+  "schema": "image2figma.v2.component",
+  "node": {
+    "type": "FRAME",
+    "name": "Calendar Header",
+    "position": {
+      "x": 358,
+      "y": 117
+    },
+    "size": {
+      "width": 1034,
+      "height": 282
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "opacity": 1
+      }
+    ],
+    "children": [
+      {
+        "type": "TEXT",
+        "name": "Title",
+        "position": {
+          "x": 30,
+          "y": 25
+        },
+        "size": {
+          "width": 220,
+          "height": 34
+        },
+        "text": {
+          "characters": "Appointment",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 700,
+            "fontSize": 26,
+            "lineHeightPx": 34,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.03,
+              "g": 0.04,
+              "b": 0.04
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "IMAGE",
+        "name": "Toolbar Controls",
+        "position": {
+          "x": 30,
+          "y": 82
+        },
+        "size": {
+          "width": 900,
+          "height": 44
+        },
+        "placeholder": "Today, month navigation, view segmented control, status filter, staff filter"
+      },
+      {
+        "type": "IMAGE",
+        "name": "Metric Card Shells",
+        "position": {
+          "x": 30,
+          "y": 144
+        },
+        "size": {
+          "width": 1040,
+          "height": 126
+        },
+        "placeholder": "three rounded metric cards with subtle border and +12 percent badges"
+      },
+      {
+        "type": "TEXT",
+        "name": "Metric Text",
+        "position": {
+          "x": 50,
+          "y": 162
+        },
+        "size": {
+          "width": 980,
+          "height": 90
+        },
+        "text": {
+          "characters": "Total Appointment        Compl. Appointment        No Show Appointment\nLast 7 days              Last 7 days              Last 7 days\n\n140                      85%                      7%",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 600,
+            "fontSize": 15,
+            "lineHeightPx": 24,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.05,
+              "g": 0.06,
+              "b": 0.06
+            },
+            "opacity": 1
+          }
+        ]
+      }
+    ]
+  }
+}

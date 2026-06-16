@@ -1,0 +1,298 @@
+{
+  "id": "sidebar",
+  "schema": "image2figma.v2.component",
+  "node": {
+    "type": "FRAME",
+    "name": "Sidebar",
+    "position": {
+      "x": 66,
+      "y": 117
+    },
+    "size": {
+      "width": 292,
+      "height": 1150
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 0.93,
+          "g": 0.93,
+          "b": 0.91
+        },
+        "opacity": 1
+      }
+    ],
+    "cornerRadius": 20,
+    "children": [
+      {
+        "type": "IMAGE",
+        "name": "Sidebar Icon Set",
+        "position": {
+          "x": 18,
+          "y": 18
+        },
+        "size": {
+          "width": 266,
+          "height": 820
+        },
+        "placeholder": "Small line icons for location, alerts, search, navigation, catalog, and company items"
+      },
+      {
+        "type": "TEXT",
+        "name": "Location Label",
+        "position": {
+          "x": 52,
+          "y": 18
+        },
+        "size": {
+          "width": 170,
+          "height": 24
+        },
+        "text": {
+          "characters": "PWT Location",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 600,
+            "fontSize": 17,
+            "lineHeightPx": 24,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.06,
+              "g": 0.07,
+              "b": 0.07
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Search Field",
+        "position": {
+          "x": 10,
+          "y": 82
+        },
+        "size": {
+          "width": 272,
+          "height": 42
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.87,
+              "g": 0.87,
+              "b": 0.85
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 9,
+        "children": [
+          {
+            "type": "TEXT",
+            "name": "Search Text",
+            "position": {
+              "x": 48,
+              "y": 10
+            },
+            "size": {
+              "width": 190,
+              "height": 22
+            },
+            "text": {
+              "characters": "Search                       Cmd S",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 16,
+                "lineHeightPx": 22,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.29,
+                  "g": 0.3,
+                  "b": 0.29
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "RECTANGLE",
+        "name": "Appointment Active State",
+        "position": {
+          "x": 10,
+          "y": 230
+        },
+        "size": {
+          "width": 272,
+          "height": 44
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 8
+      },
+      {
+        "type": "TEXT",
+        "name": "Navigation Text",
+        "position": {
+          "x": 54,
+          "y": 150
+        },
+        "size": {
+          "width": 190,
+          "height": 690
+        },
+        "text": {
+          "characters": "Home\n\nWORKSPACE\nAppointment\nSales\nCustomers\nReport\n\nCATALOG\nServices\nProducts\nPackages\n\nCOMPANY\nStaff\nMarketing\nWebsite\nIntegration",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "fontSize": 17,
+            "lineHeightPx": 37,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.28,
+              "g": 0.29,
+              "b": 0.28
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Footer Buttons",
+        "position": {
+          "x": 10,
+          "y": 1112
+        },
+        "size": {
+          "width": 272,
+          "height": 36
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.93,
+              "g": 0.93,
+              "b": 0.91
+            },
+            "opacity": 1
+          }
+        ],
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Invite Button",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 138,
+              "height": 36
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 10
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Tutorials Button",
+            "position": {
+              "x": 148,
+              "y": 0
+            },
+            "size": {
+              "width": 124,
+              "height": 36
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 10
+          },
+          {
+            "type": "TEXT",
+            "name": "Footer Labels",
+            "position": {
+              "x": 58,
+              "y": 8
+            },
+            "size": {
+              "width": 206,
+              "height": 20
+            },
+            "text": {
+              "characters": "Invite          Tutorials",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 16,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.08,
+                  "g": 0.09,
+                  "b": 0.09
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

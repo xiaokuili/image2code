@@ -1,8 +1,0 @@
-{
-  "name": "footer-cta",
-  "type": "Component",
-  "layout": {
-    "display": "grid",
-    "gap": "24px"
-  }
-}

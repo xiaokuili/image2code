@@ -1,0 +1,1427 @@
+{
+  "schema": "image2figma.v4",
+  "meta": {
+    "name": "Sidebar V4 Icon Test",
+    "generator": "codex-image2figma",
+    "sourceImage": "../appointment-waitlist.webp",
+    "component": "sidebar",
+    "iconMode": "inline-svg"
+  },
+  "page": {
+    "name": "Sidebar V4 Icon Test",
+    "background": {
+      "r": 0.82,
+      "g": 0.82,
+      "b": 0.79,
+      "a": 1
+    }
+  },
+  "root": {
+    "type": "FRAME",
+    "name": "Sidebar V4 Icon Test",
+    "size": {
+      "width": 292,
+      "height": 1150
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 0.93,
+          "g": 0.93,
+          "b": 0.91
+        },
+        "opacity": 1
+      }
+    ],
+    "cornerRadius": 20,
+    "children": [
+      {
+        "type": "RECTANGLE",
+        "name": "Brand Icon Background",
+        "position": {
+          "x": 18,
+          "y": 18
+        },
+        "size": {
+          "width": 24,
+          "height": 24
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.03,
+              "g": 0.04,
+              "b": 0.04
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 5
+      },
+      {
+        "type": "SVG",
+        "name": "Brand Icon",
+        "position": {
+          "x": 20,
+          "y": 20
+        },
+        "size": {
+          "width": 20,
+          "height": 20
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 17V7h7a3 3 0 0 1 0 6H9\"/><path d=\"M9 13v4h8\"/></svg>"
+      },
+      {
+        "type": "TEXT",
+        "name": "Location Name",
+        "position": {
+          "x": 52,
+          "y": 18
+        },
+        "size": {
+          "width": 150,
+          "height": 24
+        },
+        "text": {
+          "characters": "PWT Location",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 600,
+            "fontSize": 17,
+            "lineHeightPx": 24,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.06,
+              "g": 0.07,
+              "b": 0.07
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "TEXT",
+        "name": "Location Chevron",
+        "position": {
+          "x": 200,
+          "y": 18
+        },
+        "size": {
+          "width": 18,
+          "height": 24
+        },
+        "text": {
+          "characters": "v",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 500,
+            "fontSize": 13,
+            "lineHeightPx": 24,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.28,
+              "g": 0.29,
+              "b": 0.28
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "SVG",
+        "name": "Notification Icon",
+        "position": {
+          "x": 226,
+          "y": 18
+        },
+        "size": {
+          "width": 24,
+          "height": 24
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#555856\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M18 8a6 6 0 1 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9\"/><path d=\"M10 21h4\"/></svg>"
+      },
+      {
+        "type": "RECTANGLE",
+        "name": "Notification Dot",
+        "position": {
+          "x": 242,
+          "y": 17
+        },
+        "size": {
+          "width": 7,
+          "height": 7
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.91,
+              "g": 0.08,
+              "b": 0.08
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 4
+      },
+      {
+        "type": "SVG",
+        "name": "Panel Toggle Icon",
+        "position": {
+          "x": 260,
+          "y": 18
+        },
+        "size": {
+          "width": 24,
+          "height": 24
+        },
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#555856\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"4\" y=\"5\" width=\"16\" height=\"14\" rx=\"2\"/><path d=\"M12 5v14\"/></svg>"
+      },
+      {
+        "type": "FRAME",
+        "name": "Search Field",
+        "position": {
+          "x": 10,
+          "y": 82
+        },
+        "size": {
+          "width": 272,
+          "height": 42
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.87,
+              "g": 0.87,
+              "b": 0.85
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 9,
+        "children": [
+          {
+            "type": "SVG",
+            "name": "Search Icon",
+            "position": {
+              "x": 14,
+              "y": 9
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#555856\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"/><path d=\"m16 16 4 4\"/></svg>"
+          },
+          {
+            "type": "TEXT",
+            "name": "Search Placeholder",
+            "position": {
+              "x": 48,
+              "y": 10
+            },
+            "size": {
+              "width": 110,
+              "height": 22
+            },
+            "text": {
+              "characters": "Search",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 16,
+                "lineHeightPx": 22,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.29,
+                  "g": 0.3,
+                  "b": 0.29
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Shortcut",
+            "position": {
+              "x": 226,
+              "y": 10
+            },
+            "size": {
+              "width": 36,
+              "height": 22
+            },
+            "text": {
+              "characters": "⌘S",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.28,
+                  "g": 0.29,
+                  "b": 0.28
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Home Item",
+        "position": {
+          "x": 10,
+          "y": 142
+        },
+        "size": {
+          "width": 272,
+          "height": 44
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.93,
+              "g": 0.93,
+              "b": 0.91
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 0,
+        "children": [
+          {
+            "type": "SVG",
+            "name": "Home Icon",
+            "position": {
+              "x": 10,
+              "y": 10
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#555856\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 10.5 12 3l9 7.5\"/><path d=\"M5.5 9.5V21h13V9.5\"/><path d=\"M9.5 21v-6h5v6\"/></svg>"
+          },
+          {
+            "type": "TEXT",
+            "name": "Home Text",
+            "position": {
+              "x": 44,
+              "y": 10
+            },
+            "size": {
+              "width": 180,
+              "height": 24
+            },
+            "text": {
+              "characters": "Home",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 17,
+                "lineHeightPx": 24,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.28,
+                  "g": 0.29,
+                  "b": 0.28
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "TEXT",
+        "name": "Workspace Label",
+        "position": {
+          "x": 20,
+          "y": 204
+        },
+        "size": {
+          "width": 120,
+          "height": 18
+        },
+        "text": {
+          "characters": "WORKSPACE",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 500,
+            "fontSize": 12,
+            "lineHeightPx": 18,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.36,
+              "g": 0.37,
+              "b": 0.36
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Appointment Active Item",
+        "position": {
+          "x": 10,
+          "y": 230
+        },
+        "size": {
+          "width": 272,
+          "height": 44
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 8,
+        "children": [
+          {
+            "type": "SVG",
+            "name": "Appointment Icon",
+            "position": {
+              "x": 10,
+              "y": 10
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#0bb0c9\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"4\" y=\"5\" width=\"16\" height=\"15\" rx=\"3\"/><path d=\"M8 3v4M16 3v4M4 10h16\"/><path d=\"M8 14h2M12 14h2M16 14h2M8 17h2M12 17h2\"/></svg>"
+          },
+          {
+            "type": "TEXT",
+            "name": "Appointment Text",
+            "position": {
+              "x": 44,
+              "y": 10
+            },
+            "size": {
+              "width": 180,
+              "height": 24
+            },
+            "text": {
+              "characters": "Appointment",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 600,
+                "fontSize": 17,
+                "lineHeightPx": 24,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03,
+                  "g": 0.14,
+                  "b": 0.15
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Sales Item",
+        "position": {
+          "x": 10,
+          "y": 274
+        },
+        "size": {
+          "width": 272,
+          "height": 44
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.93,
+              "g": 0.93,
+              "b": 0.91
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 0,
+        "children": [
+          {
+            "type": "SVG",
+            "name": "Sales Icon",
+            "position": {
+              "x": 10,
+              "y": 10
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#555856\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 13 13 20 4 11V4h7l9 9Z\"/><circle cx=\"8.5\" cy=\"8.5\" r=\"1.2\"/></svg>"
+          },
+          {
+            "type": "TEXT",
+            "name": "Sales Text",
+            "position": {
+              "x": 44,
+              "y": 10
+            },
+            "size": {
+              "width": 180,
+              "height": 24
+            },
+            "text": {
+              "characters": "Sales",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 17,
+                "lineHeightPx": 24,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.28,
+                  "g": 0.29,
+                  "b": 0.28
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Customers Item",
+        "position": {
+          "x": 10,
+          "y": 318
+        },
+        "size": {
+          "width": 272,
+          "height": 44
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.93,
+              "g": 0.93,
+              "b": 0.91
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 0,
+        "children": [
+          {
+            "type": "SVG",
+            "name": "Customers Icon",
+            "position": {
+              "x": 10,
+              "y": 10
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#555856\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M16 21v-2a4 4 0 0 0-8 0v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"/><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"/><path d=\"M2 21v-2a4 4 0 0 1 3-3.87\"/><path d=\"M8 3.13a4 4 0 0 0 0 7.75\"/></svg>"
+          },
+          {
+            "type": "TEXT",
+            "name": "Customers Text",
+            "position": {
+              "x": 44,
+              "y": 10
+            },
+            "size": {
+              "width": 180,
+              "height": 24
+            },
+            "text": {
+              "characters": "Customers",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 17,
+                "lineHeightPx": 24,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.28,
+                  "g": 0.29,
+                  "b": 0.28
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Report Item",
+        "position": {
+          "x": 10,
+          "y": 362
+        },
+        "size": {
+          "width": 272,
+          "height": 44
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.93,
+              "g": 0.93,
+              "b": 0.91
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 0,
+        "children": [
+          {
+            "type": "SVG",
+            "name": "Report Icon",
+            "position": {
+              "x": 10,
+              "y": 10
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#555856\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><path d=\"M8 16v-4M12 16V8M16 16v-7\"/></svg>"
+          },
+          {
+            "type": "TEXT",
+            "name": "Report Text",
+            "position": {
+              "x": 44,
+              "y": 10
+            },
+            "size": {
+              "width": 180,
+              "height": 24
+            },
+            "text": {
+              "characters": "Report",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 17,
+                "lineHeightPx": 24,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.28,
+                  "g": 0.29,
+                  "b": 0.28
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "TEXT",
+        "name": "Catalog Label",
+        "position": {
+          "x": 20,
+          "y": 438
+        },
+        "size": {
+          "width": 120,
+          "height": 18
+        },
+        "text": {
+          "characters": "CATALOG",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 500,
+            "fontSize": 12,
+            "lineHeightPx": 18,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.36,
+              "g": 0.37,
+              "b": 0.36
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Services Item",
+        "position": {
+          "x": 10,
+          "y": 458
+        },
+        "size": {
+          "width": 272,
+          "height": 44
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.93,
+              "g": 0.93,
+              "b": 0.91
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 0,
+        "children": [
+          {
+            "type": "SVG",
+            "name": "Services Icon",
+            "position": {
+              "x": 10,
+              "y": 10
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#555856\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"6\" cy=\"7\" r=\"3\"/><circle cx=\"6\" cy=\"17\" r=\"3\"/><path d=\"M8.6 8.8 20 4M8.6 15.2 20 20\"/></svg>"
+          },
+          {
+            "type": "TEXT",
+            "name": "Services Text",
+            "position": {
+              "x": 44,
+              "y": 10
+            },
+            "size": {
+              "width": 180,
+              "height": 24
+            },
+            "text": {
+              "characters": "Services",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 17,
+                "lineHeightPx": 24,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.28,
+                  "g": 0.29,
+                  "b": 0.28
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Products Item",
+        "position": {
+          "x": 10,
+          "y": 502
+        },
+        "size": {
+          "width": 272,
+          "height": 44
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.93,
+              "g": 0.93,
+              "b": 0.91
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 0,
+        "children": [
+          {
+            "type": "SVG",
+            "name": "Products Icon",
+            "position": {
+              "x": 10,
+              "y": 10
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#555856\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 8.5 12 4l8 4.5v7L12 20l-8-4.5v-7Z\"/><path d=\"M4.5 9 12 13.2 19.5 9\"/><path d=\"M12 13.2V20\"/></svg>"
+          },
+          {
+            "type": "TEXT",
+            "name": "Products Text",
+            "position": {
+              "x": 44,
+              "y": 10
+            },
+            "size": {
+              "width": 180,
+              "height": 24
+            },
+            "text": {
+              "characters": "Products",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 17,
+                "lineHeightPx": 24,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.28,
+                  "g": 0.29,
+                  "b": 0.28
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Packages Item",
+        "position": {
+          "x": 10,
+          "y": 546
+        },
+        "size": {
+          "width": 272,
+          "height": 44
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.93,
+              "g": 0.93,
+              "b": 0.91
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 0,
+        "children": [
+          {
+            "type": "SVG",
+            "name": "Packages Icon",
+            "position": {
+              "x": 10,
+              "y": 10
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#555856\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3.5\" y=\"6\" width=\"17\" height=\"14\" rx=\"2\"/><path d=\"M3.5 10h17M8 6v14M16 6v14\"/></svg>"
+          },
+          {
+            "type": "TEXT",
+            "name": "Packages Text",
+            "position": {
+              "x": 44,
+              "y": 10
+            },
+            "size": {
+              "width": 180,
+              "height": 24
+            },
+            "text": {
+              "characters": "Packages",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 17,
+                "lineHeightPx": 24,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.28,
+                  "g": 0.29,
+                  "b": 0.28
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "TEXT",
+        "name": "Company Label",
+        "position": {
+          "x": 20,
+          "y": 623
+        },
+        "size": {
+          "width": 120,
+          "height": 18
+        },
+        "text": {
+          "characters": "COMPANY",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 500,
+            "fontSize": 12,
+            "lineHeightPx": 18,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.36,
+              "g": 0.37,
+              "b": 0.36
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Staff Item",
+        "position": {
+          "x": 10,
+          "y": 643
+        },
+        "size": {
+          "width": 272,
+          "height": 44
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.93,
+              "g": 0.93,
+              "b": 0.91
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 0,
+        "children": [
+          {
+            "type": "SVG",
+            "name": "Staff Icon",
+            "position": {
+              "x": 10,
+              "y": 10
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#555856\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"9\" cy=\"8\" r=\"3\"/><path d=\"M3.5 20a5.5 5.5 0 0 1 11 0\"/><path d=\"M17 8v6M14 11h6\"/></svg>"
+          },
+          {
+            "type": "TEXT",
+            "name": "Staff Text",
+            "position": {
+              "x": 44,
+              "y": 10
+            },
+            "size": {
+              "width": 180,
+              "height": 24
+            },
+            "text": {
+              "characters": "Staff",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 17,
+                "lineHeightPx": 24,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.28,
+                  "g": 0.29,
+                  "b": 0.28
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Marketing Item",
+        "position": {
+          "x": 10,
+          "y": 687
+        },
+        "size": {
+          "width": 272,
+          "height": 44
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.93,
+              "g": 0.93,
+              "b": 0.91
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 0,
+        "children": [
+          {
+            "type": "SVG",
+            "name": "Marketing Icon",
+            "position": {
+              "x": 10,
+              "y": 10
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#555856\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 13h3l9 4V7l-9 4H4v2Z\"/><path d=\"M7 13v5\"/><path d=\"M18 9.5a4 4 0 0 1 0 5\"/></svg>"
+          },
+          {
+            "type": "TEXT",
+            "name": "Marketing Text",
+            "position": {
+              "x": 44,
+              "y": 10
+            },
+            "size": {
+              "width": 180,
+              "height": 24
+            },
+            "text": {
+              "characters": "Marketing",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 17,
+                "lineHeightPx": 24,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.28,
+                  "g": 0.29,
+                  "b": 0.28
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Website Item",
+        "position": {
+          "x": 10,
+          "y": 731
+        },
+        "size": {
+          "width": 272,
+          "height": 44
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.93,
+              "g": 0.93,
+              "b": 0.91
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 0,
+        "children": [
+          {
+            "type": "SVG",
+            "name": "Website Icon",
+            "position": {
+              "x": 10,
+              "y": 10
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#555856\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"4\" y=\"5\" width=\"16\" height=\"14\" rx=\"2\"/><path d=\"M4 9h16\"/><path d=\"M8 5v4\"/></svg>"
+          },
+          {
+            "type": "TEXT",
+            "name": "Website Text",
+            "position": {
+              "x": 44,
+              "y": 10
+            },
+            "size": {
+              "width": 180,
+              "height": 24
+            },
+            "text": {
+              "characters": "Website",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 17,
+                "lineHeightPx": 24,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.28,
+                  "g": 0.29,
+                  "b": 0.28
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Integration Item",
+        "position": {
+          "x": 10,
+          "y": 775
+        },
+        "size": {
+          "width": 272,
+          "height": 44
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.93,
+              "g": 0.93,
+              "b": 0.91
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 0,
+        "children": [
+          {
+            "type": "SVG",
+            "name": "Integration Icon",
+            "position": {
+              "x": 10,
+              "y": 10
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#555856\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 7v5h-5\"/><path d=\"M4 17v-5h5\"/><path d=\"M18 12a6 6 0 0 0-10.5-4\"/><path d=\"M6 12a6 6 0 0 0 10.5 4\"/></svg>"
+          },
+          {
+            "type": "TEXT",
+            "name": "Integration Text",
+            "position": {
+              "x": 44,
+              "y": 10
+            },
+            "size": {
+              "width": 180,
+              "height": 24
+            },
+            "text": {
+              "characters": "Integration",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 17,
+                "lineHeightPx": 24,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.28,
+                  "g": 0.29,
+                  "b": 0.28
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Footer",
+        "position": {
+          "x": 10,
+          "y": 1112
+        },
+        "size": {
+          "width": 272,
+          "height": 36
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.93,
+              "g": 0.93,
+              "b": 0.91
+            },
+            "opacity": 1
+          }
+        ],
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Invite Button",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 138,
+              "height": 36
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 10
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Tutorials Button",
+            "position": {
+              "x": 148,
+              "y": 0
+            },
+            "size": {
+              "width": 124,
+              "height": 36
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 10
+          },
+          {
+            "type": "SVG",
+            "name": "Invite Check Icon",
+            "position": {
+              "x": 34,
+              "y": 9
+            },
+            "size": {
+              "width": 18,
+              "height": 18
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#555856\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"8\"/><path d=\"m8.5 12 2.2 2.2 4.8-5\"/></svg>"
+          },
+          {
+            "type": "SVG",
+            "name": "Tutorials Check Icon",
+            "position": {
+              "x": 172,
+              "y": 9
+            },
+            "size": {
+              "width": 18,
+              "height": 18
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#555856\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"8\"/><path d=\"m8.5 12 2.2 2.2 4.8-5\"/></svg>"
+          },
+          {
+            "type": "TEXT",
+            "name": "Invite Label",
+            "position": {
+              "x": 58,
+              "y": 8
+            },
+            "size": {
+              "width": 54,
+              "height": 20
+            },
+            "text": {
+              "characters": "Invite",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 16,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.08,
+                  "g": 0.09,
+                  "b": 0.09
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Tutorials Label",
+            "position": {
+              "x": 196,
+              "y": 8
+            },
+            "size": {
+              "width": 72,
+              "height": 20
+            },
+            "text": {
+              "characters": "Tutorials",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 16,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.08,
+                  "g": 0.09,
+                  "b": 0.09
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

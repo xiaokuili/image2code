@@ -1,0 +1,270 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://image2figma.local/schema/image2figma.schema.json",
+  "title": "image2figma",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "page", "root"],
+  "properties": {
+    "schema": {
+      "enum": ["image2figma.v1", "image2figma.v4", "image2figma.v5"]
+    },
+    "meta": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "page": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "background": {
+          "$ref": "#/$defs/rgba"
+        }
+      }
+    },
+    "root": {
+      "$ref": "#/$defs/frameNode"
+    }
+  },
+  "$defs": {
+    "node": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/frameNode"
+        },
+        {
+          "$ref": "#/$defs/textNode"
+        },
+        {
+          "$ref": "#/$defs/rectangleNode"
+        },
+        {
+          "$ref": "#/$defs/imageNode"
+        },
+        {
+          "$ref": "#/$defs/svgNode"
+        }
+      ]
+    },
+    "frameNode": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "name"],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "const": "FRAME"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "position": {
+          "$ref": "#/$defs/position"
+        },
+        "size": {
+          "$ref": "#/$defs/size"
+        },
+        "layout": {
+          "$ref": "#/$defs/layout"
+        },
+        "fills": {
+          "$ref": "#/$defs/paints"
+        },
+        "strokes": {
+          "$ref": "#/$defs/paints"
+        },
+        "strokeWeight": {
+          "type": "number",
+          "minimum": 0
+        },
+        "cornerRadius": {
+          "type": "number",
+          "minimum": 0
+        },
+        "effects": {
+          "$ref": "#/$defs/effects"
+        },
+        "layoutAlign": {
+          "$ref": "#/$defs/layoutAlign"
+        },
+        "children": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/node"
+          }
+        }
+      }
+    },
+    "textNode": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "name", "text"],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "const": "TEXT"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "position": {
+          "$ref": "#/$defs/position"
+        },
+        "size": {
+          "$ref": "#/$defs/size"
+        },
+        "text": {
+          "$ref": "#/$defs/text"
+        },
+        "fills": {
+          "$ref": "#/$defs/paints"
+        },
+        "strokes": {
+          "$ref": "#/$defs/paints"
+        },
+        "strokeWeight": {
+          "type": "number",
+          "minimum": 0
+        },
+        "effects": {
+          "$ref": "#/$defs/effects"
+        },
+        "layoutAlign": {
+          "$ref": "#/$defs/layoutAlign"
+        }
+      }
+    },
+    "rectangleNode": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "name"],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "const": "RECTANGLE"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "position": {
+          "$ref": "#/$defs/position"
+        },
+        "size": {
+          "$ref": "#/$defs/size"
+        },
+        "fills": {
+          "$ref": "#/$defs/paints"
+        },
+        "strokes": {
+          "$ref": "#/$defs/paints"
+        },
+        "strokeWeight": {
+          "type": "number",
+          "minimum": 0
+        },
+        "cornerRadius": {
+          "type": "number",
+          "minimum": 0
+        },
+        "effects": {
+          "$ref": "#/$defs/effects"
+        },
+        "layoutAlign": {
+          "$ref": "#/$defs/layoutAlign"
+        }
+      }
+    },
+    "imageNode": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "name"],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "const": "IMAGE"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "position": {
+          "$ref": "#/$defs/position"
+        },
+        "size": {
+          "$ref": "#/$defs/size"
+        },
+        "assetRef": {
+          "type": "string"
+        },
+        "placeholder": {
+          "type": "string"
+        },
+        "fills": {
+          "$ref": "#/$defs/paints"
+        },
+        "strokes": {
+          "$ref": "#/$defs/paints"
+        },
+        "strokeWeight": {
+          "type": "number",
+          "minimum": 0
+        },
+        "cornerRadius": {
+          "type": "number",
+          "minimum": 0
+        },
+        "effects": {
+          "$ref": "#/$defs/effects"
+        },
+        "layoutAlign": {
+          "$ref": "#/$defs/layoutAlign"
+        }
+      }
+    },
+    "svgNode": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "name", "svg"],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "const": "SVG"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "position": {
+          "$ref": "#/$defs/position"
+        },
+        "size": {
+          "$ref": "#/$defs/size"
+        },
+        "svg": {
+          "type": "string"
+        },
+        "layoutAlign": {
+          "$ref": "#/$defs/layoutAlign"
+        }
+      }
+    }
+  }
+}

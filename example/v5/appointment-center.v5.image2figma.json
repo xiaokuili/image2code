@@ -1,0 +1,5311 @@
+{
+  "schema": "image2figma.v5",
+  "meta": {
+    "name": "Appointment Center V5",
+    "generator": "codex-image2figma",
+    "sourceImage": "../appointment-waitlist.webp",
+    "component": "appointment-center",
+    "method": "component split then assembled",
+    "fidelityTarget": "1:1 visual approximation with editable text, rectangles, and SVG icons"
+  },
+  "page": {
+    "name": "Appointment Center V5",
+    "background": {
+      "r": 0.82,
+      "g": 0.82,
+      "b": 0.79,
+      "a": 1
+    }
+  },
+  "root": {
+    "type": "FRAME",
+    "name": "Appointment Center Shell",
+    "size": {
+      "width": 1034,
+      "height": 1150
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "opacity": 1
+      }
+    ],
+    "cornerRadius": 20,
+    "children": [
+      {
+        "type": "FRAME",
+        "name": "Header And Toolbar",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "size": {
+          "width": 1034,
+          "height": 132
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 0,
+        "children": [
+          {
+            "type": "TEXT",
+            "name": "Page Title",
+            "position": {
+              "x": 30,
+              "y": 25
+            },
+            "size": {
+              "width": 220,
+              "height": 34
+            },
+            "text": {
+              "characters": "Appointment",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 26,
+                "lineHeightPx": 34,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Today Button",
+            "position": {
+              "x": 30,
+              "y": 82
+            },
+            "size": {
+              "width": 68,
+              "height": 36
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 9,
+            "strokes": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8980392156862745,
+                  "g": 0.9019607843137255,
+                  "b": 0.8901960784313725
+                },
+                "opacity": 1
+              }
+            ],
+            "strokeWeight": 1
+          },
+          {
+            "type": "TEXT",
+            "name": "Today Text",
+            "position": {
+              "x": 40,
+              "y": 90
+            },
+            "size": {
+              "width": 48,
+              "height": 20
+            },
+            "text": {
+              "characters": "Today",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 16,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "CENTER"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.0392156862745098,
+                  "g": 0.0392156862745098,
+                  "b": 0.0392156862745098
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Month Label",
+            "position": {
+              "x": 118,
+              "y": 90
+            },
+            "size": {
+              "width": 106,
+              "height": 24
+            },
+            "text": {
+              "characters": "Jan 2024",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 600,
+                "fontSize": 18,
+                "lineHeightPx": 24,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.0392156862745098,
+                  "g": 0.0392156862745098,
+                  "b": 0.0392156862745098
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Prev Button",
+            "position": {
+              "x": 218,
+              "y": 84
+            },
+            "size": {
+              "width": 30,
+              "height": 30
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 15,
+            "strokes": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8980392156862745,
+                  "g": 0.9019607843137255,
+                  "b": 0.8901960784313725
+                },
+                "opacity": 1
+              }
+            ],
+            "strokeWeight": 1
+          },
+          {
+            "type": "SVG",
+            "name": "Prev Icon",
+            "position": {
+              "x": 221,
+              "y": 87
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#6b6c68\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m15 18-6-6 6-6\"/></svg>"
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Next Button",
+            "position": {
+              "x": 252,
+              "y": 84
+            },
+            "size": {
+              "width": 30,
+              "height": 30
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 15,
+            "strokes": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8980392156862745,
+                  "g": 0.9019607843137255,
+                  "b": 0.8901960784313725
+                },
+                "opacity": 1
+              }
+            ],
+            "strokeWeight": 1
+          },
+          {
+            "type": "SVG",
+            "name": "Next Icon",
+            "position": {
+              "x": 255,
+              "y": 87
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#6b6c68\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m9 18 6-6-6-6\"/></svg>"
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Toolbar Divider",
+            "position": {
+              "x": 304,
+              "y": 85
+            },
+            "size": {
+              "width": 1,
+              "height": 32
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9058823529411765,
+                  "g": 0.9098039215686274,
+                  "b": 0.9019607843137255
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "FRAME",
+            "name": "View Switch",
+            "position": {
+              "x": 324,
+              "y": 82
+            },
+            "size": {
+              "width": 288,
+              "height": 36
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9411764705882353,
+                  "g": 0.9411764705882353,
+                  "b": 0.9333333333333333
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 9,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Week Active Pill",
+                "position": {
+                  "x": 74,
+                  "y": 2
+                },
+                "size": {
+                  "width": 70,
+                  "height": 32
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.9725490196078431,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 8
+              },
+              {
+                "type": "TEXT",
+                "name": "Day",
+                "position": {
+                  "x": 22,
+                  "y": 8
+                },
+                "size": {
+                  "width": 35,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Day",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 15,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.29411764705882354,
+                      "g": 0.2980392156862745,
+                      "b": 0.28627450980392155
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Week",
+                "position": {
+                  "x": 86,
+                  "y": 8
+                },
+                "size": {
+                  "width": 48,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Week",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 600,
+                    "fontSize": 15,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0,
+                      "g": 0.42745098039215684,
+                      "b": 0.45098039215686275
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Month",
+                "position": {
+                  "x": 154,
+                  "y": 8
+                },
+                "size": {
+                  "width": 56,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Month",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 15,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.29411764705882354,
+                      "g": 0.2980392156862745,
+                      "b": 0.28627450980392155
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Staff",
+                "position": {
+                  "x": 228,
+                  "y": 8
+                },
+                "size": {
+                  "width": 42,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Staff",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 15,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.29411764705882354,
+                      "g": 0.2980392156862745,
+                      "b": 0.28627450980392155
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Status Filter",
+            "position": {
+              "x": 632,
+              "y": 82
+            },
+            "size": {
+              "width": 150,
+              "height": 36
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 9,
+            "strokes": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8980392156862745,
+                  "g": 0.9019607843137255,
+                  "b": 0.8901960784313725
+                },
+                "opacity": 1
+              }
+            ],
+            "strokeWeight": 1
+          },
+          {
+            "type": "SVG",
+            "name": "Status Icon",
+            "position": {
+              "x": 642,
+              "y": 88
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#6b6c68\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"8\"/><path d=\"m8.5 12 2.2 2.2 4.8-5\"/></svg>"
+          },
+          {
+            "type": "TEXT",
+            "name": "Status Text",
+            "position": {
+              "x": 672,
+              "y": 90
+            },
+            "size": {
+              "width": 88,
+              "height": 20
+            },
+            "text": {
+              "characters": "All status",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 15,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.1607843137254902,
+                  "g": 0.16470588235294117,
+                  "b": 0.1568627450980392
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "SVG",
+            "name": "Status Chevron",
+            "position": {
+              "x": 752,
+              "y": 88
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#6b6c68\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m9 18 6-6-6-6\"/></svg>"
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Staff Filter",
+            "position": {
+              "x": 800,
+              "y": 82
+            },
+            "size": {
+              "width": 136,
+              "height": 36
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 9,
+            "strokes": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8980392156862745,
+                  "g": 0.9019607843137255,
+                  "b": 0.8901960784313725
+                },
+                "opacity": 1
+              }
+            ],
+            "strokeWeight": 1
+          },
+          {
+            "type": "SVG",
+            "name": "Staff Icon",
+            "position": {
+              "x": 810,
+              "y": 88
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#6b6c68\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M16 21v-2a4 4 0 0 0-8 0v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"/></svg>"
+          },
+          {
+            "type": "TEXT",
+            "name": "Staff Text",
+            "position": {
+              "x": 838,
+              "y": 90
+            },
+            "size": {
+              "width": 76,
+              "height": 20
+            },
+            "text": {
+              "characters": "All staff",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 15,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.1607843137254902,
+                  "g": 0.16470588235294117,
+                  "b": 0.1568627450980392
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "SVG",
+            "name": "Staff Chevron",
+            "position": {
+              "x": 906,
+              "y": 88
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#6b6c68\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m9 18 6-6-6-6\"/></svg>"
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Metric Cards",
+        "position": {
+          "x": 30,
+          "y": 144
+        },
+        "size": {
+          "width": 1082,
+          "height": 126
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 0,
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "Total Appointment Card",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 350,
+              "height": 126
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.984313725490196,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 13,
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "Total Appointment Card Title",
+                "position": {
+                  "x": 20,
+                  "y": 18
+                },
+                "size": {
+                  "width": 210,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "Total Appointment",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 15,
+                    "lineHeightPx": 22,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06666666666666667,
+                      "g": 0.06666666666666667,
+                      "b": 0.06666666666666667
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "SVG",
+                "name": "Total Appointment Card Info",
+                "position": {
+                  "x": 190,
+                  "y": 17
+                },
+                "size": {
+                  "width": 18,
+                  "height": 18
+                },
+                "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#747672\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 11v5\"/><path d=\"M12 8h.01\"/></svg>"
+              },
+              {
+                "type": "TEXT",
+                "name": "Total Appointment Card Subtitle",
+                "position": {
+                  "x": 20,
+                  "y": 42
+                },
+                "size": {
+                  "width": 120,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Last 7 days",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 400,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.4666666666666667,
+                      "g": 0.47058823529411764,
+                      "b": 0.45098039215686275
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Total Appointment Card Value",
+                "position": {
+                  "x": 20,
+                  "y": 78
+                },
+                "size": {
+                  "width": 90,
+                  "height": 34
+                },
+                "text": {
+                  "characters": "140",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 28,
+                    "lineHeightPx": 34,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.027450980392156862,
+                      "g": 0.03137254901960784,
+                      "b": 0.03137254901960784
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "RECTANGLE",
+                "name": "Total Appointment Card Badge",
+                "position": {
+                  "x": 198,
+                  "y": 82
+                },
+                "size": {
+                  "width": 42,
+                  "height": 22
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6823529411764706,
+                      "g": 0.9372549019607843,
+                      "b": 0.9450980392156862
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 10
+              },
+              {
+                "type": "TEXT",
+                "name": "Total Appointment Card Badge Text",
+                "position": {
+                  "x": 203,
+                  "y": 84
+                },
+                "size": {
+                  "width": 32,
+                  "height": 18
+                },
+                "text": {
+                  "characters": "+12%",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 13,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0,
+                      "g": 0.4,
+                      "b": 0.4196078431372549
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Total Appointment Card Compare",
+                "position": {
+                  "x": 250,
+                  "y": 84
+                },
+                "size": {
+                  "width": 86,
+                  "height": 18
+                },
+                "text": {
+                  "characters": "vs last week",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 400,
+                    "fontSize": 13,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.4666666666666667,
+                      "g": 0.47058823529411764,
+                      "b": 0.45098039215686275
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ],
+            "strokes": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8980392156862745,
+                  "g": 0.9019607843137255,
+                  "b": 0.8901960784313725
+                },
+                "opacity": 1
+              }
+            ],
+            "strokeWeight": 1
+          },
+          {
+            "type": "FRAME",
+            "name": "Completed Appointment Card",
+            "position": {
+              "x": 366,
+              "y": 0
+            },
+            "size": {
+              "width": 350,
+              "height": 126
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.984313725490196,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 13,
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "Completed Appointment Card Title",
+                "position": {
+                  "x": 20,
+                  "y": 18
+                },
+                "size": {
+                  "width": 210,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "Compl. Appointment",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 15,
+                    "lineHeightPx": 22,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06666666666666667,
+                      "g": 0.06666666666666667,
+                      "b": 0.06666666666666667
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "SVG",
+                "name": "Completed Appointment Card Info",
+                "position": {
+                  "x": 190,
+                  "y": 17
+                },
+                "size": {
+                  "width": 18,
+                  "height": 18
+                },
+                "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#747672\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 11v5\"/><path d=\"M12 8h.01\"/></svg>"
+              },
+              {
+                "type": "TEXT",
+                "name": "Completed Appointment Card Subtitle",
+                "position": {
+                  "x": 20,
+                  "y": 42
+                },
+                "size": {
+                  "width": 120,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Last 7 days",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 400,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.4666666666666667,
+                      "g": 0.47058823529411764,
+                      "b": 0.45098039215686275
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Completed Appointment Card Value",
+                "position": {
+                  "x": 20,
+                  "y": 78
+                },
+                "size": {
+                  "width": 90,
+                  "height": 34
+                },
+                "text": {
+                  "characters": "85%",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 28,
+                    "lineHeightPx": 34,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.027450980392156862,
+                      "g": 0.03137254901960784,
+                      "b": 0.03137254901960784
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "RECTANGLE",
+                "name": "Completed Appointment Card Badge",
+                "position": {
+                  "x": 198,
+                  "y": 82
+                },
+                "size": {
+                  "width": 42,
+                  "height": 22
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6823529411764706,
+                      "g": 0.9372549019607843,
+                      "b": 0.9450980392156862
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 10
+              },
+              {
+                "type": "TEXT",
+                "name": "Completed Appointment Card Badge Text",
+                "position": {
+                  "x": 203,
+                  "y": 84
+                },
+                "size": {
+                  "width": 32,
+                  "height": 18
+                },
+                "text": {
+                  "characters": "+12%",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 13,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0,
+                      "g": 0.4,
+                      "b": 0.4196078431372549
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Completed Appointment Card Compare",
+                "position": {
+                  "x": 250,
+                  "y": 84
+                },
+                "size": {
+                  "width": 86,
+                  "height": 18
+                },
+                "text": {
+                  "characters": "vs last week",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 400,
+                    "fontSize": 13,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.4666666666666667,
+                      "g": 0.47058823529411764,
+                      "b": 0.45098039215686275
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ],
+            "strokes": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8980392156862745,
+                  "g": 0.9019607843137255,
+                  "b": 0.8901960784313725
+                },
+                "opacity": 1
+              }
+            ],
+            "strokeWeight": 1
+          },
+          {
+            "type": "FRAME",
+            "name": "No Show Appointment Card",
+            "position": {
+              "x": 732,
+              "y": 0
+            },
+            "size": {
+              "width": 350,
+              "height": 126
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.984313725490196,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 13,
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "No Show Appointment Card Title",
+                "position": {
+                  "x": 20,
+                  "y": 18
+                },
+                "size": {
+                  "width": 210,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "No Show Appointment",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 15,
+                    "lineHeightPx": 22,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06666666666666667,
+                      "g": 0.06666666666666667,
+                      "b": 0.06666666666666667
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "SVG",
+                "name": "No Show Appointment Card Info",
+                "position": {
+                  "x": 190,
+                  "y": 17
+                },
+                "size": {
+                  "width": 18,
+                  "height": 18
+                },
+                "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#747672\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 11v5\"/><path d=\"M12 8h.01\"/></svg>"
+              },
+              {
+                "type": "TEXT",
+                "name": "No Show Appointment Card Subtitle",
+                "position": {
+                  "x": 20,
+                  "y": 42
+                },
+                "size": {
+                  "width": 120,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Last 7 days",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 400,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.4666666666666667,
+                      "g": 0.47058823529411764,
+                      "b": 0.45098039215686275
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "No Show Appointment Card Value",
+                "position": {
+                  "x": 20,
+                  "y": 78
+                },
+                "size": {
+                  "width": 90,
+                  "height": 34
+                },
+                "text": {
+                  "characters": "7%",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 28,
+                    "lineHeightPx": 34,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.027450980392156862,
+                      "g": 0.03137254901960784,
+                      "b": 0.03137254901960784
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "RECTANGLE",
+                "name": "No Show Appointment Card Badge",
+                "position": {
+                  "x": 198,
+                  "y": 82
+                },
+                "size": {
+                  "width": 42,
+                  "height": 22
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1,
+                      "g": 0.8509803921568627,
+                      "b": 0.9215686274509803
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 10
+              },
+              {
+                "type": "TEXT",
+                "name": "No Show Appointment Card Badge Text",
+                "position": {
+                  "x": 203,
+                  "y": 84
+                },
+                "size": {
+                  "width": 32,
+                  "height": 18
+                },
+                "text": {
+                  "characters": "+12%",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 13,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0,
+                      "g": 0.4,
+                      "b": 0.4196078431372549
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "No Show Appointment Card Compare",
+                "position": {
+                  "x": 250,
+                  "y": 84
+                },
+                "size": {
+                  "width": 86,
+                  "height": 18
+                },
+                "text": {
+                  "characters": "vs last week",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 400,
+                    "fontSize": 13,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.4666666666666667,
+                      "g": 0.47058823529411764,
+                      "b": 0.45098039215686275
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ],
+            "strokes": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8980392156862745,
+                  "g": 0.9019607843137255,
+                  "b": 0.8901960784313725
+                },
+                "opacity": 1
+              }
+            ],
+            "strokeWeight": 1
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Calendar Grid Lines",
+        "position": {
+          "x": 0,
+          "y": 292
+        },
+        "size": {
+          "width": 1034,
+          "height": 858
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 0,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Column Divider",
+            "position": {
+              "x": 56,
+              "y": 0
+            },
+            "size": {
+              "width": 1,
+              "height": 858
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9254901960784314,
+                  "g": 0.9254901960784314,
+                  "b": 0.9176470588235294
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Column Divider",
+            "position": {
+              "x": 258,
+              "y": 0
+            },
+            "size": {
+              "width": 1,
+              "height": 858
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9254901960784314,
+                  "g": 0.9254901960784314,
+                  "b": 0.9176470588235294
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Column Divider",
+            "position": {
+              "x": 460,
+              "y": 0
+            },
+            "size": {
+              "width": 1,
+              "height": 858
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9254901960784314,
+                  "g": 0.9254901960784314,
+                  "b": 0.9176470588235294
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Column Divider",
+            "position": {
+              "x": 662,
+              "y": 0
+            },
+            "size": {
+              "width": 1,
+              "height": 858
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9254901960784314,
+                  "g": 0.9254901960784314,
+                  "b": 0.9176470588235294
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Column Divider",
+            "position": {
+              "x": 864,
+              "y": 0
+            },
+            "size": {
+              "width": 1,
+              "height": 858
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9254901960784314,
+                  "g": 0.9254901960784314,
+                  "b": 0.9176470588235294
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Column Divider",
+            "position": {
+              "x": 1032,
+              "y": 0
+            },
+            "size": {
+              "width": 1,
+              "height": 858
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9254901960784314,
+                  "g": 0.9254901960784314,
+                  "b": 0.9176470588235294
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 68
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 96
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 124
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 152
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 180
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 208
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 236
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 264
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 292
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 320
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 348
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 376
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 404
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 432
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 460
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 488
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 516
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 544
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 572
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 600
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 628
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 656
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 684
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 712
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 740
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 768
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Minor Time Line",
+            "position": {
+              "x": 0,
+              "y": 796
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9568627450980393,
+                  "g": 0.9568627450980393,
+                  "b": 0.9490196078431372
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Major Time Line",
+            "position": {
+              "x": 0,
+              "y": 68
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9137254901960784,
+                  "g": 0.9176470588235294,
+                  "b": 0.9058823529411765
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Major Time Line",
+            "position": {
+              "x": 0,
+              "y": 152
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9137254901960784,
+                  "g": 0.9176470588235294,
+                  "b": 0.9058823529411765
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Major Time Line",
+            "position": {
+              "x": 0,
+              "y": 236
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9137254901960784,
+                  "g": 0.9176470588235294,
+                  "b": 0.9058823529411765
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Major Time Line",
+            "position": {
+              "x": 0,
+              "y": 320
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9137254901960784,
+                  "g": 0.9176470588235294,
+                  "b": 0.9058823529411765
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Major Time Line",
+            "position": {
+              "x": 0,
+              "y": 404
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9137254901960784,
+                  "g": 0.9176470588235294,
+                  "b": 0.9058823529411765
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Major Time Line",
+            "position": {
+              "x": 0,
+              "y": 488
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9137254901960784,
+                  "g": 0.9176470588235294,
+                  "b": 0.9058823529411765
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Major Time Line",
+            "position": {
+              "x": 0,
+              "y": 572
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9137254901960784,
+                  "g": 0.9176470588235294,
+                  "b": 0.9058823529411765
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Major Time Line",
+            "position": {
+              "x": 0,
+              "y": 656
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9137254901960784,
+                  "g": 0.9176470588235294,
+                  "b": 0.9058823529411765
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Major Time Line",
+            "position": {
+              "x": 0,
+              "y": 740
+            },
+            "size": {
+              "width": 1034,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9137254901960784,
+                  "g": 0.9176470588235294,
+                  "b": 0.9058823529411765
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "TEXT",
+            "name": "GMT Label",
+            "position": {
+              "x": 4,
+              "y": 16
+            },
+            "size": {
+              "width": 48,
+              "height": 20
+            },
+            "text": {
+              "characters": "GMT +7",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 13,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.4666666666666667,
+                  "g": 0.47058823529411764,
+                  "b": 0.45098039215686275
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Time 09:00\nAM",
+            "position": {
+              "x": 8,
+              "y": 80
+            },
+            "size": {
+              "width": 42,
+              "height": 32
+            },
+            "text": {
+              "characters": "09:00\nAM",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 12,
+                "lineHeightPx": 16,
+                "textAlignHorizontal": "RIGHT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.5411764705882353,
+                  "g": 0.5450980392156862,
+                  "b": 0.5254901960784314
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Time 10:00\nAM",
+            "position": {
+              "x": 8,
+              "y": 154
+            },
+            "size": {
+              "width": 42,
+              "height": 32
+            },
+            "text": {
+              "characters": "10:00\nAM",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 12,
+                "lineHeightPx": 16,
+                "textAlignHorizontal": "RIGHT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.5411764705882353,
+                  "g": 0.5450980392156862,
+                  "b": 0.5254901960784314
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Time 11:30",
+            "position": {
+              "x": 8,
+              "y": 228
+            },
+            "size": {
+              "width": 42,
+              "height": 32
+            },
+            "text": {
+              "characters": "11:30",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 12,
+                "lineHeightPx": 16,
+                "textAlignHorizontal": "RIGHT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8470588235294118,
+                  "g": 0.12941176470588237,
+                  "b": 0.19607843137254902
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Time 12:00\nPM",
+            "position": {
+              "x": 8,
+              "y": 302
+            },
+            "size": {
+              "width": 42,
+              "height": 32
+            },
+            "text": {
+              "characters": "12:00\nPM",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 12,
+                "lineHeightPx": 16,
+                "textAlignHorizontal": "RIGHT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.5411764705882353,
+                  "g": 0.5450980392156862,
+                  "b": 0.5254901960784314
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Time 01:00\nPM",
+            "position": {
+              "x": 8,
+              "y": 376
+            },
+            "size": {
+              "width": 42,
+              "height": 32
+            },
+            "text": {
+              "characters": "01:00\nPM",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 12,
+                "lineHeightPx": 16,
+                "textAlignHorizontal": "RIGHT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.5411764705882353,
+                  "g": 0.5450980392156862,
+                  "b": 0.5254901960784314
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Time 02:00\nPM",
+            "position": {
+              "x": 8,
+              "y": 450
+            },
+            "size": {
+              "width": 42,
+              "height": 32
+            },
+            "text": {
+              "characters": "02:00\nPM",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 12,
+                "lineHeightPx": 16,
+                "textAlignHorizontal": "RIGHT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.5411764705882353,
+                  "g": 0.5450980392156862,
+                  "b": 0.5254901960784314
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Time 03:00\nPM",
+            "position": {
+              "x": 8,
+              "y": 524
+            },
+            "size": {
+              "width": 42,
+              "height": 32
+            },
+            "text": {
+              "characters": "03:00\nPM",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 12,
+                "lineHeightPx": 16,
+                "textAlignHorizontal": "RIGHT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.5411764705882353,
+                  "g": 0.5450980392156862,
+                  "b": 0.5254901960784314
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Time 04:00\nPM",
+            "position": {
+              "x": 8,
+              "y": 598
+            },
+            "size": {
+              "width": 42,
+              "height": 32
+            },
+            "text": {
+              "characters": "04:00\nPM",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 12,
+                "lineHeightPx": 16,
+                "textAlignHorizontal": "RIGHT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.5411764705882353,
+                  "g": 0.5450980392156862,
+                  "b": 0.5254901960784314
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Time 05:00\nPM",
+            "position": {
+              "x": 8,
+              "y": 672
+            },
+            "size": {
+              "width": 42,
+              "height": 32
+            },
+            "text": {
+              "characters": "05:00\nPM",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 12,
+                "lineHeightPx": 16,
+                "textAlignHorizontal": "RIGHT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.5411764705882353,
+                  "g": 0.5450980392156862,
+                  "b": 0.5254901960784314
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Time 06:00\nPM",
+            "position": {
+              "x": 8,
+              "y": 746
+            },
+            "size": {
+              "width": 42,
+              "height": 32
+            },
+            "text": {
+              "characters": "06:00\nPM",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 12,
+                "lineHeightPx": 16,
+                "textAlignHorizontal": "RIGHT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.5411764705882353,
+                  "g": 0.5450980392156862,
+                  "b": 0.5254901960784314
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Time 07:00\nPM",
+            "position": {
+              "x": 8,
+              "y": 820
+            },
+            "size": {
+              "width": 42,
+              "height": 32
+            },
+            "text": {
+              "characters": "07:00\nPM",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 12,
+                "lineHeightPx": 16,
+                "textAlignHorizontal": "RIGHT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.5411764705882353,
+                  "g": 0.5450980392156862,
+                  "b": 0.5254901960784314
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Selected Day Pill",
+            "position": {
+              "x": 70,
+              "y": 15
+            },
+            "size": {
+              "width": 34,
+              "height": 34
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.07450980392156863,
+                  "g": 0.7450980392156863,
+                  "b": 0.8117647058823529
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 9
+          },
+          {
+            "type": "TEXT",
+            "name": "Selected Day Text",
+            "position": {
+              "x": 76,
+              "y": 20
+            },
+            "size": {
+              "width": 22,
+              "height": 24
+            },
+            "text": {
+              "characters": "22",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 18,
+                "lineHeightPx": 24,
+                "textAlignHorizontal": "CENTER"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Date Headers",
+            "position": {
+              "x": 112,
+              "y": 18
+            },
+            "size": {
+              "width": 870,
+              "height": 50
+            },
+            "text": {
+              "characters": "MON                    TUE                    WED                    THU                    FRI\n4 appointment(s)       6 appointment(s)       5 appointment(s)       3 appointment(s)       1 appointment(s)",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 600,
+                "fontSize": 14,
+                "lineHeightPx": 25,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.06666666666666667,
+                  "g": 0.06666666666666667,
+                  "b": 0.06666666666666667
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Date Numbers",
+            "position": {
+              "x": 258,
+              "y": 18
+            },
+            "size": {
+              "width": 700,
+              "height": 24
+            },
+            "text": {
+              "characters": "23                    24                    25                    26",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 20,
+                "lineHeightPx": 24,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.06666666666666667,
+                  "g": 0.06666666666666667,
+                  "b": 0.06666666666666667
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Current Time Line",
+            "position": {
+              "x": 56,
+              "y": 275
+            },
+            "size": {
+              "width": 806,
+              "height": 1
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8980392156862745,
+                  "g": 0.11372549019607843,
+                  "b": 0.1843137254901961
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Scrollbar Track",
+            "position": {
+              "x": 84,
+              "y": 846
+            },
+            "size": {
+              "width": 890,
+              "height": 5
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8705882352941177,
+                  "g": 0.8705882352941177,
+                  "b": 0.8588235294117647
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 3
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Scrollbar Thumb",
+            "position": {
+              "x": 84,
+              "y": 846
+            },
+            "size": {
+              "width": 150,
+              "height": 5
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.3843137254901961,
+                  "g": 0.38823529411764707,
+                  "b": 0.37254901960784315
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 3
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.8980392156862745,
+              "g": 0.9019607843137255,
+              "b": 0.8901960784313725
+            },
+            "opacity": 1
+          }
+        ],
+        "strokeWeight": 1
+      },
+      {
+        "type": "FRAME",
+        "name": "Appointment Cards",
+        "position": {
+          "x": 0,
+          "y": 292
+        },
+        "size": {
+          "width": 1034,
+          "height": 858
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 0
+          }
+        ],
+        "cornerRadius": 0,
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "Savannah Event",
+            "position": {
+              "x": 64,
+              "y": 164
+            },
+            "size": {
+              "width": 194,
+              "height": 110
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.6666666666666666,
+                  "g": 0.9607843137254902,
+                  "b": 0.8235294117647058
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 5,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Savannah Event Accent",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 3,
+                  "height": 110
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0,
+                      "g": 0.7215686274509804,
+                      "b": 0.4196078431372549
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 2
+              },
+              {
+                "type": "TEXT",
+                "name": "Savannah Event Title",
+                "position": {
+                  "x": 10,
+                  "y": 8
+                },
+                "size": {
+                  "width": 176,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "10:00-10:30 Savannah",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Savannah Event Subtitle",
+                "position": {
+                  "x": 10,
+                  "y": 30
+                },
+                "size": {
+                  "width": 176,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Personal Training",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 12,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Lilia Event",
+            "position": {
+              "x": 64,
+              "y": 320
+            },
+            "size": {
+              "width": 194,
+              "height": 70
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 0.9450980392156862,
+                  "b": 0.7294117647058823
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 5,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Lilia Event Accent",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 3,
+                  "height": 70
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.9450980392156862,
+                      "g": 0.7019607843137254,
+                      "b": 0
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 2
+              },
+              {
+                "type": "TEXT",
+                "name": "Lilia Event Title",
+                "position": {
+                  "x": 10,
+                  "y": 8
+                },
+                "size": {
+                  "width": 176,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "12:00-01:00 Lilia",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Lilia Event Subtitle",
+                "position": {
+                  "x": 10,
+                  "y": 30
+                },
+                "size": {
+                  "width": 176,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Zumba",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 12,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Walk In Monday Event",
+            "position": {
+              "x": 64,
+              "y": 392
+            },
+            "size": {
+              "width": 194,
+              "height": 72
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.996078431372549,
+                  "g": 0.8823529411764706,
+                  "b": 0.8627450980392157
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 5,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Walk In Monday Event Accent",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 3,
+                  "height": 72
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.8901960784313725,
+                      "g": 0.12941176470588237,
+                      "b": 0.12941176470588237
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 2
+              },
+              {
+                "type": "TEXT",
+                "name": "Walk In Monday Event Title",
+                "position": {
+                  "x": 10,
+                  "y": 8
+                },
+                "size": {
+                  "width": 176,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "01:00-02:00 Walk-in",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Walk In Monday Event Subtitle",
+                "position": {
+                  "x": 10,
+                  "y": 30
+                },
+                "size": {
+                  "width": 176,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Yoga",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 12,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Zara Monday Event",
+            "position": {
+              "x": 64,
+              "y": 548
+            },
+            "size": {
+              "width": 194,
+              "height": 150
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.6666666666666666,
+                  "g": 0.9607843137254902,
+                  "b": 0.8235294117647058
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 5,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Zara Monday Event Accent",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 3,
+                  "height": 150
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0,
+                      "g": 0.7215686274509804,
+                      "b": 0.4196078431372549
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 2
+              },
+              {
+                "type": "TEXT",
+                "name": "Zara Monday Event Title",
+                "position": {
+                  "x": 10,
+                  "y": 8
+                },
+                "size": {
+                  "width": 176,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "03:00-05:00 Zara",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Zara Monday Event Subtitle",
+                "position": {
+                  "x": 10,
+                  "y": 30
+                },
+                "size": {
+                  "width": 176,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Personal Training",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 12,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Emma Tuesday Event",
+            "position": {
+              "x": 266,
+              "y": 48
+            },
+            "size": {
+              "width": 194,
+              "height": 42
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9686274509803922,
+                  "g": 0.7686274509803922,
+                  "b": 0.9098039215686274
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 5,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Emma Tuesday Event Accent",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 3,
+                  "height": 42
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.8862745098039215,
+                      "g": 0.10980392156862745,
+                      "b": 0.6705882352941176
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 2
+              },
+              {
+                "type": "TEXT",
+                "name": "Emma Tuesday Event Title",
+                "position": {
+                  "x": 10,
+                  "y": 8
+                },
+                "size": {
+                  "width": 176,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "08:00-09:00 Emma",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Emma Tuesday Event Subtitle",
+                "position": {
+                  "x": 10,
+                  "y": 30
+                },
+                "size": {
+                  "width": 176,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Yoga",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 12,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Jasper Event",
+            "position": {
+              "x": 266,
+              "y": 92
+            },
+            "size": {
+              "width": 194,
+              "height": 52
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8509803921568627,
+                  "g": 0.7254901960784313,
+                  "b": 0.9647058823529412
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 5,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Jasper Event Accent",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 3,
+                  "height": 52
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.4823529411764706,
+                      "g": 0.16470588235294117,
+                      "b": 0.8509803921568627
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 2
+              },
+              {
+                "type": "TEXT",
+                "name": "Jasper Event Title",
+                "position": {
+                  "x": 10,
+                  "y": 8
+                },
+                "size": {
+                  "width": 176,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "09:00-09:45 Jasper",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Jasper Event Subtitle",
+                "position": {
+                  "x": 10,
+                  "y": 30
+                },
+                "size": {
+                  "width": 176,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Yoga",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 12,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Watson Event",
+            "position": {
+              "x": 266,
+              "y": 164
+            },
+            "size": {
+              "width": 194,
+              "height": 54
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9686274509803922,
+                  "g": 0.7686274509803922,
+                  "b": 0.9098039215686274
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 5,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Watson Event Accent",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 3,
+                  "height": 54
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.8862745098039215,
+                      "g": 0.10980392156862745,
+                      "b": 0.6705882352941176
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 2
+              },
+              {
+                "type": "TEXT",
+                "name": "Watson Event Title",
+                "position": {
+                  "x": 10,
+                  "y": 8
+                },
+                "size": {
+                  "width": 176,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "10:00-10:45 Watson",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Watson Event Subtitle",
+                "position": {
+                  "x": 10,
+                  "y": 30
+                },
+                "size": {
+                  "width": 176,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Yoga",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 12,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "John Event",
+            "position": {
+              "x": 266,
+              "y": 220
+            },
+            "size": {
+              "width": 194,
+              "height": 76
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9686274509803922,
+                  "g": 0.7686274509803922,
+                  "b": 0.9098039215686274
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 5,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "John Event Accent",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 3,
+                  "height": 76
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.8862745098039215,
+                      "g": 0.10980392156862745,
+                      "b": 0.6705882352941176
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 2
+              },
+              {
+                "type": "TEXT",
+                "name": "John Event Title",
+                "position": {
+                  "x": 10,
+                  "y": 8
+                },
+                "size": {
+                  "width": 176,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "10:45-12:00 John",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "John Event Subtitle",
+                "position": {
+                  "x": 10,
+                  "y": 30
+                },
+                "size": {
+                  "width": 176,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Zumba",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 12,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Mia Event",
+            "position": {
+              "x": 266,
+              "y": 374
+            },
+            "size": {
+              "width": 194,
+              "height": 52
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9686274509803922,
+                  "g": 0.7686274509803922,
+                  "b": 0.9098039215686274
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 5,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Mia Event Accent",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 3,
+                  "height": 52
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.8862745098039215,
+                      "g": 0.10980392156862745,
+                      "b": 0.6705882352941176
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 2
+              },
+              {
+                "type": "TEXT",
+                "name": "Mia Event Title",
+                "position": {
+                  "x": 10,
+                  "y": 8
+                },
+                "size": {
+                  "width": 176,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "12:45-01:30 Mia",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Mia Event Subtitle",
+                "position": {
+                  "x": 10,
+                  "y": 30
+                },
+                "size": {
+                  "width": 176,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Yoga",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 12,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Omar Event",
+            "position": {
+              "x": 266,
+              "y": 470
+            },
+            "size": {
+              "width": 194,
+              "height": 84
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9686274509803922,
+                  "g": 0.7686274509803922,
+                  "b": 0.9098039215686274
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 5,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Omar Event Accent",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 3,
+                  "height": 84
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.8862745098039215,
+                      "g": 0.10980392156862745,
+                      "b": 0.6705882352941176
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 2
+              },
+              {
+                "type": "TEXT",
+                "name": "Omar Event Title",
+                "position": {
+                  "x": 10,
+                  "y": 8
+                },
+                "size": {
+                  "width": 176,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "02:00-03:15 Omar",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Omar Event Subtitle",
+                "position": {
+                  "x": 10,
+                  "y": 30
+                },
+                "size": {
+                  "width": 176,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Zumba",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 12,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Ethan Event",
+            "position": {
+              "x": 468,
+              "y": 128
+            },
+            "size": {
+              "width": 194,
+              "height": 72
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9686274509803922,
+                  "g": 0.7686274509803922,
+                  "b": 0.9098039215686274
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 5,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Ethan Event Accent",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 3,
+                  "height": 72
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.8862745098039215,
+                      "g": 0.10980392156862745,
+                      "b": 0.6705882352941176
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 2
+              },
+              {
+                "type": "TEXT",
+                "name": "Ethan Event Title",
+                "position": {
+                  "x": 10,
+                  "y": 8
+                },
+                "size": {
+                  "width": 176,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "09:30-10:30 Ethan",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Ethan Event Subtitle",
+                "position": {
+                  "x": 10,
+                  "y": 30
+                },
+                "size": {
+                  "width": 176,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Yoga",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 12,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Sophie Event",
+            "position": {
+              "x": 468,
+              "y": 320
+            },
+            "size": {
+              "width": 194,
+              "height": 102
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9686274509803922,
+                  "g": 0.7686274509803922,
+                  "b": 0.9098039215686274
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 5,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Sophie Event Accent",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 3,
+                  "height": 102
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.8862745098039215,
+                      "g": 0.10980392156862745,
+                      "b": 0.6705882352941176
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 2
+              },
+              {
+                "type": "TEXT",
+                "name": "Sophie Event Title",
+                "position": {
+                  "x": 10,
+                  "y": 8
+                },
+                "size": {
+                  "width": 176,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "12:00-01:30 Sophie",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Sophie Event Subtitle",
+                "position": {
+                  "x": 10,
+                  "y": 30
+                },
+                "size": {
+                  "width": 176,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Zumba package",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 12,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Clara Event",
+            "position": {
+              "x": 468,
+              "y": 424
+            },
+            "size": {
+              "width": 194,
+              "height": 96
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9686274509803922,
+                  "g": 0.7686274509803922,
+                  "b": 0.9098039215686274
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 5,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Clara Event Accent",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 3,
+                  "height": 96
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.8862745098039215,
+                      "g": 0.10980392156862745,
+                      "b": 0.6705882352941176
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 2
+              },
+              {
+                "type": "TEXT",
+                "name": "Clara Event Title",
+                "position": {
+                  "x": 10,
+                  "y": 8
+                },
+                "size": {
+                  "width": 176,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "01:30-02:45 Clara",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Clara Event Subtitle",
+                "position": {
+                  "x": 10,
+                  "y": 30
+                },
+                "size": {
+                  "width": 176,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Personal Training",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 12,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Liam Event",
+            "position": {
+              "x": 468,
+              "y": 524
+            },
+            "size": {
+              "width": 194,
+              "height": 74
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9764705882352941,
+                  "g": 0.8705882352941177,
+                  "b": 0.8470588235294118
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 5,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Liam Event Accent",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 3,
+                  "height": 74
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.8901960784313725,
+                      "g": 0.12941176470588237,
+                      "b": 0.12941176470588237
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 2
+              },
+              {
+                "type": "TEXT",
+                "name": "Liam Event Title",
+                "position": {
+                  "x": 10,
+                  "y": 8
+                },
+                "size": {
+                  "width": 176,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "02:45-03:45 Liam",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Liam Event Subtitle",
+                "position": {
+                  "x": 10,
+                  "y": 30
+                },
+                "size": {
+                  "width": 176,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Yoga",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 12,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Walk In Wednesday Event",
+            "position": {
+              "x": 468,
+              "y": 704
+            },
+            "size": {
+              "width": 194,
+              "height": 74
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9686274509803922,
+                  "g": 0.7686274509803922,
+                  "b": 0.9098039215686274
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 5,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Walk In Wednesday Event Accent",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 3,
+                  "height": 74
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.8862745098039215,
+                      "g": 0.10980392156862745,
+                      "b": 0.6705882352941176
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 2
+              },
+              {
+                "type": "TEXT",
+                "name": "Walk In Wednesday Event Title",
+                "position": {
+                  "x": 10,
+                  "y": 8
+                },
+                "size": {
+                  "width": 176,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "05:00-06:00 Walk in",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Walk In Wednesday Event Subtitle",
+                "position": {
+                  "x": 10,
+                  "y": 30
+                },
+                "size": {
+                  "width": 176,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Personal Training",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 12,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Emma Thursday Event",
+            "position": {
+              "x": 670,
+              "y": 92
+            },
+            "size": {
+              "width": 194,
+              "height": 70
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9686274509803922,
+                  "g": 0.7686274509803922,
+                  "b": 0.9098039215686274
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 5,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Emma Thursday Event Accent",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 3,
+                  "height": 70
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.8862745098039215,
+                      "g": 0.10980392156862745,
+                      "b": 0.6705882352941176
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 2
+              },
+              {
+                "type": "TEXT",
+                "name": "Emma Thursday Event Title",
+                "position": {
+                  "x": 10,
+                  "y": 8
+                },
+                "size": {
+                  "width": 176,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "09:00-09:45 Emma",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Emma Thursday Event Subtitle",
+                "position": {
+                  "x": 10,
+                  "y": 30
+                },
+                "size": {
+                  "width": 176,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Yoga",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 12,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Liam Thursday Event",
+            "position": {
+              "x": 670,
+              "y": 164
+            },
+            "size": {
+              "width": 194,
+              "height": 84
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9686274509803922,
+                  "g": 0.7686274509803922,
+                  "b": 0.9098039215686274
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 5,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Liam Thursday Event Accent",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 3,
+                  "height": 84
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.8862745098039215,
+                      "g": 0.10980392156862745,
+                      "b": 0.6705882352941176
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 2
+              },
+              {
+                "type": "TEXT",
+                "name": "Liam Thursday Event Title",
+                "position": {
+                  "x": 10,
+                  "y": 8
+                },
+                "size": {
+                  "width": 176,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "09:45-11:00 Liam",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Liam Thursday Event Subtitle",
+                "position": {
+                  "x": 10,
+                  "y": 30
+                },
+                "size": {
+                  "width": 176,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Zumba",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 12,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Zara Thursday Event",
+            "position": {
+              "x": 670,
+              "y": 250
+            },
+            "size": {
+              "width": 194,
+              "height": 110
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9686274509803922,
+                  "g": 0.7686274509803922,
+                  "b": 0.9098039215686274
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 5,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Zara Thursday Event Accent",
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 3,
+                  "height": 110
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.8862745098039215,
+                      "g": 0.10980392156862745,
+                      "b": 0.6705882352941176
+                    },
+                    "opacity": 1
+                  }
+                ],
+                "cornerRadius": 2
+              },
+              {
+                "type": "TEXT",
+                "name": "Zara Thursday Event Title",
+                "position": {
+                  "x": 10,
+                  "y": 8
+                },
+                "size": {
+                  "width": 176,
+                  "height": 22
+                },
+                "text": {
+                  "characters": "11:00-12:30 Zara",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 700,
+                    "fontSize": 14,
+                    "lineHeightPx": 20,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "name": "Zara Thursday Event Subtitle",
+                "position": {
+                  "x": 10,
+                  "y": 30
+                },
+                "size": {
+                  "width": 176,
+                  "height": 20
+                },
+                "text": {
+                  "characters": "Personal Training",
+                  "style": {
+                    "fontFamily": "Inter",
+                    "fontWeight": 500,
+                    "fontSize": 12,
+                    "lineHeightPx": 18,
+                    "textAlignHorizontal": "LEFT"
+                  }
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03137254901960784,
+                      "g": 0.03529411764705882,
+                      "b": 0.03529411764705882
+                    },
+                    "opacity": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Floating Tools",
+        "position": {
+          "x": 676,
+          "y": 1099
+        },
+        "size": {
+          "width": 178,
+          "height": 54
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.0392156862745098,
+              "b": 0.0392156862745098
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 9,
+        "children": [
+          {
+            "type": "SVG",
+            "name": "Tool Search",
+            "position": {
+              "x": 20,
+              "y": 14
+            },
+            "size": {
+              "width": 26,
+              "height": 26
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"/><path d=\"m16 16 4 4\"/></svg>"
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Tool Divider",
+            "position": {
+              "x": 66,
+              "y": 13
+            },
+            "size": {
+              "width": 1,
+              "height": 28
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.16862745098039217,
+                  "g": 0.21568627450980393,
+                  "b": 0.21568627450980393
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 0
+          },
+          {
+            "type": "SVG",
+            "name": "Tool Chat",
+            "position": {
+              "x": 90,
+              "y": 14
+            },
+            "size": {
+              "width": 26,
+              "height": 26
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v8Z\"/></svg>"
+          },
+          {
+            "type": "SVG",
+            "name": "Tool Sparkle",
+            "position": {
+              "x": 134,
+              "y": 14
+            },
+            "size": {
+              "width": 26,
+              "height": 26
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3Z\"/><path d=\"M19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8L19 16Z\"/></svg>"
+          }
+        ],
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "offset": {
+              "x": 0,
+              "y": 10
+            },
+            "radius": 18,
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 0.8980392156862745,
+          "g": 0.9019607843137255,
+          "b": 0.8901960784313725
+        },
+        "opacity": 1
+      }
+    ],
+    "strokeWeight": 1
+  }
+}

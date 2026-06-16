@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        margin: 0;
+        font-family: Inter, Arial, sans-serif;
+        color: #1f2937;
+        background: #ffffff;
+      }
+
+      main {
+        display: flex;
+        min-height: 240px;
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+        padding: 20px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 17px;
+        line-height: 1.3;
+      }
+
+      p {
+        margin: 0;
+        color: #4b5563;
+        font-size: 12px;
+        line-height: 1.45;
+      }
+
+      input {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 12px;
+      }
+
+      button {
+        height: 40px;
+        border: 0;
+        border-radius: 8px;
+        color: #ffffff;
+        background: #1f5fd1;
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+
+      button:disabled {
+        cursor: default;
+        opacity: 0.55;
+      }
+
+      #status {
+        min-height: 18px;
+        font-size: 12px;
+        color: #4b5563;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Image2Figma</h1>
+      <p>Import a JSON file with a root FRAME as editable Figma layers.</p>
+      <input id="file" type="file" accept="application/json,.json" />
+      <button id="import" disabled>Import to canvas</button>
+      <div id="status"></div>
+    </main>
+    <script>
+      const fileInput = document.getElementById("file");
+      const importButton = document.getElementById("import");
+      const status = document.getElementById("status");
+      let payload = null;
+
+      fileInput.onchange = async () => {
+        const file = fileInput.files && fileInput.files[0];
+        payload = null;
+        importButton.disabled = true;
+
+        if (!file) {
+          status.textContent = "";
+          return;
+        }
+
+        try {
+          payload = JSON.parse(await file.text());
+          status.textContent = `Loaded ${file.name}`;
+          importButton.disabled = false;
+        } catch (error) {
+          status.textContent = error instanceof Error ? error.message : "Invalid JSON";
+        }
+      };
+
+      importButton.onclick = () => {
+        if (!payload) return;
+        importButton.disabled = true;
+        status.textContent = "Importing...";
+        parent.postMessage({ pluginMessage: { type: "import-json", payload } }, "*");
+      };
+
+      window.onmessage = (event) => {
+        const message = event.data.pluginMessage;
+        if (!message) return;
+
+        if (message.type === "import-complete") {
+          status.textContent = `Imported ${message.rootName}`;
+          importButton.disabled = false;
+        }
+
+        if (message.type === "import-error") {
+          status.textContent = message.message;
+          importButton.disabled = false;
+        }
+      };
+    </script>
+  </body>
+</html>

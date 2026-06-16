@@ -1,0 +1,65 @@
+{
+  "id": "background",
+  "schema": "image2figma.v2.component",
+  "node": {
+    "type": "FRAME",
+    "name": "Background",
+    "size": {
+      "width": 1920,
+      "height": 1280
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 0.82,
+          "g": 0.82,
+          "b": 0.79
+        },
+        "opacity": 1
+      }
+    ],
+    "children": [
+      {
+        "type": "FRAME",
+        "name": "App Window Shell",
+        "position": {
+          "x": 54,
+          "y": 107
+        },
+        "size": {
+          "width": 1814,
+          "height": 1170
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.97,
+              "g": 0.97,
+              "b": 0.96
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 28,
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "offset": {
+              "x": 0,
+              "y": 26
+            },
+            "radius": 40,
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.16
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

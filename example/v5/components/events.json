@@ -1,0 +1,2118 @@
+{
+  "schema": "image2figma.v5.component",
+  "id": "events",
+  "node": {
+    "type": "FRAME",
+    "name": "Appointment Cards",
+    "position": {
+      "x": 0,
+      "y": 292
+    },
+    "size": {
+      "width": 1034,
+      "height": 858
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "opacity": 0
+      }
+    ],
+    "cornerRadius": 0,
+    "children": [
+      {
+        "type": "FRAME",
+        "name": "Savannah Event",
+        "position": {
+          "x": 64,
+          "y": 164
+        },
+        "size": {
+          "width": 194,
+          "height": 110
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.6666666666666666,
+              "g": 0.9607843137254902,
+              "b": 0.8235294117647058
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 5,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Savannah Event Accent",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 3,
+              "height": 110
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0,
+                  "g": 0.7215686274509804,
+                  "b": 0.4196078431372549
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 2
+          },
+          {
+            "type": "TEXT",
+            "name": "Savannah Event Title",
+            "position": {
+              "x": 10,
+              "y": 8
+            },
+            "size": {
+              "width": 176,
+              "height": 22
+            },
+            "text": {
+              "characters": "10:00-10:30 Savannah",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Savannah Event Subtitle",
+            "position": {
+              "x": 10,
+              "y": 30
+            },
+            "size": {
+              "width": 176,
+              "height": 20
+            },
+            "text": {
+              "characters": "Personal Training",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 12,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Lilia Event",
+        "position": {
+          "x": 64,
+          "y": 320
+        },
+        "size": {
+          "width": 194,
+          "height": 70
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 0.9450980392156862,
+              "b": 0.7294117647058823
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 5,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Lilia Event Accent",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 3,
+              "height": 70
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9450980392156862,
+                  "g": 0.7019607843137254,
+                  "b": 0
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 2
+          },
+          {
+            "type": "TEXT",
+            "name": "Lilia Event Title",
+            "position": {
+              "x": 10,
+              "y": 8
+            },
+            "size": {
+              "width": 176,
+              "height": 22
+            },
+            "text": {
+              "characters": "12:00-01:00 Lilia",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Lilia Event Subtitle",
+            "position": {
+              "x": 10,
+              "y": 30
+            },
+            "size": {
+              "width": 176,
+              "height": 20
+            },
+            "text": {
+              "characters": "Zumba",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 12,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Walk In Monday Event",
+        "position": {
+          "x": 64,
+          "y": 392
+        },
+        "size": {
+          "width": 194,
+          "height": 72
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.996078431372549,
+              "g": 0.8823529411764706,
+              "b": 0.8627450980392157
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 5,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Walk In Monday Event Accent",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 3,
+              "height": 72
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8901960784313725,
+                  "g": 0.12941176470588237,
+                  "b": 0.12941176470588237
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 2
+          },
+          {
+            "type": "TEXT",
+            "name": "Walk In Monday Event Title",
+            "position": {
+              "x": 10,
+              "y": 8
+            },
+            "size": {
+              "width": 176,
+              "height": 22
+            },
+            "text": {
+              "characters": "01:00-02:00 Walk-in",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Walk In Monday Event Subtitle",
+            "position": {
+              "x": 10,
+              "y": 30
+            },
+            "size": {
+              "width": 176,
+              "height": 20
+            },
+            "text": {
+              "characters": "Yoga",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 12,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Zara Monday Event",
+        "position": {
+          "x": 64,
+          "y": 548
+        },
+        "size": {
+          "width": 194,
+          "height": 150
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.6666666666666666,
+              "g": 0.9607843137254902,
+              "b": 0.8235294117647058
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 5,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Zara Monday Event Accent",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 3,
+              "height": 150
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0,
+                  "g": 0.7215686274509804,
+                  "b": 0.4196078431372549
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 2
+          },
+          {
+            "type": "TEXT",
+            "name": "Zara Monday Event Title",
+            "position": {
+              "x": 10,
+              "y": 8
+            },
+            "size": {
+              "width": 176,
+              "height": 22
+            },
+            "text": {
+              "characters": "03:00-05:00 Zara",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Zara Monday Event Subtitle",
+            "position": {
+              "x": 10,
+              "y": 30
+            },
+            "size": {
+              "width": 176,
+              "height": 20
+            },
+            "text": {
+              "characters": "Personal Training",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 12,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Emma Tuesday Event",
+        "position": {
+          "x": 266,
+          "y": 48
+        },
+        "size": {
+          "width": 194,
+          "height": 42
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9686274509803922,
+              "g": 0.7686274509803922,
+              "b": 0.9098039215686274
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 5,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Emma Tuesday Event Accent",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 3,
+              "height": 42
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8862745098039215,
+                  "g": 0.10980392156862745,
+                  "b": 0.6705882352941176
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 2
+          },
+          {
+            "type": "TEXT",
+            "name": "Emma Tuesday Event Title",
+            "position": {
+              "x": 10,
+              "y": 8
+            },
+            "size": {
+              "width": 176,
+              "height": 22
+            },
+            "text": {
+              "characters": "08:00-09:00 Emma",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Emma Tuesday Event Subtitle",
+            "position": {
+              "x": 10,
+              "y": 30
+            },
+            "size": {
+              "width": 176,
+              "height": 20
+            },
+            "text": {
+              "characters": "Yoga",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 12,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Jasper Event",
+        "position": {
+          "x": 266,
+          "y": 92
+        },
+        "size": {
+          "width": 194,
+          "height": 52
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.8509803921568627,
+              "g": 0.7254901960784313,
+              "b": 0.9647058823529412
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 5,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Jasper Event Accent",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 3,
+              "height": 52
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.4823529411764706,
+                  "g": 0.16470588235294117,
+                  "b": 0.8509803921568627
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 2
+          },
+          {
+            "type": "TEXT",
+            "name": "Jasper Event Title",
+            "position": {
+              "x": 10,
+              "y": 8
+            },
+            "size": {
+              "width": 176,
+              "height": 22
+            },
+            "text": {
+              "characters": "09:00-09:45 Jasper",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Jasper Event Subtitle",
+            "position": {
+              "x": 10,
+              "y": 30
+            },
+            "size": {
+              "width": 176,
+              "height": 20
+            },
+            "text": {
+              "characters": "Yoga",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 12,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Watson Event",
+        "position": {
+          "x": 266,
+          "y": 164
+        },
+        "size": {
+          "width": 194,
+          "height": 54
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9686274509803922,
+              "g": 0.7686274509803922,
+              "b": 0.9098039215686274
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 5,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Watson Event Accent",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 3,
+              "height": 54
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8862745098039215,
+                  "g": 0.10980392156862745,
+                  "b": 0.6705882352941176
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 2
+          },
+          {
+            "type": "TEXT",
+            "name": "Watson Event Title",
+            "position": {
+              "x": 10,
+              "y": 8
+            },
+            "size": {
+              "width": 176,
+              "height": 22
+            },
+            "text": {
+              "characters": "10:00-10:45 Watson",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Watson Event Subtitle",
+            "position": {
+              "x": 10,
+              "y": 30
+            },
+            "size": {
+              "width": 176,
+              "height": 20
+            },
+            "text": {
+              "characters": "Yoga",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 12,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "John Event",
+        "position": {
+          "x": 266,
+          "y": 220
+        },
+        "size": {
+          "width": 194,
+          "height": 76
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9686274509803922,
+              "g": 0.7686274509803922,
+              "b": 0.9098039215686274
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 5,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "John Event Accent",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 3,
+              "height": 76
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8862745098039215,
+                  "g": 0.10980392156862745,
+                  "b": 0.6705882352941176
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 2
+          },
+          {
+            "type": "TEXT",
+            "name": "John Event Title",
+            "position": {
+              "x": 10,
+              "y": 8
+            },
+            "size": {
+              "width": 176,
+              "height": 22
+            },
+            "text": {
+              "characters": "10:45-12:00 John",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "John Event Subtitle",
+            "position": {
+              "x": 10,
+              "y": 30
+            },
+            "size": {
+              "width": 176,
+              "height": 20
+            },
+            "text": {
+              "characters": "Zumba",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 12,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Mia Event",
+        "position": {
+          "x": 266,
+          "y": 374
+        },
+        "size": {
+          "width": 194,
+          "height": 52
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9686274509803922,
+              "g": 0.7686274509803922,
+              "b": 0.9098039215686274
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 5,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Mia Event Accent",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 3,
+              "height": 52
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8862745098039215,
+                  "g": 0.10980392156862745,
+                  "b": 0.6705882352941176
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 2
+          },
+          {
+            "type": "TEXT",
+            "name": "Mia Event Title",
+            "position": {
+              "x": 10,
+              "y": 8
+            },
+            "size": {
+              "width": 176,
+              "height": 22
+            },
+            "text": {
+              "characters": "12:45-01:30 Mia",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Mia Event Subtitle",
+            "position": {
+              "x": 10,
+              "y": 30
+            },
+            "size": {
+              "width": 176,
+              "height": 20
+            },
+            "text": {
+              "characters": "Yoga",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 12,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Omar Event",
+        "position": {
+          "x": 266,
+          "y": 470
+        },
+        "size": {
+          "width": 194,
+          "height": 84
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9686274509803922,
+              "g": 0.7686274509803922,
+              "b": 0.9098039215686274
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 5,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Omar Event Accent",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 3,
+              "height": 84
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8862745098039215,
+                  "g": 0.10980392156862745,
+                  "b": 0.6705882352941176
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 2
+          },
+          {
+            "type": "TEXT",
+            "name": "Omar Event Title",
+            "position": {
+              "x": 10,
+              "y": 8
+            },
+            "size": {
+              "width": 176,
+              "height": 22
+            },
+            "text": {
+              "characters": "02:00-03:15 Omar",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Omar Event Subtitle",
+            "position": {
+              "x": 10,
+              "y": 30
+            },
+            "size": {
+              "width": 176,
+              "height": 20
+            },
+            "text": {
+              "characters": "Zumba",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 12,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Ethan Event",
+        "position": {
+          "x": 468,
+          "y": 128
+        },
+        "size": {
+          "width": 194,
+          "height": 72
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9686274509803922,
+              "g": 0.7686274509803922,
+              "b": 0.9098039215686274
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 5,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Ethan Event Accent",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 3,
+              "height": 72
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8862745098039215,
+                  "g": 0.10980392156862745,
+                  "b": 0.6705882352941176
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 2
+          },
+          {
+            "type": "TEXT",
+            "name": "Ethan Event Title",
+            "position": {
+              "x": 10,
+              "y": 8
+            },
+            "size": {
+              "width": 176,
+              "height": 22
+            },
+            "text": {
+              "characters": "09:30-10:30 Ethan",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Ethan Event Subtitle",
+            "position": {
+              "x": 10,
+              "y": 30
+            },
+            "size": {
+              "width": 176,
+              "height": 20
+            },
+            "text": {
+              "characters": "Yoga",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 12,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Sophie Event",
+        "position": {
+          "x": 468,
+          "y": 320
+        },
+        "size": {
+          "width": 194,
+          "height": 102
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9686274509803922,
+              "g": 0.7686274509803922,
+              "b": 0.9098039215686274
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 5,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Sophie Event Accent",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 3,
+              "height": 102
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8862745098039215,
+                  "g": 0.10980392156862745,
+                  "b": 0.6705882352941176
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 2
+          },
+          {
+            "type": "TEXT",
+            "name": "Sophie Event Title",
+            "position": {
+              "x": 10,
+              "y": 8
+            },
+            "size": {
+              "width": 176,
+              "height": 22
+            },
+            "text": {
+              "characters": "12:00-01:30 Sophie",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Sophie Event Subtitle",
+            "position": {
+              "x": 10,
+              "y": 30
+            },
+            "size": {
+              "width": 176,
+              "height": 20
+            },
+            "text": {
+              "characters": "Zumba package",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 12,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Clara Event",
+        "position": {
+          "x": 468,
+          "y": 424
+        },
+        "size": {
+          "width": 194,
+          "height": 96
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9686274509803922,
+              "g": 0.7686274509803922,
+              "b": 0.9098039215686274
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 5,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Clara Event Accent",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 3,
+              "height": 96
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8862745098039215,
+                  "g": 0.10980392156862745,
+                  "b": 0.6705882352941176
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 2
+          },
+          {
+            "type": "TEXT",
+            "name": "Clara Event Title",
+            "position": {
+              "x": 10,
+              "y": 8
+            },
+            "size": {
+              "width": 176,
+              "height": 22
+            },
+            "text": {
+              "characters": "01:30-02:45 Clara",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Clara Event Subtitle",
+            "position": {
+              "x": 10,
+              "y": 30
+            },
+            "size": {
+              "width": 176,
+              "height": 20
+            },
+            "text": {
+              "characters": "Personal Training",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 12,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Liam Event",
+        "position": {
+          "x": 468,
+          "y": 524
+        },
+        "size": {
+          "width": 194,
+          "height": 74
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9764705882352941,
+              "g": 0.8705882352941177,
+              "b": 0.8470588235294118
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 5,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Liam Event Accent",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 3,
+              "height": 74
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8901960784313725,
+                  "g": 0.12941176470588237,
+                  "b": 0.12941176470588237
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 2
+          },
+          {
+            "type": "TEXT",
+            "name": "Liam Event Title",
+            "position": {
+              "x": 10,
+              "y": 8
+            },
+            "size": {
+              "width": 176,
+              "height": 22
+            },
+            "text": {
+              "characters": "02:45-03:45 Liam",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Liam Event Subtitle",
+            "position": {
+              "x": 10,
+              "y": 30
+            },
+            "size": {
+              "width": 176,
+              "height": 20
+            },
+            "text": {
+              "characters": "Yoga",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 12,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Walk In Wednesday Event",
+        "position": {
+          "x": 468,
+          "y": 704
+        },
+        "size": {
+          "width": 194,
+          "height": 74
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9686274509803922,
+              "g": 0.7686274509803922,
+              "b": 0.9098039215686274
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 5,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Walk In Wednesday Event Accent",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 3,
+              "height": 74
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8862745098039215,
+                  "g": 0.10980392156862745,
+                  "b": 0.6705882352941176
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 2
+          },
+          {
+            "type": "TEXT",
+            "name": "Walk In Wednesday Event Title",
+            "position": {
+              "x": 10,
+              "y": 8
+            },
+            "size": {
+              "width": 176,
+              "height": 22
+            },
+            "text": {
+              "characters": "05:00-06:00 Walk in",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Walk In Wednesday Event Subtitle",
+            "position": {
+              "x": 10,
+              "y": 30
+            },
+            "size": {
+              "width": 176,
+              "height": 20
+            },
+            "text": {
+              "characters": "Personal Training",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 12,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Emma Thursday Event",
+        "position": {
+          "x": 670,
+          "y": 92
+        },
+        "size": {
+          "width": 194,
+          "height": 70
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9686274509803922,
+              "g": 0.7686274509803922,
+              "b": 0.9098039215686274
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 5,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Emma Thursday Event Accent",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 3,
+              "height": 70
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8862745098039215,
+                  "g": 0.10980392156862745,
+                  "b": 0.6705882352941176
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 2
+          },
+          {
+            "type": "TEXT",
+            "name": "Emma Thursday Event Title",
+            "position": {
+              "x": 10,
+              "y": 8
+            },
+            "size": {
+              "width": 176,
+              "height": 22
+            },
+            "text": {
+              "characters": "09:00-09:45 Emma",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Emma Thursday Event Subtitle",
+            "position": {
+              "x": 10,
+              "y": 30
+            },
+            "size": {
+              "width": 176,
+              "height": 20
+            },
+            "text": {
+              "characters": "Yoga",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 12,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Liam Thursday Event",
+        "position": {
+          "x": 670,
+          "y": 164
+        },
+        "size": {
+          "width": 194,
+          "height": 84
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9686274509803922,
+              "g": 0.7686274509803922,
+              "b": 0.9098039215686274
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 5,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Liam Thursday Event Accent",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 3,
+              "height": 84
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8862745098039215,
+                  "g": 0.10980392156862745,
+                  "b": 0.6705882352941176
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 2
+          },
+          {
+            "type": "TEXT",
+            "name": "Liam Thursday Event Title",
+            "position": {
+              "x": 10,
+              "y": 8
+            },
+            "size": {
+              "width": 176,
+              "height": 22
+            },
+            "text": {
+              "characters": "09:45-11:00 Liam",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Liam Thursday Event Subtitle",
+            "position": {
+              "x": 10,
+              "y": 30
+            },
+            "size": {
+              "width": 176,
+              "height": 20
+            },
+            "text": {
+              "characters": "Zumba",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 12,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Zara Thursday Event",
+        "position": {
+          "x": 670,
+          "y": 250
+        },
+        "size": {
+          "width": 194,
+          "height": 110
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9686274509803922,
+              "g": 0.7686274509803922,
+              "b": 0.9098039215686274
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 5,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Zara Thursday Event Accent",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 3,
+              "height": 110
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.8862745098039215,
+                  "g": 0.10980392156862745,
+                  "b": 0.6705882352941176
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 2
+          },
+          {
+            "type": "TEXT",
+            "name": "Zara Thursday Event Title",
+            "position": {
+              "x": 10,
+              "y": 8
+            },
+            "size": {
+              "width": 176,
+              "height": 22
+            },
+            "text": {
+              "characters": "11:00-12:30 Zara",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 700,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Zara Thursday Event Subtitle",
+            "position": {
+              "x": 10,
+              "y": 30
+            },
+            "size": {
+              "width": 176,
+              "height": 20
+            },
+            "text": {
+              "characters": "Personal Training",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 12,
+                "lineHeightPx": 18,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03137254901960784,
+                  "g": 0.03529411764705882,
+                  "b": 0.03529411764705882
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

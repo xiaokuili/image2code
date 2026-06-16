@@ -1,0 +1,190 @@
+{
+  "id": "weekGrid",
+  "schema": "image2figma.v2.component",
+  "node": {
+    "type": "FRAME",
+    "name": "Week Calendar Grid",
+    "position": {
+      "x": 358,
+      "y": 399
+    },
+    "size": {
+      "width": 1034,
+      "height": 858
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "opacity": 1
+      }
+    ],
+    "children": [
+      {
+        "type": "IMAGE",
+        "name": "Grid Structure",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "size": {
+          "width": 1034,
+          "height": 858
+        },
+        "placeholder": "Dotted time grid, GMT+7 time labels, day columns, and bottom scrollbar"
+      },
+      {
+        "type": "TEXT",
+        "name": "Date Header",
+        "position": {
+          "x": 42,
+          "y": 18
+        },
+        "size": {
+          "width": 928,
+          "height": 50
+        },
+        "text": {
+          "characters": "22  MON        23  TUE        24  WED        25  THU        26  FRI\n4 appointment(s)       6 appointment(s)       5 appointment(s)       3 appointment(s)       1 appointment(s)",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 600,
+            "fontSize": 16,
+            "lineHeightPx": 25,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.04,
+              "g": 0.05,
+              "b": 0.05
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "RECTANGLE",
+        "name": "Selected Date",
+        "position": {
+          "x": 70,
+          "y": 15
+        },
+        "size": {
+          "width": 34,
+          "height": 34
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.07,
+              "g": 0.75,
+              "b": 0.82
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 9
+      },
+      {
+        "type": "RECTANGLE",
+        "name": "Current Time Line",
+        "position": {
+          "x": 62,
+          "y": 275
+        },
+        "size": {
+          "width": 832,
+          "height": 1
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.92,
+              "g": 0.1,
+              "b": 0.15
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "IMAGE",
+        "name": "Appointment Blocks",
+        "position": {
+          "x": 64,
+          "y": 48
+        },
+        "size": {
+          "width": 805,
+          "height": 770
+        },
+        "placeholder": "Colored appointment blocks with names and service labels across Monday through Thursday"
+      },
+      {
+        "type": "FRAME",
+        "name": "Floating Tool Palette",
+        "position": {
+          "x": 676,
+          "y": 807
+        },
+        "size": {
+          "width": 178,
+          "height": 54
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.04,
+              "b": 0.04
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 9,
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "offset": {
+              "x": 0,
+              "y": 10
+            },
+            "radius": 18,
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.2
+            }
+          }
+        ],
+        "children": [
+          {
+            "type": "IMAGE",
+            "name": "Palette Icons",
+            "position": {
+              "x": 22,
+              "y": 14
+            },
+            "size": {
+              "width": 134,
+              "height": 26
+            },
+            "placeholder": "Search, chat, and sparkle icons"
+          }
+        ]
+      }
+    ]
+  }
+}

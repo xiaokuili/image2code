@@ -1,7 +1,0 @@
-{
-  "name": "grid",
-  "type": "Element",
-  "style": {
-    "gap": "16px"
-  }
-}

@@ -1,0 +1,844 @@
+{
+  "schema": "image2figma.v1",
+  "meta": {
+    "name": "Sidebar V3 Component Test",
+    "version": "image2figma.v3-test",
+    "generator": "codex-image2figma",
+    "sourceImage": "../appointment-waitlist.webp",
+    "component": "sidebar"
+  },
+  "page": {
+    "name": "Sidebar V3 Component Test",
+    "background": {
+      "r": 0.82,
+      "g": 0.82,
+      "b": 0.79,
+      "a": 1
+    }
+  },
+  "root": {
+    "type": "FRAME",
+    "name": "Sidebar",
+    "size": {
+      "width": 292,
+      "height": 1150
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 0.93,
+          "g": 0.93,
+          "b": 0.91
+        },
+        "opacity": 1
+      }
+    ],
+    "cornerRadius": 20,
+    "children": [
+      {
+        "type": "RECTANGLE",
+        "name": "Brand Icon",
+        "position": {
+          "x": 18,
+          "y": 18
+        },
+        "size": {
+          "width": 24,
+          "height": 24
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.03,
+              "g": 0.04,
+              "b": 0.04
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 5
+      },
+      {
+        "type": "TEXT",
+        "name": "Brand Glyph",
+        "position": {
+          "x": 23,
+          "y": 20
+        },
+        "size": {
+          "width": 14,
+          "height": 20
+        },
+        "text": {
+          "characters": "P",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 700,
+            "fontSize": 13,
+            "lineHeightPx": 20,
+            "textAlignHorizontal": "CENTER"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "TEXT",
+        "name": "Location Name",
+        "position": {
+          "x": 52,
+          "y": 18
+        },
+        "size": {
+          "width": 150,
+          "height": 24
+        },
+        "text": {
+          "characters": "PWT Location",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 600,
+            "fontSize": 17,
+            "lineHeightPx": 24,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.06,
+              "g": 0.07,
+              "b": 0.07
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "TEXT",
+        "name": "Location Chevron",
+        "position": {
+          "x": 200,
+          "y": 18
+        },
+        "size": {
+          "width": 18,
+          "height": 24
+        },
+        "text": {
+          "characters": "v",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 500,
+            "fontSize": 13,
+            "lineHeightPx": 24,
+            "textAlignHorizontal": "CENTER"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.28,
+              "g": 0.29,
+              "b": 0.28
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "IMAGE",
+        "name": "Header Utility Icons",
+        "position": {
+          "x": 226,
+          "y": 18
+        },
+        "size": {
+          "width": 58,
+          "height": 24
+        },
+        "placeholder": "bell notification icon and panel toggle icon"
+      },
+      {
+        "type": "FRAME",
+        "name": "Search Field",
+        "position": {
+          "x": 10,
+          "y": 82
+        },
+        "size": {
+          "width": 272,
+          "height": 42
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.87,
+              "g": 0.87,
+              "b": 0.85
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 9,
+        "children": [
+          {
+            "type": "TEXT",
+            "name": "Search Icon",
+            "position": {
+              "x": 14,
+              "y": 9
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "text": {
+              "characters": "O",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 19,
+                "lineHeightPx": 24,
+                "textAlignHorizontal": "CENTER"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.32,
+                  "g": 0.33,
+                  "b": 0.32
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Search Placeholder",
+            "position": {
+              "x": 48,
+              "y": 10
+            },
+            "size": {
+              "width": 110,
+              "height": 22
+            },
+            "text": {
+              "characters": "Search",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 16,
+                "lineHeightPx": 22,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.29,
+                  "g": 0.3,
+                  "b": 0.29
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Shortcut",
+            "position": {
+              "x": 226,
+              "y": 10
+            },
+            "size": {
+              "width": 36,
+              "height": 22
+            },
+            "text": {
+              "characters": "⌘S",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 14,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "CENTER"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.28,
+                  "g": 0.29,
+                  "b": 0.28
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Home Item",
+        "position": {
+          "x": 10,
+          "y": 142
+        },
+        "size": {
+          "width": 272,
+          "height": 44
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.93,
+              "g": 0.93,
+              "b": 0.91
+            },
+            "opacity": 1
+          }
+        ],
+        "children": [
+          {
+            "type": "TEXT",
+            "name": "Home Icon",
+            "position": {
+              "x": 10,
+              "y": 10
+            },
+            "size": {
+              "width": 24,
+              "height": 24
+            },
+            "text": {
+              "characters": "#",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 500,
+                "fontSize": 19,
+                "lineHeightPx": 24,
+                "textAlignHorizontal": "CENTER"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.32,
+                  "g": 0.33,
+                  "b": 0.32
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Home Text",
+            "position": {
+              "x": 44,
+              "y": 10
+            },
+            "size": {
+              "width": 180,
+              "height": 24
+            },
+            "text": {
+              "characters": "Home",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 17,
+                "lineHeightPx": 24,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.28,
+                  "g": 0.29,
+                  "b": 0.28
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "TEXT",
+        "name": "Workspace Label",
+        "position": {
+          "x": 20,
+          "y": 204
+        },
+        "size": {
+          "width": 120,
+          "height": 18
+        },
+        "text": {
+          "characters": "WORKSPACE",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 500,
+            "fontSize": 12,
+            "lineHeightPx": 18,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.36,
+              "g": 0.37,
+              "b": 0.36
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Appointment Active Item",
+        "position": {
+          "x": 10,
+          "y": 230
+        },
+        "size": {
+          "width": 272,
+          "height": 44
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1
+          }
+        ],
+        "cornerRadius": 8,
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Calendar Icon Box",
+            "position": {
+              "x": 10,
+              "y": 11
+            },
+            "size": {
+              "width": 22,
+              "height": 22
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.89,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1
+              }
+            ],
+            "strokes": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.04,
+                  "g": 0.69,
+                  "b": 0.79
+                },
+                "opacity": 1
+              }
+            ],
+            "strokeWeight": 2,
+            "cornerRadius": 4
+          },
+          {
+            "type": "TEXT",
+            "name": "Appointment Text",
+            "position": {
+              "x": 44,
+              "y": 10
+            },
+            "size": {
+              "width": 160,
+              "height": 24
+            },
+            "text": {
+              "characters": "Appointment",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 600,
+                "fontSize": 17,
+                "lineHeightPx": 24,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.03,
+                  "g": 0.14,
+                  "b": 0.15
+                },
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "TEXT",
+        "name": "Workspace Items",
+        "position": {
+          "x": 54,
+          "y": 287
+        },
+        "size": {
+          "width": 190,
+          "height": 132
+        },
+        "text": {
+          "characters": "Sales\nCustomers\nReport",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "fontSize": 17,
+            "lineHeightPx": 44,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.28,
+              "g": 0.29,
+              "b": 0.28
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "IMAGE",
+        "name": "Workspace Item Icons",
+        "position": {
+          "x": 20,
+          "y": 287
+        },
+        "size": {
+          "width": 24,
+          "height": 132
+        },
+        "placeholder": "tag, customers, report icons"
+      },
+      {
+        "type": "TEXT",
+        "name": "Catalog Label",
+        "position": {
+          "x": 20,
+          "y": 438
+        },
+        "size": {
+          "width": 120,
+          "height": 18
+        },
+        "text": {
+          "characters": "CATALOG",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 500,
+            "fontSize": 12,
+            "lineHeightPx": 18,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.36,
+              "g": 0.37,
+              "b": 0.36
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "TEXT",
+        "name": "Catalog Items",
+        "position": {
+          "x": 54,
+          "y": 471
+        },
+        "size": {
+          "width": 190,
+          "height": 132
+        },
+        "text": {
+          "characters": "Services\nProducts\nPackages",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "fontSize": 17,
+            "lineHeightPx": 44,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.28,
+              "g": 0.29,
+              "b": 0.28
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "IMAGE",
+        "name": "Catalog Item Icons",
+        "position": {
+          "x": 20,
+          "y": 471
+        },
+        "size": {
+          "width": 24,
+          "height": 132
+        },
+        "placeholder": "service, product, package icons"
+      },
+      {
+        "type": "TEXT",
+        "name": "Company Label",
+        "position": {
+          "x": 20,
+          "y": 623
+        },
+        "size": {
+          "width": 120,
+          "height": 18
+        },
+        "text": {
+          "characters": "COMPANY",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 500,
+            "fontSize": 12,
+            "lineHeightPx": 18,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.36,
+              "g": 0.37,
+              "b": 0.36
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "TEXT",
+        "name": "Company Items",
+        "position": {
+          "x": 54,
+          "y": 656
+        },
+        "size": {
+          "width": 190,
+          "height": 176
+        },
+        "text": {
+          "characters": "Staff\nMarketing\nWebsite\nIntegration",
+          "style": {
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "fontSize": 17,
+            "lineHeightPx": 44,
+            "textAlignHorizontal": "LEFT"
+          }
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.28,
+              "g": 0.29,
+              "b": 0.28
+            },
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "type": "IMAGE",
+        "name": "Company Item Icons",
+        "position": {
+          "x": 20,
+          "y": 656
+        },
+        "size": {
+          "width": 24,
+          "height": 176
+        },
+        "placeholder": "staff, marketing, website, integration icons"
+      },
+      {
+        "type": "FRAME",
+        "name": "Footer",
+        "position": {
+          "x": 10,
+          "y": 1112
+        },
+        "size": {
+          "width": 272,
+          "height": 36
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.93,
+              "g": 0.93,
+              "b": 0.91
+            },
+            "opacity": 1
+          }
+        ],
+        "children": [
+          {
+            "type": "RECTANGLE",
+            "name": "Invite Button",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 138,
+              "height": 36
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 10
+          },
+          {
+            "type": "RECTANGLE",
+            "name": "Tutorials Button",
+            "position": {
+              "x": 148,
+              "y": 0
+            },
+            "size": {
+              "width": 124,
+              "height": 36
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1
+              }
+            ],
+            "cornerRadius": 10
+          },
+          {
+            "type": "TEXT",
+            "name": "Footer Text",
+            "position": {
+              "x": 58,
+              "y": 8
+            },
+            "size": {
+              "width": 206,
+              "height": 20
+            },
+            "text": {
+              "characters": "Invite          Tutorials",
+              "style": {
+                "fontFamily": "Inter",
+                "fontWeight": 400,
+                "fontSize": 16,
+                "lineHeightPx": 20,
+                "textAlignHorizontal": "LEFT"
+              }
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.08,
+                  "g": 0.09,
+                  "b": 0.09
+                },
+                "opacity": 1
+              }
+            ]
+          },
+          {
+            "type": "IMAGE",
+            "name": "Footer Button Icons",
+            "position": {
+              "x": 34,
+              "y": 9
+            },
+            "size": {
+              "width": 154,
+              "height": 18
+            },
+            "placeholder": "two small circle-check icons before Invite and Tutorials"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "name": "globe",
-  "type": "Element",
-  "placeholder": "globe illustration pending final code or slice",
-  "style": {
-    "height": "360px"
-  }
-}
