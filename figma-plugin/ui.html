@@ -3,78 +3,677 @@
   <head>
     <meta charset="utf-8" />
     <style>
+      :root {
+        color-scheme: light;
+        --bg: #f5f1e8;
+        --panel: rgba(255, 255, 255, 0.78);
+        --panel-strong: rgba(255, 255, 255, 0.92);
+        --ink: #18211a;
+        --muted: #5f675e;
+        --line: rgba(24, 33, 26, 0.12);
+        --accent: #0f8a4b;
+        --accent-strong: #0a6a39;
+        --shadow: 0 24px 60px rgba(34, 30, 18, 0.12);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
       body {
         margin: 0;
-        font-family: Inter, Arial, sans-serif;
-        color: #1f2937;
-        background: #ffffff;
+        font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at top left, rgba(255, 255, 255, 0.88), transparent 30%),
+          linear-gradient(180deg, #f7f3ea 0%, #efe6d4 100%);
       }
 
       main {
-        display: flex;
-        min-height: 240px;
-        box-sizing: border-box;
-        flex-direction: column;
-        justify-content: center;
-        gap: 12px;
+        display: grid;
+        gap: 20px;
+        min-height: 100vh;
         padding: 20px;
       }
 
       h1 {
         margin: 0;
-        font-size: 17px;
-        line-height: 1.3;
+        font-size: 34px;
+        line-height: 0.95;
+        letter-spacing: -0.04em;
+        font-weight: 700;
       }
 
       p {
         margin: 0;
-        color: #4b5563;
-        font-size: 12px;
-        line-height: 1.45;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.5;
       }
 
-      input {
+      .shell {
+        display: grid;
+        gap: 18px;
+        padding: 22px;
+        border: 1px solid rgba(255, 255, 255, 0.55);
+        border-radius: 28px;
+        background: rgba(255, 248, 238, 0.72);
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(18px);
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+        gap: 16px;
+        align-items: end;
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        width: fit-content;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: rgba(15, 138, 75, 0.1);
+        color: var(--accent-strong);
+        font-family: "SF Pro Display", "Segoe UI", sans-serif;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .hero-copy {
+        display: grid;
+        gap: 10px;
+      }
+
+      .hero-copy p {
+        max-width: 46ch;
+      }
+
+      .summary {
+        display: grid;
+        gap: 10px;
+        padding: 16px;
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.55);
+      }
+
+      .summary-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      .metric {
+        padding: 12px;
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.72);
+        border: 1px solid rgba(24, 33, 26, 0.08);
+      }
+
+      .metric strong {
+        display: block;
+        margin-bottom: 4px;
+        font-family: "SF Pro Display", "Segoe UI", sans-serif;
+        font-size: 18px;
+      }
+
+      .metric span {
+        color: var(--muted);
+        font-family: "SF Pro Display", "Segoe UI", sans-serif;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+
+      .controls {
+        display: grid;
+        grid-template-columns: 1.35fr 0.95fr 0.95fr;
+        gap: 12px;
+      }
+
+      .field {
+        display: grid;
+        gap: 8px;
+        padding: 14px;
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        background: var(--panel);
+      }
+
+      .label {
+        font-family: "SF Pro Display", "Segoe UI", sans-serif;
+        font-size: 11px;
+        font-weight: 700;
+        color: var(--muted);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      input[type="url"] {
         width: 100%;
-        box-sizing: border-box;
+        height: 44px;
+        padding: 0 14px;
+        border: 1px solid rgba(24, 33, 26, 0.1);
+        border-radius: 14px;
+        outline: none;
+        background: rgba(255, 255, 255, 0.88);
+        color: var(--ink);
+        font-family: "SF Pro Display", "Segoe UI", sans-serif;
+        font-size: 13px;
+      }
+
+      input[type="url"]:focus {
+        border-color: rgba(15, 138, 75, 0.4);
+      }
+
+      input[type="file"] {
+        width: 100%;
+        font-family: "SF Pro Display", "Segoe UI", sans-serif;
         font-size: 12px;
       }
 
       button {
-        height: 40px;
+        height: 46px;
         border: 0;
-        border-radius: 8px;
+        border-radius: 999px;
         color: #ffffff;
-        background: #1f5fd1;
+        background: linear-gradient(180deg, #12874b 0%, #0a6a39 100%);
+        box-shadow: 0 14px 24px rgba(10, 106, 57, 0.22);
+        font-family: "SF Pro Display", "Segoe UI", sans-serif;
         font-size: 13px;
-        font-weight: 600;
+        font-weight: 700;
+        letter-spacing: 0.01em;
         cursor: pointer;
       }
 
       button:disabled {
         cursor: default;
-        opacity: 0.55;
+        opacity: 0.48;
+        box-shadow: none;
+      }
+
+      .compare {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .panel {
+        display: grid;
+        gap: 12px;
+        min-height: 360px;
+        padding: 16px;
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        background: var(--panel-strong);
+      }
+
+      .panel-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      .panel-title {
+        display: grid;
+        gap: 2px;
+      }
+
+      .panel-title strong {
+        font-family: "SF Pro Display", "Segoe UI", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      .panel-title span,
+      .badge,
+      .meta-chip,
+      .empty-note,
+      .browser-meta,
+      .canvas-caption {
+        font-family: "SF Pro Display", "Segoe UI", sans-serif;
+      }
+
+      .panel-title span,
+      .empty-note,
+      .browser-meta,
+      .canvas-caption {
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .badge {
+        padding: 7px 10px;
+        border-radius: 999px;
+        background: rgba(15, 138, 75, 0.1);
+        color: var(--accent-strong);
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .source-stage {
+        display: grid;
+        place-items: center;
+        min-height: 278px;
+        overflow: hidden;
+        border-radius: 18px;
+        border: 1px dashed rgba(24, 33, 26, 0.14);
+        background:
+          linear-gradient(180deg, rgba(244, 238, 226, 0.8), rgba(255, 255, 255, 0.92)),
+          linear-gradient(90deg, rgba(24, 33, 26, 0.03) 1px, transparent 1px),
+          linear-gradient(rgba(24, 33, 26, 0.03) 1px, transparent 1px);
+        background-size: auto, 24px 24px, 24px 24px;
+      }
+
+      .source-stage img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .browser-card,
+      .empty-state {
+        display: grid;
+        gap: 12px;
+        width: min(100%, 360px);
+        padding: 18px;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.92);
+        border: 1px solid rgba(24, 33, 26, 0.08);
+        box-shadow: 0 14px 30px rgba(34, 30, 18, 0.08);
+      }
+
+      .browser-top {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .browser-dot {
+        width: 9px;
+        height: 9px;
+        border-radius: 999px;
+        background: #d9d2c5;
+      }
+
+      .browser-bar {
+        height: 36px;
+        padding: 0 12px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        background: #f6f1e8;
+        color: #4f594f;
+        font-size: 12px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .browser-preview {
+        height: 152px;
+        border-radius: 14px;
+        background:
+          linear-gradient(135deg, rgba(18, 135, 75, 0.18), rgba(24, 33, 26, 0.03)),
+          linear-gradient(180deg, #f8f4ec 0%, #efe7d8 100%);
+      }
+
+      .browser-meta {
+        display: grid;
+        gap: 4px;
+      }
+
+      .browser-meta strong {
+        color: var(--ink);
+        font-size: 15px;
+      }
+
+      .empty-state strong {
+        font-family: "SF Pro Display", "Segoe UI", sans-serif;
+        font-size: 16px;
+      }
+
+      .canvas {
+        display: grid;
+        gap: 16px;
+        align-content: start;
+        min-height: 278px;
+        padding: 16px;
+        border-radius: 18px;
+        background:
+          radial-gradient(circle at top, rgba(255, 255, 255, 0.92), rgba(245, 241, 232, 0.78)),
+          linear-gradient(90deg, rgba(24, 33, 26, 0.03) 1px, transparent 1px),
+          linear-gradient(rgba(24, 33, 26, 0.03) 1px, transparent 1px);
+        background-size: auto, 20px 20px, 20px 20px;
+        border: 1px solid rgba(24, 33, 26, 0.08);
+      }
+
+      .canvas-frame {
+        display: grid;
+        gap: 16px;
+        width: min(100%, 340px);
+        padding: 18px;
+        border-radius: 20px;
+        background: #ffffff;
+        border: 1px solid rgba(24, 33, 26, 0.08);
+        box-shadow: 0 18px 36px rgba(44, 40, 28, 0.08);
+      }
+
+      .canvas-strip {
+        display: grid;
+        grid-template-columns: 1.3fr 0.9fr;
+        gap: 10px;
+      }
+
+      .canvas-block,
+      .canvas-card,
+      .canvas-button,
+      .canvas-thumb {
+        border-radius: 14px;
+      }
+
+      .canvas-block {
+        height: 14px;
+        background: #dce8df;
+      }
+
+      .canvas-block.large {
+        height: 18px;
+        width: 72%;
+        background: #1f2a21;
+      }
+
+      .canvas-block.medium {
+        width: 58%;
+      }
+
+      .canvas-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 132px;
+        height: 38px;
+        background: linear-gradient(180deg, #12874b 0%, #0b6d3b 100%);
+        color: #ffffff;
+        font-family: "SF Pro Display", "Segoe UI", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .canvas-thumb {
+        height: 126px;
+        background: linear-gradient(135deg, #dce6ef, #f2e4cc);
+      }
+
+      .canvas-cards {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      .canvas-card {
+        display: grid;
+        gap: 8px;
+        padding: 12px;
+        background: #f8f5ee;
+        border: 1px solid rgba(24, 33, 26, 0.06);
+      }
+
+      .canvas-card .canvas-block {
+        height: 11px;
+      }
+
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .meta-chip {
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: rgba(24, 33, 26, 0.06);
+        color: #304032;
+        font-size: 11px;
+        font-weight: 600;
+      }
+
+      .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
       }
 
       #status {
         min-height: 18px;
+        color: var(--muted);
+        font-family: "SF Pro Display", "Segoe UI", sans-serif;
         font-size: 12px;
-        color: #4b5563;
+      }
+
+      @media (max-width: 900px) {
+        .hero,
+        .controls,
+        .compare {
+          grid-template-columns: 1fr;
+        }
       }
     </style>
   </head>
   <body>
     <main>
-      <h1>Image2Figma</h1>
-      <p>Import a JSON file with a root FRAME as editable Figma layers.</p>
-      <input id="file" type="file" accept="application/json,.json" />
-      <button id="import" disabled>Import to canvas</button>
-      <div id="status"></div>
+      <section class="shell">
+        <div class="hero">
+          <div class="hero-copy">
+            <div class="eyebrow">Before / After</div>
+            <h1>Turn a source shot into an editable Figma composition.</h1>
+            <p>
+              Feed the plugin a Dribbble URL, a saved image, and the JSON you generated with Codex.
+              The left panel keeps the original source in view. The right panel frames the Figma result.
+            </p>
+          </div>
+          <div class="summary">
+            <div class="summary-grid">
+              <div class="metric">
+                <strong>Image</strong>
+                <span>Source upload</span>
+              </div>
+              <div class="metric">
+                <strong>URL</strong>
+                <span>Dribbble input</span>
+              </div>
+              <div class="metric">
+                <strong>Figma</strong>
+                <span>Editable output</span>
+              </div>
+            </div>
+            <p>Phase 1 only needs a compelling comparison and a clean import path.</p>
+          </div>
+        </div>
+
+        <section class="controls">
+          <label class="field">
+            <span class="label">Dribbble URL</span>
+            <input id="url" type="url" placeholder="https://dribbble.com/shots/..." />
+            <p>Used as the source reference when you want the demo to start from a link.</p>
+          </label>
+
+          <label class="field">
+            <span class="label">Source image</span>
+            <input id="image" type="file" accept="image/*" />
+            <p>Upload a local screenshot when you want the left panel to show the actual shot.</p>
+          </label>
+
+          <label class="field">
+            <span class="label">Generated JSON</span>
+            <input id="file" type="file" accept="application/json,.json" />
+            <p>Load the Codex-generated frame tree before sending it to the canvas.</p>
+          </label>
+        </section>
+
+        <section class="compare">
+          <article class="panel">
+            <div class="panel-header">
+              <div class="panel-title">
+                <strong>Before</strong>
+                <span>Source image or URL reference</span>
+              </div>
+              <div class="badge">Input</div>
+            </div>
+            <div class="source-stage">
+              <div class="empty-state" id="source-empty">
+                <strong>Drop in a source.</strong>
+                <p class="empty-note">Use an uploaded screenshot for a true visual preview, or paste a Dribbble URL to frame the source story.</p>
+              </div>
+              <div class="browser-card" id="browser-card" hidden>
+                <div class="browser-top">
+                  <div class="browser-dot"></div>
+                  <div class="browser-dot"></div>
+                  <div class="browser-dot"></div>
+                </div>
+                <div class="browser-bar" id="browser-url">https://dribbble.com/shots/...</div>
+                <div class="browser-preview"></div>
+                <div class="browser-meta">
+                  <strong>Source URL ready</strong>
+                  <span>The left panel can anchor the story even before you attach a screenshot.</span>
+                </div>
+              </div>
+              <img id="source-image" alt="Source preview" hidden />
+            </div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-header">
+              <div class="panel-title">
+                <strong>After</strong>
+                <span>Editable Figma interpretation</span>
+              </div>
+              <div class="badge">Output</div>
+            </div>
+            <div class="canvas">
+              <div class="canvas-frame">
+                <div class="canvas-strip">
+                  <div style="display:grid;gap:10px;">
+                    <div class="canvas-block large"></div>
+                    <div class="canvas-block medium"></div>
+                    <div class="canvas-block"></div>
+                    <div class="canvas-button">Import to Figma</div>
+                  </div>
+                  <div class="canvas-thumb"></div>
+                </div>
+                <div class="canvas-cards">
+                  <div class="canvas-card">
+                    <div class="canvas-block medium"></div>
+                    <div class="canvas-block"></div>
+                    <div class="canvas-block"></div>
+                  </div>
+                  <div class="canvas-card">
+                    <div class="canvas-block medium"></div>
+                    <div class="canvas-block"></div>
+                    <div class="canvas-block"></div>
+                  </div>
+                  <div class="canvas-card">
+                    <div class="canvas-block medium"></div>
+                    <div class="canvas-block"></div>
+                    <div class="canvas-block"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="meta">
+                <div class="meta-chip" id="meta-root">No JSON loaded</div>
+                <div class="meta-chip" id="meta-nodes">Waiting for import data</div>
+                <div class="meta-chip" id="meta-source">Source not set</div>
+              </div>
+              <p class="canvas-caption">The Figma canvas stays editable. The comparison is the product story for phase 1.</p>
+            </div>
+          </article>
+        </section>
+
+        <div class="footer">
+          <div id="status">Add a source, then load the generated JSON to enable import.</div>
+          <button id="import" disabled>Import to canvas</button>
+        </div>
+      </section>
     </main>
     <script>
+      const urlInput = document.getElementById("url");
+      const imageInput = document.getElementById("image");
       const fileInput = document.getElementById("file");
       const importButton = document.getElementById("import");
       const status = document.getElementById("status");
+      const sourceEmpty = document.getElementById("source-empty");
+      const browserCard = document.getElementById("browser-card");
+      const browserUrl = document.getElementById("browser-url");
+      const sourceImage = document.getElementById("source-image");
+      const metaRoot = document.getElementById("meta-root");
+      const metaNodes = document.getElementById("meta-nodes");
+      const metaSource = document.getElementById("meta-source");
       let payload = null;
+
+      function countNodes(node) {
+        if (!node || typeof node !== "object") return 0;
+        const children = Array.isArray(node.children) ? node.children : [];
+        return 1 + children.reduce((total, child) => total + countNodes(child), 0);
+      }
+
+      function getRoot(payloadValue) {
+        if (!payloadValue || typeof payloadValue !== "object") return null;
+        if (payloadValue.root) return payloadValue.root;
+        if (payloadValue.type === "FRAME") return payloadValue;
+        return null;
+      }
+
+      function updateSourceState() {
+        const hasImage = !sourceImage.hidden;
+        const hasUrl = Boolean(urlInput.value.trim());
+
+        sourceEmpty.hidden = hasImage || hasUrl;
+        browserCard.hidden = hasImage || !hasUrl;
+
+        if (hasImage) {
+          metaSource.textContent = "Source: image attached";
+          return;
+        }
+
+        if (hasUrl) {
+          browserUrl.textContent = urlInput.value.trim();
+          metaSource.textContent = "Source: URL attached";
+          return;
+        }
+
+        metaSource.textContent = "Source not set";
+      }
+
+      urlInput.oninput = () => {
+        updateSourceState();
+      };
+
+      imageInput.onchange = () => {
+        const file = imageInput.files && imageInput.files[0];
+
+        if (!file) {
+          sourceImage.hidden = true;
+          sourceImage.removeAttribute("src");
+          updateSourceState();
+          return;
+        }
+
+        const reader = new FileReader();
+        reader.onload = () => {
+          sourceImage.src = typeof reader.result === "string" ? reader.result : "";
+          sourceImage.hidden = false;
+          updateSourceState();
+        };
+        reader.readAsDataURL(file);
+      };
 
       fileInput.onchange = async () => {
         const file = fileInput.files && fileInput.files[0];
@@ -82,15 +681,23 @@
         importButton.disabled = true;
 
         if (!file) {
-          status.textContent = "";
+          status.textContent = "Add a source, then load the generated JSON to enable import.";
+          metaRoot.textContent = "No JSON loaded";
+          metaNodes.textContent = "Waiting for import data";
           return;
         }
 
         try {
           payload = JSON.parse(await file.text());
+          const root = getRoot(payload);
+          const nodeCount = countNodes(root);
+          metaRoot.textContent = root ? `Root: ${root.name || "Untitled frame"}` : "Root: unresolved";
+          metaNodes.textContent = nodeCount ? `${nodeCount} nodes ready` : "Node count unavailable";
           status.textContent = `Loaded ${file.name}`;
           importButton.disabled = false;
         } catch (error) {
+          metaRoot.textContent = "No JSON loaded";
+          metaNodes.textContent = "Waiting for import data";
           status.textContent = error instanceof Error ? error.message : "Invalid JSON";
         }
       };
@@ -108,6 +715,7 @@
 
         if (message.type === "import-complete") {
           status.textContent = `Imported ${message.rootName}`;
+          metaRoot.textContent = `Imported: ${message.rootName}`;
           importButton.disabled = false;
         }
 
@@ -116,6 +724,8 @@
           importButton.disabled = false;
         }
       };
+
+      updateSourceState();
     </script>
   </body>
 </html>

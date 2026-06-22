@@ -1,4 +1,4 @@
-figma.showUI(__html__, { width: 360, height: 240 });
+figma.showUI(__html__, { width: 1120, height: 900 });
 
 const SUPPORTED_NODE_TYPES = {
   FRAME: true,
